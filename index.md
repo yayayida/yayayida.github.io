@@ -3,13 +3,20 @@ layout: default
 title: "Ruijia Zhang"
 ---
 
-<img src="/assets/img/profile.jpg" alt="Ruijia Zhang" width="200" style="border-radius:50%; margin-bottom:16px;">
+<div style="display:flex; align-items:center; gap:30px;">
 
-# Ruijia Zhang
-PhD Candidate, Applied Mathematics & Statistics  
-Johns Hopkins University, Baltimore, MD, USA
+  <!-- 左边头像 -->
+  <img src="/assets/img/profile.jpg" alt="Ruijia Zhang" width="180" style="border-radius:8px;">
 
-📧 rzhan127@jh.edu · 🌐 [richard-zzz.github.io](https://richard-zzz.github.io)
+  <!-- 右边文字 -->
+  <div>
+    <h1>Ruijia Zhang</h1>
+    <p>PhD Candidate, Applied Mathematics & Statistics<br>
+    Johns Hopkins University, Baltimore, MD, USA</p>
+    <p>📧 rzhan127@jh.edu · 🌐 <a href="https://richard-zzz.github.io">richard-zzz.github.io</a></p>
+  </div>
+
+</div>
 
 <div class="nav">
 [Research](#research) · [Teaching](#teaching) · [Honors](#honors) · [Education](#education)

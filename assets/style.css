@@ -1,77 +1,81 @@
+/* ===== Warm Amber + Black Headings (final override) ===== */
 :root {
-  --bg: #FFF8E7;        /* 页面背景：淡米黄 */
-  --card: #FFFCF5;      /* 卡片背景：浅米色，不是纯白 */
-  --text: #111827;      /* 主文字：黑色 */
-  --muted: #6b7280;     /* 次要文字：灰色 */
-  --link: #f97316;      /* 链接：橙色 */
-  --border: #fcd34d;    /* 边框：金黄 */
-  --shadow: 0 6px 20px rgba(249, 115, 22, 0.08);
-  --max: 880px;
+  /* 配色 */
+  --bg:    #FFF8E7;   /* 页面背景：淡米黄 */
+  --card:  #FFFCF5;   /* 卡片背景：浅米色（非纯白） */
+  --text:  #111827;   /* 主文字：黑色 */
+  --muted: #6b7280;   /* 次要文字：灰 */
+  --link:  #f97316;   /* 链接：橙色 */
+  --border:#fcd34d;   /* 边框：金黄 */
+  --shadow: 0 6px 20px rgba(249,115,22,.08);
+  --max:   880px;
 }
 
 /* 全局 */
+* { box-sizing: border-box; }
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0; padding: 0;
   font-family: ui-sans-serif, system-ui, Segoe UI, Arial, sans-serif;
   line-height: 1.7;
   background: var(--bg);
   color: var(--text);
 }
 
-/* 卡片 */
+/* 卡片容器 */
 main {
   max-width: var(--max);
   margin: 2.5rem auto;
   padding: 2rem 2.5rem;
-  background: var(--card);   /* 浅米色 */
+  background: var(--card);
   border: 1px solid var(--border);
   border-radius: 14px;
   box-shadow: var(--shadow);
 }
 
-/* 标题全部改黑色 */
+/* 标题（全部黑色） */
 h1, h2, h3 {
-  color: var(--text);  
-  font-weight: 700;
+  color: var(--text) !important;  /* 强制黑色 */
+  font-weight: 800;
+  margin: 0 0 .6rem 0;
 }
 h1 { font-size: 2.2rem; margin-top: 0; }
 h2 { font-size: 1.6rem; margin-top: 1.8rem; }
-h3 { font-size: 1.2rem; margin-top: 1.4rem; }
+h3 { font-size: 1.2rem; margin-top: 1.2rem; font-weight: 700; }
 
-/* 链接 */
-a {
-  color: var(--link);
-  text-decoration: none;
-  font-weight: 500;
-}
-a:hover {
-  text-decoration: underline;
-}
+/* 正文、列表、分隔线 */
+p { margin: .9rem 0; }
+ul { padding-left: 1.15rem; margin: .6rem 0; }
+li { margin: .35rem 0; }
+hr { border: none; height: 1px; background: var(--border); margin: 1.6rem 0; }
 
-/* 导航 */
-.nav {
-  margin: 1rem 0 2rem;
-}
+/* 链接（橙色，仅正文与导航） */
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* 导航 pill */
+.nav { margin: 1rem 0 1.8rem; }
 .nav a {
   display: inline-block;
   margin: 0 10px 10px 0;
   padding: 6px 14px;
   border-radius: 999px;
-  background: #fef3c7;
+  background: #fef3c7;         /* amber-100 */
   border: 1px solid var(--border);
-  color: #b45309;
+  color: #b45309;              /* amber-700 */
+  font-weight: 600;
 }
-.nav a:hover {
-  background: #fde68a;
-}
+.nav a:hover { background: #fde68a; } /* amber-200 */
 
-/* Footer */
+/* 页脚 */
 footer {
   text-align: center;
   color: var(--muted);
-  font-size: 0.95rem;
-  margin-top: 2.5rem;
-  padding-top: 1.5rem;
+  font-size: .95rem;
+  margin-top: 2.2rem;
+  padding-top: 1.2rem;
   border-top: 1px solid var(--border);
 }
+
+/* ===== 最后保险 —— 强制覆盖任何遗留的橙色标题 ===== */
+h1 a, h2 a, h3 a { color: var(--text) !important; } /* 若标题里含链接 */
+strong, b { color: var(--text) !important; }        /* 避免加粗被误染色 */

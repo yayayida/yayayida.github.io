@@ -3,6 +3,8 @@ layout: default
 title: "Ruijia Zhang"
 ---
 
+<img src="/assets/img/profile.jpg" alt="Ruijia Zhang" width="200" style="border-radius:50%; margin-bottom:16px;">
+
 # Ruijia Zhang
 PhD Candidate, Applied Mathematics & Statistics  
 Johns Hopkins University, Baltimore, MD, USA

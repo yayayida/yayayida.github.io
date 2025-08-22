@@ -20,29 +20,29 @@ My research interests include **Reinforcement Learning**, **Optimization**, **LL
 # Research
 
 ### Publications
-- **Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences**. *AAAI 2025*.  
-  Ruijia Zhang and Di Wang.  [[arXiv]](https://arxiv.org/abs/2503.18317)
-
 - **Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality**. *AISTATS 2025*.  
   Ruijia Zhang, Mingyi Hong, and Alfredo Garcia.  [[arXiv]](https://arxiv.org/abs/2503.17865)
+  
+- **Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences**. *AAAI 2025*.  
+  Ruijia Zhang and Di Wang.  [[arXiv]](https://arxiv.org/abs/2503.18317)
+  
+- **POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes**. *Under Review at JASA*.  
+  Ruijia Zhang, Zhenglin Qi, and Yanxun Xu. [[arXiv]](https://arxiv.org/abs/2506.20406)
 
-### Under review / To be submitted
+### Ongoing Works
 - **Learning Optimal Robust Policies under Observational Data with Causal Transport**. *To be submitted to Operations Research*.  
   Ruijia Zhang, Luhao Zhang, Michael Lingzhi Li.
 
-- **Model-based Policy Learning for Dynamic Treatment Regime with Statistical and Computational Guarantee**. *To be submitted to JASA*.  
-  Ruijia Zhang, Zhenglin Qi, and Yanxun Xu.
-
-# Teaching
+# Teaching Services
 **Graduate Teaching Assistant, JHU**
-- EN.553.744 Data Science Methods for Large-Scale Graphs
-- EN.553.642 Investment Science (Fall 2024)
+- EN.553.744 Data Science Methods for Large-Scale Graphs (Spring 2025)
+- EN.553.642 Investment Science (Fall 2024&2025)
 
 **Undergraduate Student Teaching Fellow, CUHK(SZ)**
 - MAT2002 Ordinary Differential Equations (Spring 2024)
 - MAT3007 Optimization (Fall 2023)
 
-# Honors
+# Awards
 - Undergraduate Research Award (2022–2023)  
 - Dean’s List (2020–2021, 2021–2022, 2022–2023)  
 - Academic Excellence Scholarship (2020–2021)

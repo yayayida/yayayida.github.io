@@ -14,8 +14,8 @@ Johns Hopkins University, Baltimore, MD, USA
 </div>
 
 # About me
-I am a PhD candidate in the **Department of Applied Mathematics and Statistics** at **Johns Hopkins University** (since Aug 2024).  
-My research interests include **Reinforcement Learning**, **Optimization**, **LLM Alignment**, and **Diffusion Models**.
+I am a PhD candidate in the **Department of Applied Mathematics and Statistics** at **Johns Hopkins University**, starting in August 2024.  
+My current research interests include **Reinforcement Learning**, **Optimization**, **LLM Alignment**, and **Diffusion Models**.
 
 # Research
 

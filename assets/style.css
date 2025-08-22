@@ -1,11 +1,11 @@
 :root {
-  --bg: #FFF8E7;        /* 淡米黄色背景 */
-  --card: #FFFFFF;      /* 白色卡片 */
-  --text: #3a2f2f;      /* 深棕文字 */
-  --muted: #8c6d4f;     /* 浅棕副文字 */
-  --link: #f97316;      /* 橙色链接 (#f97316 = orange-500) */
-  --border: #fcd34d;    /* 金黄色边框 */
-  --shadow: 0 8px 20px rgba(249, 115, 22, 0.15); /* 橙色阴影 */
+  --bg: #FFF8E7;        /* 页面背景：淡米黄 */
+  --card: #FFFCF5;      /* 卡片背景：浅米色，不是纯白 */
+  --text: #111827;      /* 主文字：黑色 */
+  --muted: #6b7280;     /* 次要文字：灰色 */
+  --link: #f97316;      /* 链接：橙色 */
+  --border: #fcd34d;    /* 边框：金黄 */
+  --shadow: 0 6px 20px rgba(249, 115, 22, 0.08);
   --max: 880px;
 }
 
@@ -24,30 +24,20 @@ main {
   max-width: var(--max);
   margin: 2.5rem auto;
   padding: 2rem 2.5rem;
-  background: var(--card);
-  border: 2px solid var(--border);
+  background: var(--card);   /* 浅米色 */
+  border: 1px solid var(--border);
   border-radius: 14px;
   box-shadow: var(--shadow);
 }
 
-/* 标题 */
-h1 {
-  margin-top: 0;
-  font-size: 2.2rem;
-  font-weight: 800;
-  color: #ea580c; /* 深橙 */
-}
-h2 {
-  font-size: 1.6rem;
-  margin-top: 1.8rem;
+/* 标题全部改黑色 */
+h1, h2, h3 {
+  color: var(--text);  
   font-weight: 700;
-  color: #d97706; /* 金黄 */
 }
-h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-top: 1.4rem;
-}
+h1 { font-size: 2.2rem; margin-top: 0; }
+h2 { font-size: 1.6rem; margin-top: 1.8rem; }
+h3 { font-size: 1.2rem; margin-top: 1.4rem; }
 
 /* 链接 */
 a {
@@ -68,12 +58,12 @@ a:hover {
   margin: 0 10px 10px 0;
   padding: 6px 14px;
   border-radius: 999px;
-  background: #fef3c7; /* amber-100 */
+  background: #fef3c7;
   border: 1px solid var(--border);
-  color: #b45309; /* amber-700 */
+  color: #b45309;
 }
 .nav a:hover {
-  background: #fde68a; /* amber-200 */
+  background: #fde68a;
 }
 
 /* Footer */

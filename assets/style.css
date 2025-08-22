@@ -1,95 +1,87 @@
-/* ========== High-Contrast Academic Theme (light + dark) ========== */
-:root{
-  --bg: #EEF2F7;          /* 页面背景（更深一点的灰蓝） */
-  --card: #FFFFFF;        /* 卡片背景 */
-  --text: #0f172a;        /* 主文字（深靛青） */
-  --muted:#64748b;        /* 次要文字 */
-  --link:#2563eb;         /* 链接蓝 */
-  --border:#e5e7eb;       /* 边框 */
-  --shadow: 0 10px 24px rgba(15, 23, 42, .08);
-  --max: 900px;
-}
-
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#0B1220;
-    --card:#0f172a;
-    --text:#e5e7eb;
-    --muted:#9aa5b1;
-    --link:#93c5fd;
-    --border:#1f2a44;
-    --shadow: 0 10px 28px rgba(0,0,0,.35);
-  }
+:root {
+  --bg: #FFF8E7;        /* 淡米黄色背景 */
+  --card: #FFFFFF;      /* 白色卡片 */
+  --text: #3a2f2f;      /* 深棕文字 */
+  --muted: #8c6d4f;     /* 浅棕副文字 */
+  --link: #f97316;      /* 橙色链接 (#f97316 = orange-500) */
+  --border: #fcd34d;    /* 金黄色边框 */
+  --shadow: 0 8px 20px rgba(249, 115, 22, 0.15); /* 橙色阴影 */
+  --max: 880px;
 }
 
 /* 全局 */
-*{box-sizing:border-box}
-body{
-  margin:0; padding:0;
+body {
+  margin: 0;
+  padding: 0;
   font-family: ui-sans-serif, system-ui, Segoe UI, Arial, sans-serif;
-  line-height:1.7;
-  background:var(--bg);
-  color:var(--text);
+  line-height: 1.7;
+  background: var(--bg);
+  color: var(--text);
 }
 
-/* 中心卡片 */
-main{
-  max-width:var(--max);
-  margin: 48px auto;
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:16px;
-  box-shadow:var(--shadow);
-  padding: 36px 40px;
+/* 卡片 */
+main {
+  max-width: var(--max);
+  margin: 2.5rem auto;
+  padding: 2rem 2.5rem;
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
 }
 
-/* 文字层级 */
-h1{ margin:0 0 10px; font-size:2.2rem; font-weight:800; letter-spacing:.2px;}
-h2{ margin:28px 0 12px; font-size:1.6rem; font-weight:800;}
-h3{ margin:22px 0 10px; font-size:1.2rem; font-weight:700;}
-p{ margin:12px 0; }
-.muted{ color:var(--muted); }
+/* 标题 */
+h1 {
+  margin-top: 0;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ea580c; /* 深橙 */
+}
+h2 {
+  font-size: 1.6rem;
+  margin-top: 1.8rem;
+  font-weight: 700;
+  color: #d97706; /* 金黄 */
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.4rem;
+}
 
 /* 链接 */
-a{ color:var(--link); text-decoration:none; }
-a:hover{ text-decoration:underline; }
-
-/* 导航 pill */
-.nav{ margin:14px 0 26px; }
-.nav a{
-  display:inline-block; margin:0 10px 10px 0;
-  padding:6px 12px; border:1px solid var(--border);
-  border-radius:999px; background:rgba(37,99,235,.06);
-  text-decoration:none; font-weight:500;
+a {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 500;
 }
-.nav a:hover{ background:rgba(37,99,235,.12); }
-
-/* 列表与分割线 */
-ul{ padding-left:1.15rem; margin:10px 0; }
-li{ margin:6px 0; }
-hr{
-  border:none; height:1px; background:var(--border);
-  margin:28px 0;
+a:hover {
+  text-decoration: underline;
 }
 
-/* 强调块（可用于“Publications/Teaching”等小标题条） */
-.section-head{
-  padding-bottom:6px;
-  border-bottom:2px solid rgba(37,99,235,.25);
+/* 导航 */
+.nav {
+  margin: 1rem 0 2rem;
+}
+.nav a {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #fef3c7; /* amber-100 */
+  border: 1px solid var(--border);
+  color: #b45309; /* amber-700 */
+}
+.nav a:hover {
+  background: #fde68a; /* amber-200 */
 }
 
-/* 按钮 */
-.btn{
-  display:inline-block; padding:8px 14px;
-  border:1px solid var(--border); border-radius:999px;
-  color:inherit; text-decoration:none; font-weight:500;
-  background:#f8fafc;
-}
-.btn:hover{ background:#edf2ff; }
-
-/* 页脚 */
-footer{
-  text-align:center; color:var(--muted);
-  font-size:.95rem; margin-top:32px; padding-top:18px;
-  border-top:1px solid var(--border);
+/* Footer */
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
 }

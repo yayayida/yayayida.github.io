@@ -105,15 +105,14 @@ footer {
   box-shadow:0 4px 12px rgba(249,115,22,0.15);
 }
 
-/* 文章标题超链接 */
 .pub-link {
-  color: #1a0dab; /* Google Scholar 蓝色 */
+  color: #1a0dab !important;
+  font-weight: bold;
   text-decoration: none;
 }
-
 .pub-link:hover {
+  color: #0b0080 !important;
   text-decoration: underline;
-  color: #0b0080; /* hover 时深蓝 */
 }
 
 /* ===== 最后保险 —— 强制覆盖任何遗留的橙色标题 ===== */

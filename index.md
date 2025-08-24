@@ -97,7 +97,7 @@ My current research interests include **Reinforcement Learning**, **Optimization
     <a class="pub-link" href="https://arxiv.org/abs/2503.17865">
       Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality
     </a><br>
-    <span class="venue">AISTATS 2025</span><br>
+    <span class="venue">The 28th International Conference on Artificial Intelligence and Statistics **(AISTATS 2025)**</span><br>
     <span class="authors"><strong>Ruijia Zhang</strong>, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.</span>
   </li>
 

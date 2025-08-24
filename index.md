@@ -18,9 +18,12 @@ title: "Ruijia Zhang"
 
 </div>
 
-<div class="nav">
-[Research](#research) · [Teaching](#teaching) · [Awards](#awards) · [Education](#education)
-</div>
+<nav style="margin: 15px 0; font-size: 16px;">
+  <a href="#research">Research</a> ·
+  <a href="#teaching">Teaching</a> ·
+  <a href="#awards">Awards</a> ·
+  <a href="#education">Education</a>
+</nav>
 
 # About me
 I am a PhD candidate in the **Department of Applied Mathematics and Statistics** at **Johns Hopkins University**, starting in August 2024.  

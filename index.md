@@ -128,52 +128,16 @@ My current research interests include **Reinforcement Learning**, **Optimization
 
 ### Education
 
-<style>
-  /* Education layout */
-  .edu{ margin: 8px 0 0; }
-  .edu-item{
-    display:grid;
-    grid-template-columns: 1.6fr 1.4fr auto;  /* 学位 / 学校 / 时间 */
-    align-items: baseline;
-    gap:16px;
-    padding:12px 0;
-    border-bottom:1px solid var(--border);    /* 与你现有主题一致的浅分隔线 */
-  }
-  .edu-item:last-child{ border-bottom:none; }
+● PhD, Applied Mathematics & Statistics
+  Johns Hopkins University · Aug 2024 – Present
 
-  .edu-degree{ font-weight:800; }
-  .edu-school{ color:#222; }
-  .edu-dates{ font-style:italic; white-space:nowrap; }
+● BSc (First Class Honors), Mathematics & Applied Mathematics
+  CUHK, Shenzhen · Sept 2020 – May 2024
 
-  /* 小屏改为上下排 */
-  @media (max-width: 720px){
-    .edu-item{
-      grid-template-columns: 1fr;
-      gap:6px;
-    }
-    .edu-dates{ white-space:normal; }
-  }
-</style>
+● Exchange Program
+  Technical University of Munich · Apr 2023 – Aug 2023
 
-<div class="edu">
-  <div class="edu-item">
-    <div class="edu-degree">PhD, Applied Mathematics &amp; Statistics</div>
-    <div class="edu-school">Johns Hopkins University</div>
-    <div class="edu-dates">Aug 2024 – Present</div>
-  </div>
 
-  <div class="edu-item">
-    <div class="edu-degree">BSc (First Class Honors), Mathematics &amp; Applied Mathematics</div>
-    <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
-    <div class="edu-dates">Sept 2020 – May 2024</div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-degree">Exchange Program</div>
-    <div class="edu-school">Technical University of Munich</div>
-    <div class="edu-dates">Apr 2023 – Aug 2023</div>
-  </div>
-</div>
 
 <hr>
 <div class="small">Last updated: August 22, 2025</div>

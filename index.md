@@ -55,14 +55,11 @@ My current research interests include **Reinforcement Learning**, **Optimization
 - International Conference on Continuous Optimization (ICCOPT) 2025 Student Grant 
 
 # Education
-- **PhD, Applied Mathematics & Statistics**, Johns Hopkins University — *Aug 2024 – Present*  
-  Courses: Trustworthy AI; Machine Learning (Learning Theory); Stochastic Differential Equations.  
+- **PhD, Applied Mathematics & Statistics**, Johns Hopkins University — *Aug 2024 – Present*    
 
 - **BSc (First Class Honors), Mathematics & Applied Mathematics**, The Chinese University of Hong Kong, Shenzhen — *Sept 2020 – May 2024*  
-  Core courses: Real Analysis; Probability; Stochastic Processes; Optimization Theory & Algorithms; Numerical Analysis; ODE/PDE; Advanced Linear Algebra; Complex Variables; Introductory Econometrics.  
 
 - **Exchange Program**, Technical University of Munich — *Apr 2023 – Aug 2023*  
-  Graduate courses: Applied Discrete Optimization; Combinatorial Optimization; Numerical Methods for PDEs; Deep Learning; Statistical Learning; Signal Processing and Machine Learning.
 
 <hr>
 <div class="small">Last updated: August 22, 2025</div>

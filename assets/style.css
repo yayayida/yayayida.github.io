@@ -76,6 +76,35 @@ footer {
   border-top: 1px solid var(--border);
 }
 
+/* --- 导航条样式 --- */
+.navbar{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr); /* 四个按钮均分 */
+  gap:16px;
+  margin:20px 0 32px;
+}
+
+.navbar a{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:14px 0;
+  border:2px solid var(--border);
+  border-radius:12px;
+  background:#fef3c7;   /* 浅黄底 */
+  color:#b45309;        /* 琥珀色文字 */
+  text-decoration:none;
+  font-size:1.1rem;     /* 字体更大 */
+  font-weight:600;
+  transition: all 0.2s ease;
+}
+
+.navbar a:hover{
+  background:#fde68a;
+  transform:translateY(-2px);
+  box-shadow:0 4px 12px rgba(249,115,22,0.15);
+}
+
 /* ===== 最后保险 —— 强制覆盖任何遗留的橙色标题 ===== */
 h1 a, h2 a, h3 a { color: var(--text) !important; } /* 若标题里含链接 */
 strong, b { color: var(--text) !important; }        /* 避免加粗被误染色 */

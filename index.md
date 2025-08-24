@@ -65,15 +65,14 @@ My current research interests include **Reinforcement Learning**, **Optimization
 # Research
 
 ### Publications
-- [**POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes**](https://arxiv.org/abs/2506.20406). *Under Review at JASA*.  
-  Ruijia Zhang, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.  
+- <a class="pub-link" href="https://arxiv.org/abs/2506.20406"><b>POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes</b></a>. *Under Review at JASA*.  
+  **Ruijia Zhang**, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.
 
-- [**Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality**](https://arxiv.org/abs/2503.17865). *AISTATS 2025*.  
-  Ruijia Zhang, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.  
+- <a class="pub-link" href="https://arxiv.org/abs/2503.17865"><b>Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality</b></a>. *AISTATS 2025*.  
+  **Ruijia Zhang**, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.
 
-- [**Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences**](https://arxiv.org/abs/2503.18317). *AAAI 2025*.  
-  Ruijia Zhang, Mingxi Lei, Meng Ding, Zihang Xiang, Jinhui Xu, Di Wang.  
-
+- <a class="pub-link" href="https://arxiv.org/abs/2503.18317"><b>Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences</b></a>. *AAAI 2025*.  
+  **Ruijia Zhang**, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.
 
 ### Ongoing Works
 - **Learning Optimal Robust Policies under Observational Data with Causal Transport**. *To be submitted to Operations Research*.  

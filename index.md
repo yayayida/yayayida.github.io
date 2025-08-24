@@ -67,44 +67,48 @@ My current research interests include **Reinforcement Learning**, **Optimization
 ### Publications
 
 <style>
+  /* 只作用于 Publications */
   main .pubs a.pub-link,
-  main .pubs a.pub-link:visited {
-    color: #3399ff !important;          /* 更浅的蓝色 */
-    text-decoration: none !important;   
-    font-weight: 700;                   
-    line-height: 1.6;
+  main .pubs a.pub-link:visited{
+    color:#3399ff !important;        /* 浅蓝 */
+    text-decoration:none !important;
+    font-weight:700;
   }
-  main .pubs a.pub-link:hover,
-  main .pubs a.pub-link:focus {
-    color: #0066cc !important;          /* 悬停时更深蓝 */
-    text-decoration: underline !important;
+  main .pubs a.pub-link:hover{
+    color:#0066cc !important;        /* 悬停稍深 */
+    text-decoration:underline !important;
   }
-  main .pubs .authors {
-    font-size: 0.95em;   
-  }
+  main .pubs{ margin: 8px 0 0; padding-left: 1.2rem; }
+  main .pubs li{ margin: 0 0 16px 0; }
+  main .pubs .venue{ font-style: italic; }
+  main .pubs .authors{ display:block; margin-top:2px; }
 </style>
 
-<div class="pubs">
+<ul class="pubs">
+  <li>
+    <a class="pub-link" href="https://arxiv.org/abs/2506.20406">
+      POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes
+    </a><br>
+    <span class="venue">Under Review at JASA</span><br>
+    <span class="authors"><strong>Ruijia Zhang</strong>, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.</span>
+  </li>
 
-- <a class="pub-link" href="https://arxiv.org/abs/2506.20406">
-    POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes
-  </a><br>
-  *Under Review at JASA*<br>
-  <span class="authors">**Ruijia Zhang**, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.</span>
+  <li>
+    <a class="pub-link" href="https://arxiv.org/abs/2503.17865">
+      Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality
+    </a><br>
+    <span class="venue">AISTATS 2025</span><br>
+    <span class="authors"><strong>Ruijia Zhang</strong>, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.</span>
+  </li>
 
-- <a class="pub-link" href="https://arxiv.org/abs/2503.17865">
-    Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality
-  </a><br>
-  *AISTATS 2025*<br>
-  <span class="authors">**Ruijia Zhang**, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.</span>
-
-- <a class="pub-link" href="https://arxiv.org/abs/2503.18317">
-    Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences
-  </a><br>
-  *AAAI 2025*<br>
-  <span class="authors">**Ruijia Zhang**, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.</span>
-
-</div>
+  <li>
+    <a class="pub-link" href="https://arxiv.org/abs/2503.18317">
+      Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences
+    </a><br>
+    <span class="venue">AAAI 2025</span><br>
+    <span class="authors"><strong>Ruijia Zhang</strong>, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.</span>
+  </li>
+</ul>
 
 ### Ongoing Works
 - **Learning Optimal Robust Policies under Observational Data with Causal Transport**. *To be submitted to Operations Research*.  

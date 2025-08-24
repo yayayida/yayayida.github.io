@@ -65,14 +65,36 @@ My current research interests include **Reinforcement Learning**, **Optimization
 # Research
 
 ### Publications
-- <a class="pub-link" href="https://arxiv.org/abs/2506.20406"><b>POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes</b></a>. *Under Review at JASA*.  
+
+<!-- 只作用于 Publications 的标题链接 -->
+<style>
+  /* 提高优先级：限定在 main 内的 .pubs 容器里，并加 !important */
+  main .pubs a.pub-link,
+  main .pubs a.pub-link:visited{
+    color:#1a0dab !important;            /* 蓝色 */
+    text-decoration:none !important;     /* 常态无下划线 */
+    font-weight:800;                     /* 维持粗体 */
+    line-height:1.35;
+  }
+  main .pubs a.pub-link:hover,
+  main .pubs a.pub-link:focus{
+    color:#0b0080 !important;            /* 悬停深蓝 */
+    text-decoration:underline !important;
+  }
+</style>
+
+<div class="pubs">
+
+- <a class="pub-link" href="https://arxiv.org/abs/2506.20406">POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes</a>. *Under Review at JASA*.  
   **Ruijia Zhang**, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.
 
-- <a class="pub-link" href="https://arxiv.org/abs/2503.17865"><b>Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality</b></a>. *AISTATS 2025*.  
+- <a class="pub-link" href="https://arxiv.org/abs/2503.17865">Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality</a>. *AISTATS 2025*.  
   **Ruijia Zhang**, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.
 
-- <a class="pub-link" href="https://arxiv.org/abs/2503.18317"><b>Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences</b></a>. *AAAI 2025*.  
+- <a class="pub-link" href="https://arxiv.org/abs/2503.18317">Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences</a>. *AAAI 2025*.  
   **Ruijia Zhang**, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.
+
+</div>
 
 ### Ongoing Works
 - **Learning Optimal Robust Policies under Observational Data with Causal Transport**. *To be submitted to Operations Research*.  

@@ -18,10 +18,11 @@ title: "Ruijia Zhang"
 
 </div>
 
-<nav style="margin: 15px 0; font-size: 16px;">
-  <a href="#research">Research</a> ·
-  <a href="#teaching">Teaching</a> ·
-  <a href="#awards">Awards</a> ·
+<!-- 导航条 -->
+<nav class="navbar">
+  <a href="#research">Research</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#awards">Awards</a>
   <a href="#education">Education</a>
 </nav>
 

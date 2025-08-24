@@ -66,18 +66,17 @@ My current research interests include **Reinforcement Learning**, **Optimization
 
 ### Publications
 
-<!-- 只作用于 Publications 的标题链接 -->
 <style>
   main .pubs a.pub-link,
   main .pubs a.pub-link:visited {
-    color: #1e90ff !important;          /* 浅蓝色 */
-    text-decoration: none !important;   /* 默认无下划线 */
-    font-weight: 700;                   /* 粗体 */
+    color: #1e90ff !important;          
+    text-decoration: none !important;   
+    font-weight: 700;                   
     line-height: 1.6;
   }
   main .pubs a.pub-link:hover,
   main .pubs a.pub-link:focus {
-    color: #0066cc !important;          /* 悬停深蓝 */
+    color: #0066cc !important;          
     text-decoration: underline !important;
   }
 </style>
@@ -86,17 +85,20 @@ My current research interests include **Reinforcement Learning**, **Optimization
 
 - <a class="pub-link" href="https://arxiv.org/abs/2506.20406">
     POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes
-  </a>. *Under Review at JASA*.  
+  </a>  
+  *Under Review at JASA*  
   **Ruijia Zhang**, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.  
 
 - <a class="pub-link" href="https://arxiv.org/abs/2503.17865">
     Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality
-  </a>. *AISTATS 2025*.  
+  </a>  
+  *AISTATS 2025*  
   **Ruijia Zhang**, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.  
 
 - <a class="pub-link" href="https://arxiv.org/abs/2503.18317">
     Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences
-  </a>. *AAAI 2025*.  
+  </a>  
+  *AAAI 2025*  
   **Ruijia Zhang**, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.  
 
 </div>

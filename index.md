@@ -13,7 +13,7 @@ title: "Ruijia Zhang"
     <h1>Ruijia Zhang</h1>
     <p>PhD Candidate, Applied Mathematics & Statistics<br>
     Johns Hopkins University, Baltimore, MD, USA</p>
-    <p>📧 rzhan127@jh.edu · 🌐 <a href="https://richard-zzz.github.io">richard-zzz.github.io</a></p>
+    <p>📧 rzhan127@jh.edu · 🌐 <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4xKcj1WPYEBl4BOKBJSNUDnuIYeSvYlkX7-dQ4kBPxmvPHlivRQCNgLqubQLr0uDDR6fpXjlDxT8F1wyw&user=gBhh93cAAAAJ">Google Scholar</a></p>
   </div>
 
 </div>
@@ -65,15 +65,14 @@ My current research interests include **Reinforcement Learning**, **Optimization
 # Research
 
 ### Publications
-- **POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes**. *Under Review at JASA*.  
-  Ruijia Zhang, Zhenglin Qi, and Yanxun Xu. [[arXiv]](https://arxiv.org/abs/2506.20406)
-
 - **Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality**. *AISTATS 2025*.  
   Ruijia Zhang, Mingyi Hong, and Alfredo Garcia.  [[arXiv]](https://arxiv.org/abs/2503.17865)
   
 - **Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences**. *AAAI 2025*.  
   Ruijia Zhang and Di Wang.  [[arXiv]](https://arxiv.org/abs/2503.18317)
   
+- **POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes**. *Under Review at JASA*.  
+  Ruijia Zhang, Zhenglin Qi, and Yanxun Xu. [[arXiv]](https://arxiv.org/abs/2506.20406)
 
 ### Ongoing Works
 - **Learning Optimal Robust Policies under Observational Data with Causal Transport**. *To be submitted to Operations Research*.  

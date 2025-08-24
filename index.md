@@ -66,17 +66,17 @@ My current research interests include **Reinforcement Learning**, **Optimization
 
 ### Publications
 - **POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes**. *Under Review at JASA*.  
-  Ruijia Zhang, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu. [[arXiv]](https://arxiv.org/abs/2506.20406)
+  **Ruijia Zhang**, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu. [[arXiv]](https://arxiv.org/abs/2506.20406)
 
 - **Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality**. *AISTATS 2025*.  
-  Ruijia Zhang, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.  [[arXiv]](https://arxiv.org/abs/2503.17865)
+  **Ruijia Zhang**, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.  [[arXiv]](https://arxiv.org/abs/2503.17865)
   
 - **Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences**. *AAAI 2025*.  
-  Ruijia Zhang, Mingxi Lei, Meng Ding, Zihang Xiang, Jinhui Xu, Di Wang.  [[arXiv]](https://arxiv.org/abs/2503.18317)
+  **Ruijia Zhang**, Mingxi Lei, Meng Ding, Zihang Xiang, Jinhui Xu, Di Wang.  [[arXiv]](https://arxiv.org/abs/2503.18317)
 
 ### Ongoing Works
 - **Learning Optimal Robust Policies under Observational Data with Causal Transport**. *To be submitted to Operations Research*.  
-  Ruijia Zhang, Luhao Zhang, Michael Lingzhi Li.
+  **Ruijia Zhang**, Luhao Zhang, Michael Lingzhi Li.
 
 # Teaching Services
 **Graduate Teaching Assistant, JHU**

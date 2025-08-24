@@ -127,15 +127,43 @@ My current research interests include **Reinforcement Learning**, **Optimization
 - International Conference on Continuous Optimization (ICCOPT) 2025 Student Grant 
 
 ### Education
-
-● PhD, Applied Mathematics & Statistics
-  Johns Hopkins University · Aug 2024 – Present
-
-● BSc (First Class Honors), Mathematics & Applied Mathematics
-  CUHK, Shenzhen · Sept 2020 – May 2024
-
-● Exchange Program
-  Technical University of Munich · Apr 2023 – Aug 2023
+<style>
+  .edu-timeline {
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 2px solid #fbbf24; /* 更细竖线 */
+  }
+  .edu-item {
+    position: relative;
+    margin-bottom: 22px;
+    padding-left: 15px;
+  }
+  .edu-item::before {
+    content: "";
+    position: absolute;
+    left: -8px;   /* 调整位置 */
+    top: 6px;
+    width: 8px;   /* 原点直径更小 */
+    height: 8px;
+    background: #fbbf24;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+  }
+  .edu-degree {
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 2px;
+  }
+  .edu-school {
+    color: #333;
+    margin-bottom: 2px;
+  }
+  .edu-dates {
+    font-style: italic;
+    color: #555;
+    font-size: 0.95rem;
+  }
+</style>
 
 
 

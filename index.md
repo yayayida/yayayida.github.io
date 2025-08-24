@@ -126,7 +126,7 @@ My current research interests include **Reinforcement Learning**, **Optimization
 # Awards
 - International Conference on Continuous Optimization (ICCOPT) 2025 Student Grant 
 
-### Education
+# Education
 
 <style>
   .edu-timeline {

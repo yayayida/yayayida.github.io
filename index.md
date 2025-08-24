@@ -69,15 +69,18 @@ My current research interests include **Reinforcement Learning**, **Optimization
 <style>
   main .pubs a.pub-link,
   main .pubs a.pub-link:visited {
-    color: #1e90ff !important;          
+    color: #3399ff !important;          /* 更浅的蓝色 */
     text-decoration: none !important;   
     font-weight: 700;                   
     line-height: 1.6;
   }
   main .pubs a.pub-link:hover,
   main .pubs a.pub-link:focus {
-    color: #0066cc !important;          
+    color: #0066cc !important;          /* 悬停时更深蓝 */
     text-decoration: underline !important;
+  }
+  main .pubs .authors {
+    font-size: 0.95em;   
   }
 </style>
 
@@ -85,21 +88,21 @@ My current research interests include **Reinforcement Learning**, **Optimization
 
 - <a class="pub-link" href="https://arxiv.org/abs/2506.20406">
     POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes
-  </a>  
-  *Under Review at JASA*  
-  **Ruijia Zhang**, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.  
+  </a><br>
+  *Under Review at JASA*<br>
+  <span class="authors">**Ruijia Zhang**, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.</span>
 
 - <a class="pub-link" href="https://arxiv.org/abs/2503.17865">
     Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality
-  </a>  
-  *AISTATS 2025*  
-  **Ruijia Zhang**, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.  
+  </a><br>
+  *AISTATS 2025*<br>
+  <span class="authors">**Ruijia Zhang**, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.</span>
 
 - <a class="pub-link" href="https://arxiv.org/abs/2503.18317">
     Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences
-  </a>  
-  *AAAI 2025*  
-  **Ruijia Zhang**, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.  
+  </a><br>
+  *AAAI 2025*<br>
+  <span class="authors">**Ruijia Zhang**, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.</span>
 
 </div>
 

@@ -19,7 +19,7 @@ title: "Ruijia Zhang"
 </div>
 
 <div class="nav">
-[Research](#research) · [Teaching](#teaching) · [Honors](#honors) · [Education](#education)
+[Research](#research) · [Teaching](#teaching) · [Awards](#awards) · [Education](#education)
 </div>
 
 # About me

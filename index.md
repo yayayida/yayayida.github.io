@@ -106,7 +106,7 @@ My research is broadly motivated by the question of how to make reliable and rob
       Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences
     </a><br>
     <span class="venue">AAAI 2025</span><br>
-    <span class="authors"><strong>Ruijia Zhang</strong>, Mingxi Lei, Meng Ding, Zhang Xiang, Jinhui Xu, Di Wang.</span>
+    <span class="authors"><strong>Ruijia Zhang</strong>, Mingxi Lei, Meng Ding, Zihang Xiang, Jinhui Xu, Di Wang.</span>
   </li>
 </ul>
 

@@ -182,7 +182,7 @@ My current research interests include **Reinforcement Learning**, **Optimization
 
   <div class="edu-item">
     <div class="edu-degree">Exchange Program</div>
-    <div class="edu-school">Technical University of Munich</div>
+    <div class="edu-school">Technical University of Munich, Mathematics</div>
     <div class="edu-dates">Apr 2023 – Aug 2023</div>
   </div>
 

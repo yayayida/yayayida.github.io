@@ -105,16 +105,18 @@ footer {
   box-shadow:0 4px 12px rgba(249,115,22,0.15);
 }
 
-/* Publications 里的超链接标题样式 */
-.pub-link {
-  color: #1a0dab !important;  /* Google Scholar 蓝色 */
-  text-decoration: none;
-  font-weight: bold;
+/* 专门给 Publications 标题的链接变蓝 */
+a.pub-link,
+a.pub-link:visited {
+  color: #1a0dab !important;      /* Google Scholar 蓝 */
+  text-decoration: none !important;
+  font-weight: 800;
 }
 
-.pub-link:hover {
-  text-decoration: underline;
-  color: #0b0080 !important; /* hover 时深蓝 */
+a.pub-link:hover,
+a.pub-link:focus {
+  color: #0b0080 !important;      /* 悬停更深蓝 */
+  text-decoration: underline !important;
 }
 
 /* ===== 最后保险 —— 强制覆盖任何遗留的橙色标题 ===== */

@@ -13,7 +13,7 @@ title: "Ruijia Zhang"
     <h1>Ruijia Zhang</h1>
     <p>PhD Candidate, Applied Mathematics & Statistics<br>
     Johns Hopkins University, Baltimore, MD, USA</p>
-    <p>📧 rzhan127@jh.edu · 🌐 <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4xKcj1WPYEBl4BOKBJSNUDnuIYeSvYlkX7-dQ4kBPxmvPHlivRQCNgLqubQLr0uDDR6fpXjlDxT8F1wyw&user=gBhh93cAAAAJ">Google Scholar</a></p>
+    <p>📧 rzhan127@jh.edu   🌐 <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4xKcj1WPYEBl4BOKBJSNUDnuIYeSvYlkX7-dQ4kBPxmvPHlivRQCNgLqubQLr0uDDR6fpXjlDxT8F1wyw&user=gBhh93cAAAAJ">Google Scholar</a></p>
   </div>
 
 </div>

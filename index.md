@@ -127,27 +127,28 @@ My current research interests include **Reinforcement Learning**, **Optimization
 - International Conference on Continuous Optimization (ICCOPT) 2025 Student Grant 
 
 ### Education
+
 <style>
   .edu-timeline {
     margin: 20px 0;
-    padding-left: 20px;
-    border-left: 2px solid #fbbf24; /* 更细竖线 */
+    padding-left: 25px;
+    border-left: 3px solid #fbbf24; /* 金黄色竖线 */
   }
   .edu-item {
     position: relative;
-    margin-bottom: 22px;
-    padding-left: 15px;
+    margin-bottom: 24px;
+    padding-left: 18px;
   }
   .edu-item::before {
     content: "";
     position: absolute;
-    left: -8px;   /* 调整位置 */
+    left: -11px;
     top: 6px;
-    width: 8px;   /* 原点直径更小 */
-    height: 8px;
+    width: 12px;
+    height: 12px;
     background: #fbbf24;
     border-radius: 50%;
-    border: 1.5px solid #fff;
+    border: 2px solid #fff;
   }
   .edu-degree {
     font-weight: 700;
@@ -164,6 +165,28 @@ My current research interests include **Reinforcement Learning**, **Optimization
     font-size: 0.95rem;
   }
 </style>
+
+<div class="edu-timeline">
+
+  <div class="edu-item">
+    <div class="edu-degree">PhD, Applied Mathematics &amp; Statistics</div>
+    <div class="edu-school">Johns Hopkins University</div>
+    <div class="edu-dates">Aug 2024 – Present</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-degree">BSc (First Class Honors), Mathematics &amp; Applied Mathematics</div>
+    <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
+    <div class="edu-dates">Sept 2020 – May 2024</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-degree">Exchange Program</div>
+    <div class="edu-school">Technical University of Munich</div>
+    <div class="edu-dates">Apr 2023 – Aug 2023</div>
+  </div>
+
+</div>
 
 
 

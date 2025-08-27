@@ -189,7 +189,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
   <div class="edu-item">
     <div class="edu-logo-timeline">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/TU_Darmstadt_Logo.svg" alt="TU Darmstadt" title="Technical University of Darmstadt">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="TU Darmstadt" title="Technical University of Darmstadt">
       <span>2023</span>
     </div>
     <div class="edu-degree">Exchange Program, Mathematics</div>

@@ -69,6 +69,57 @@ title: "Zhuoyue Zhang"
   <a href="#awards">Awards</a>
   <a href="#education">Education</a>
 </div>
+<style>
+/* Research 卡片 */
+.research-list {
+  display: grid;
+  gap: 16px;
+  margin: 12px 0 28px;
+}
+.research-item {
+  background: #fffdf8;
+  border: 1px solid #fcd34d;
+  border-radius: 10px;
+  padding: 14px 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.research-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+.research-title {
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 6px;
+}
+.research-authors {
+  font-size: 0.95rem;
+  color: #444;
+}
+.research-authors strong {
+  color: #b45309; /* 深琥珀色，高亮自己名字 */
+}
+
+/* Awards 列表 */
+.awards-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0 28px;
+}
+.awards-list li {
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border-left: 4px solid #fcd34d;
+  background: #fffef9;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.awards-list li::before {
+  content: "🏆 ";
+}
+</style>
 
 # About me
 I am an MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**, enrolled in a dual-degree program that included my first year at **Instituto Superior Técnico** in Lisbon. I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making.  
@@ -78,15 +129,24 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 # Research
 
 ### Ongoing Works
-- **Automation Transparency and Adaptive Design Paradigms for Maritime Autonomous Surface Ships**.
-  **Zhuoyue Zhang**, Haitong Xu, Carlos Guedes Soares.
-- **A Cognition-Enhanced Urban-EPR Framework for Prediction and Interpretation under Age Heterogeneity**. 
-  **Zhuoyue Zhang**, Qi Ryan Wang.
+<div class="research-list">
+  <div class="research-item">
+    <div class="research-title">Automation Transparency and Adaptive Design Paradigms for Maritime Autonomous Surface Ships</div>
+    <div class="research-authors"><strong>Zhuoyue Zhang</strong>, Haitong Xu, Carlos Guedes Soares.</div>
+  </div>
+
+  <div class="research-item">
+    <div class="research-title">A Cognition-Enhanced Urban-EPR Framework for Prediction and Interpretation under Age Heterogeneity</div>
+    <div class="research-authors"><strong>Zhuoyue Zhang</strong>, Qi Ryan Wang.</div>
+  </div>
+</div>
 
 # Awards
-- Institute Superior Tecnico (IST) 2025 Research Assistant Scholarship
-- European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 Merit Scholarship
-- CUHK(SZ) 2021, 2022, 2023 Shaw College Accomplishment Scholarship
+<ul class="awards-list">
+  <li>Institute Superior Tecnico (IST) 2025 Research Assistant Scholarship</li>
+  <li>European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 Merit Scholarship</li>
+  <li>CUHK(SZ) 2021, 2022, 2023 Shaw College Accomplishment Scholarship</li>
+</ul>
 
 # Education
 

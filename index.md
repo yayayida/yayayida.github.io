@@ -76,7 +76,7 @@ title: "Zhuoyue Zhang"
 
 # About me
 I am an MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**, enrolled in a dual-degree program that included my first year at Instituto Superior Técnico in Lisbon.
-I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making. Currently, I am working as a research assistant at [**CENTEC**](http://www.centec.tecnico.ulisboa.pt/en/index.aspx) in Lisbon, supervised by [**Prof. Haitong Xu**](https://scholar.google.com/citations?user=zrsb6awAAAAJ&hl=en), and at the [**Ryan Wang Lab**](https://sites.google.com/view/uirlab/home?authuser=0) at Northeastern University in Boston, supervised by [**Prof. Qi Ryan Wang**](https://coe.northeastern.edu/people/wang-qi/).  
+I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making. I worked as a research assistant at [**CENTEC**](http://www.centec.tecnico.ulisboa.pt/en/index.aspx) at Instituto Superior Técnico in my first year master, supervised by [**Prof. Haitong Xu**](https://scholar.google.com/citations?user=zrsb6awAAAAJ&hl=en). I also spent a wonderful summer at the [**Ryan Wang Lab**](https://sites.google.com/view/uirlab/home?authuser=0) at Northeastern University in Boston, collaborating with [**Prof. Qi Ryan Wang**](https://coe.northeastern.edu/people/wang-qi/).  
 My recent interests focus on **Exploration and Preference Return Models**. 
 
 # Research
@@ -201,7 +201,7 @@ My recent interests focus on **Exploration and Preference Return Models**.
 
   <div class="edu-item">
     <div class="edu-degree">EIT MSc Duel Degree Program, Transportation Systems</div>
-    <div class="edu-school">Institute Superior Tecnico</div>
+    <div class="edu-school">Instituto Superior Técnico</div>
     <div class="edu-dates">Aug 2024 – June 2025, Lisbon, Portugal</div>
   </div>
 

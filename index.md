@@ -76,60 +76,16 @@ title: "Zhuoyue Zhang"
 
 # About me
 I am an MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**, enrolled in a dual-degree program that included my first year at Instituto Superior Técnico in Lisbon.
-I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making. I worked as a research assistant at [**CENTEC**](http://www.centec.tecnico.ulisboa.pt/en/index.aspx) at Instituto Superior Técnico in my first year master, supervised by [**Prof. Haitong Xu**](https://scholar.google.com/citations?user=zrsb6awAAAAJ&hl=en). I also spent a wonderful summer at the [**Ryan Wang Lab**](https://sites.google.com/view/uirlab/home?authuser=0) at Northeastern University in Boston, collaborating with [**Prof. Qi Ryan Wang**](https://coe.northeastern.edu/people/wang-qi/).  
+I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making. I worked as a research assistant at [**CENTEC**](http://www.centec.tecnico.ulisboa.pt/en/index.aspx) at Instituto Superior Técnico, supervised by [**Prof. Haitong Xu**](https://scholar.google.com/citations?user=zrsb6awAAAAJ&hl=en). I also spent a wonderful summer at the [**Ryan Wang Lab**](https://sites.google.com/view/uirlab/home?authuser=0) at Northeastern University in Boston, collaborating with [**Prof. Qi Ryan Wang**](https://coe.northeastern.edu/people/wang-qi/).  
 My recent interests focus on **Exploration and Preference Return Models**. 
 
 # Research
 
-### Publications
-
-<style>
-  /* 只作用于 Publications */
-  main .pubs a.pub-link,
-  main .pubs a.pub-link:visited{
-    color:#3399ff !important;        /* 浅蓝 */
-    text-decoration:none !important;
-    font-weight:700;
-  }
-  main .pubs a.pub-link:hover{
-    color:#0066cc !important;        /* 悬停稍深 */
-    text-decoration:underline !important;
-  }
-  main .pubs{ margin: 8px 0 0; padding-left: 1.2rem; }
-  main .pubs li{ margin: 0 0 16px 0; }
-  main .pubs .venue{ font-style: italic; }
-  main .pubs .authors{ display:block; margin-top:2px; }
-</style>
-
-<ul class="pubs">
-  <li>
-    <a class="pub-link" href="https://arxiv.org/abs/2506.20406">
-      POLAR: A Pessimistic Model-based Policy Learning Algorithm for Dynamic Treatment Regimes
-    </a><br>
-    <span class="venue">Under Review at Journal of the American Statistical Association (JASA)</span><br>
-    <span class="authors"><strong>Ruijia Zhang</strong>, Zhenglin Qi, Yue Wu, Xiangyu Zhang, Yanxun Xu.</span>
-  </li>
-
-  <li>
-    <a class="pub-link" href="https://arxiv.org/abs/2503.17865">
-      Understanding Inverse Reinforcement Learning under Overparameterization: Non-Asymptotic Analysis and Global Optimality
-    </a><br>
-    <span class="venue">AISTATS 2025</span><br>
-    <span class="authors"><strong>Ruijia Zhang</strong>, Siliang Zeng, Chenliang Li, Alfredo Garcia, Mingyi Hong.</span>
-  </li>
-
-  <li>
-    <a class="pub-link" href="https://arxiv.org/abs/2503.18317">
-      Improved Rates of Differential Private Nonconvex Strongly Concave Minimax Optimization via Gradient Differences
-    </a><br>
-    <span class="venue">AAAI 2025</span><br>
-    <span class="authors"><strong>Ruijia Zhang</strong>, Mingxi Lei, Meng Ding, Zihang Xiang, Jinhui Xu, Di Wang.</span>
-  </li>
-</ul>
-
 ### Ongoing Works
-- **Learning Optimal Robust Policies under Observational Data with Causal Transport**. *To be submitted to Operations Research*.  
-  **Ruijia Zhang**, Luhao Zhang, Michael Lingzhi Li.
+- **Automation Transparency and Adaptive Design Paradigms for Maritime Autonomous Surface Ships**.
+  **Zhuoyue Zhang**, Haitong Xu, Carlos Guedes Soares.
+- **A Cognition-Enhanced Urban-EPR Framework for Prediction and Interpretation under Age Heterogeneity**. 
+  **Zhuoyue Zhang**, Qi Ryan Wang.
 
 # Teaching
 **Graduate Teaching Assistant, JHU**

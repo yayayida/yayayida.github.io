@@ -3,7 +3,7 @@ layout: default
 title: "Zhuoyue Zhang"
 ---
 
-<div style="display:flex; align-items:center; gap:30px;">
+<div style="display:flex; align-items:center; gap:30px; background:#fefcf7; padding:20px; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
 
   <!-- 左边头像 -->
   <img src="/assets/img/IMG_8112.jpeg" alt="Zhuoyue Zhang" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.12);">
@@ -11,14 +11,14 @@ title: "Zhuoyue Zhang"
   <!-- 右边文字 -->
   <div>
     <h1 style="margin-bottom:6px;">Zhuoyue Zhang</h1>
-    <p style="margin:0;">MSc Student, Geographic modeling and simulation & Urban informatics<br>
+    <p style="margin:0; font-size:1.05rem; color:#444;">MSc Student, Geographic Modeling and Simulation & Urban Informatics<br>
     KTH Royal Institute of Technology, Stockholm, Sweden</p> 
 
     <!-- 联系方式 -->
-    <p style="margin-top:10px; margin-bottom:0;">
-      <a href="mailto:zhuoyuez@kth.se" style="margin-right:18px; text-decoration:none; color:#1a1a1a; font-weight:500;">
+    <p style="margin-top:12px; margin-bottom:0; font-size:0.95rem;">
+      <a href="mailto:zhuoyuez@kth.se" style="margin-right:18px; text-decoration:none; color:#222; font-weight:500;">
         <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg"
-             alt="Email" width="18" style="vertical-align: middle; margin-right:6px; filter: invert(0%);">
+             alt="Email" width="18" style="vertical-align: middle; margin-right:6px;">
         zhuoyuez@kth.se
       </a>
       <a href="https://www.linkedin.com/in/zhuoyue-z-a15059302/" target="_blank" style="text-decoration:none; color:#0077b5; font-weight:500;">
@@ -27,9 +27,6 @@ title: "Zhuoyue Zhang"
         LinkedIn
       </a>
     </p>
-
-    <!-- 分割线 -->
-    <div style="border-bottom:1px solid #fcd34d; margin:12px 0;"></div>
   </div>
 
 </div>
@@ -57,10 +54,10 @@ title: "Zhuoyue Zhang"
     transition:all .2s ease;
   }
   .navbar a:hover{
-    background:#fde68a;
-    transform:translateY(-2px);
-    box-shadow:0 4px 12px rgba(249,115,22,.15);
-  }
+  background: linear-gradient(90deg, #fcd34d, #fbbf24);
+  transform: translateY(-2px);
+  box-shadow:0 4px 12px rgba(249,115,22,.25);
+}
   /* 小屏自适应：手机上两列 */
   @media (max-width: 640px){
     .navbar{ grid-template-columns: repeat(2, minmax(0,1fr)); }

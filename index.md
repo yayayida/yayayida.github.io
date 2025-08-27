@@ -188,37 +188,31 @@ I am passionate about understanding and predicting human mobility behavior in th
   <div class="edu-item">
     <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
     <div class="edu-school">KTH Royal Insititue of Technology</div>
-    <div class="edu-dates">Aug 2024 – Present</div>
-  </div>
-  
-  <div class="edu-item">
-    <div class="edu-degree">Baltica Summer School, EIT Urban Mobility</div>
-    <div class="edu-school">University of Tartu &amp; Riga Tecnical University</div>
-    <div class="edu-dates">Aug 2025 – Sep 2025</div>
+    <div class="edu-dates">Aug 2024 – Present, Stockholm, Sweden</div>
   </div>
 
   <div class="edu-item">
     <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
     <div class="edu-school">Northeastern University</div>
-    <div class="edu-dates">June 2025 – Aug 2025</div>
+    <div class="edu-dates">June 2025 – Aug 2025, Boston, USA</div>
   </div>
 
   <div class="edu-item">
-    <div class="edu-degree">Duel Degree Program of EIT Urban Mobility Master School, MSc, Transportation Systems</div>
+    <div class="edu-degree">EIT MSc Duel Degree Program, Transportation Systems</div>
     <div class="edu-school">Institute Superior Tecnico</div>
-    <div class="edu-dates">Aug 2024 – June 2025</div>
+    <div class="edu-dates">Aug 2024 – June 2025, Lisbon, Portugal</div>
   </div>
 
   <div class="edu-item">
     <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>
     <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
-    <div class="edu-dates">Sept 2020 – May 2024</div>
+    <div class="edu-dates">Sept 2020 – May 2024, Shenzhen, China</div>
   </div>
 
   <div class="edu-item">
     <div class="edu-degree">Exchange Program, Mathematics</div>
     <div class="edu-school">Technical University of Darmstadt</div>
-    <div class="edu-dates">Apr 2023 – Aug 2023</div>
+    <div class="edu-dates">Apr 2023 – Aug 2023, Darmstadt, Germany</div>
   </div>
 
 </div>

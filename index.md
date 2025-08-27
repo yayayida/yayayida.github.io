@@ -192,14 +192,14 @@ I am passionate about understanding and predicting human mobility behavior in th
   </div>
   
   <div class="edu-item">
-    <div class="edu-degree">Baltica Summer School, Civil and Environmental Engineering</div>
-    <div class="edu-school">University of Tartu &amp Riga Tecnical University</div>
+    <div class="edu-degree">Baltica Summer School, EIT Urban Mobility</div>
+    <div class="edu-school">University of Tartu &amp; Riga Tecnical University</div>
     <div class="edu-dates">Aug 2025 – Sep 2025</div>
   </div>
 
   <div class="edu-item">
     <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
-    <div class="edu-school">Northeastern University/div>
+    <div class="edu-school">Northeastern University</div>
     <div class="edu-dates">June 2025 – Aug 2025</div>
   </div>
 

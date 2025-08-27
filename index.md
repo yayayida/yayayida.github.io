@@ -76,7 +76,7 @@ title: "Zhuoyue Zhang"
 
 # About me
 I am a MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**.
-I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making. Currently, I am working as a research assistant at [CENTEC](http://www.centec.tecnico.ulisboa.pt/en/index.aspx), supervised by Prof. Haitong Xu, and at the [Ryan Wang Lab](https://sites.google.com/view/uirlab/home?authuser=0) at Northeastern University. My recent interests focus on **Exploration and Preference Return Models**.
+I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making. Currently, I am working as a research assistant at [CENTEC](http://www.centec.tecnico.ulisboa.pt/en/index.aspx) in Lisbon, supervised by Prof. Haitong Xu, and at the [Ryan Wang Lab](https://sites.google.com/view/uirlab/home?authuser=0) at Northeastern University in Boston, supervised by Prof. Ryan Qi Wang. My recent interests focus on **Exploration and Preference Return Models**.
 
 # Research
 
@@ -142,7 +142,7 @@ I am passionate about understanding and predicting human mobility behavior in th
 # Awards
 - Institute Superior Tecnico (IST) 2025 Research Assistant Scholarship
 - European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 Merit Scholarship
-- CUHKSZ 2021, 2022, 2023 Shaw College Accomplishment Scholarship
+- CUHK(SZ) 2021, 2022, 2023 Shaw College Accomplishment Scholarship
 
 # Education
 

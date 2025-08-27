@@ -66,7 +66,7 @@ title: "Zhuoyue Zhang"
 
 # About me
 I am a MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**.
-My research is broadly motivated by the question of how to make reliable and robust decisions under uncertainty. I work on problems at the intersection of applied probability, optimization, and reinforcement learning. My recent interests focus on **LLM Alignment** and **Diffusion Models**.
+I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making. My recent interests focus on **Exploration and Preference Return Models**.
 
 # Research
 

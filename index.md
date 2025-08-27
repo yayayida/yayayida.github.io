@@ -93,24 +93,40 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 <style>
   .edu-timeline {
     margin: 20px 0;
-    padding-left: 25px;
-    border-left: 3px solid #fbbf24; /* 金黄色竖线 */
+    padding-left: 90px; /* 預留給 Logo + 日期 */
+    border-left: 3px solid #fbbf24; /* 金黃色竪線 */
+    position: relative;
   }
   .edu-item {
     position: relative;
-    margin-bottom: 24px;
-    padding-left: 18px;
+    margin-bottom: 36px;
   }
-  .edu-item::before {
-    content: "";
+  .edu-logo-timeline {
     position: absolute;
-    left: -11px;
-    top: 6px;
-    width: 12px;
-    height: 12px;
-    background: #fbbf24;
+    left: -70px;
+    top: 0;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, filter 0.2s ease;
+    flex-direction: column;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 4px;
+  }
+  .edu-logo-timeline img {
+    max-width: 28px;
+    max-height: 28px;
+    margin-bottom: 2px;
+  }
+  .edu-logo-timeline:hover {
+    transform: scale(1.1);
+    filter: brightness(1.15);
   }
   .edu-degree {
     font-weight: 700;
@@ -124,40 +140,61 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
   .edu-dates {
     font-style: italic;
     color: #555;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    margin-top: 2px;
   }
 </style>
 
 <div class="edu-timeline">
 
   <div class="edu-item">
+    <div class="edu-logo-timeline">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/KTH_logo.svg" alt="KTH" title="KTH Royal Institute of Technology">
+      <span>2024–</span>
+    </div>
     <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
-    <div class="edu-school">KTH Royal Insititue of Technology</div>
-    <div class="edu-dates">Aug 2024 – Present, Stockholm, Sweden</div>
+    <div class="edu-school">KTH Royal Institute of Technology</div>
+    <div class="edu-dates">Stockholm, Sweden</div>
   </div>
 
   <div class="edu-item">
+    <div class="edu-logo-timeline">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Northeastern_University_seal.svg" alt="Northeastern University" title="Northeastern University">
+      <span>2025</span>
+    </div>
     <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
     <div class="edu-school">Northeastern University</div>
-    <div class="edu-dates">June 2025 – Aug 2025, Boston, USA</div>
+    <div class="edu-dates">Boston, USA</div>
   </div>
 
   <div class="edu-item">
-    <div class="edu-degree">EIT MSc Duel Degree Program, Transportation Systems</div>
+    <div class="edu-logo-timeline">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instituto_Superior_T%C3%A9cnico_-_University_of_Lisbon.svg" alt="IST" title="Instituto Superior Técnico">
+      <span>2024–25</span>
+    </div>
+    <div class="edu-degree">EIT MSc Dual Degree Program, Transportation Systems</div>
     <div class="edu-school">Instituto Superior Técnico</div>
-    <div class="edu-dates">Aug 2024 – June 2025, Lisbon, Portugal</div>
+    <div class="edu-dates">Lisbon, Portugal</div>
   </div>
 
   <div class="edu-item">
+    <div class="edu-logo-timeline">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/18/CUHK_Logo.svg" alt="CUHK Shenzhen" title="The Chinese University of Hong Kong, Shenzhen">
+      <span>2020–24</span>
+    </div>
     <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>
     <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
-    <div class="edu-dates">Sept 2020 – May 2024, Shenzhen, China</div>
+    <div class="edu-dates">Shenzhen, China</div>
   </div>
 
   <div class="edu-item">
+    <div class="edu-logo-timeline">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/TU_Darmstadt_Logo.svg" alt="TU Darmstadt" title="Technical University of Darmstadt">
+      <span>2023</span>
+    </div>
     <div class="edu-degree">Exchange Program, Mathematics</div>
     <div class="edu-school">Technical University of Darmstadt</div>
-    <div class="edu-dates">Apr 2023 – Aug 2023, Darmstadt, Germany</div>
+    <div class="edu-dates">Darmstadt, Germany</div>
   </div>
 
 </div>

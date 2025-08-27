@@ -13,7 +13,7 @@ title: "Zhuoyue Zhang"
     <h1>Zhuoyue Zhang</h1>
     <p>MSc Student, Geographic modeling and simulation & Urban informatics<br>
     KTH Royal Institute of Technology, Stockholm, Sweden</p> 
-    <p>📧 zhuoyuez@kth.se  
+    <p>📧 zhuoyuez@kth.se  </a></p>
   </div>
 
 </div>

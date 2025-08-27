@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Ruijia Zhang"
+title: "Zhuoyue Zhang"
 ---
 
 <div style="display:flex; align-items:center; gap:30px;">

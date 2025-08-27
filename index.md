@@ -13,7 +13,13 @@ title: "Zhuoyue Zhang"
     <h1>Zhuoyue Zhang</h1>
     <p>MSc Student, Geographic modeling and simulation & Urban informatics<br>
     KTH Royal Institute of Technology, Stockholm, Sweden</p> 
-    <p>📧 zhuoyuez@kth.se  </p>
+    <p>
+  📧 zhuoyuez@kth.se &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/Zhuoyue Zhang/" target="_blank">
+    <img src="[https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg](https://www.linkedin.com/in/zhuoyue-z-a15059302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)" 
+         alt="LinkedIn" width="20" style="vertical-align:middle;">
+  </a>
+</p>
   </div>
 
 </div>
@@ -59,7 +65,7 @@ title: "Zhuoyue Zhang"
 </div>
 
 # About me
-I am a PhD candidate in the **Department of Applied Mathematics and Statistics** at **Johns Hopkins University**, starting in August 2024.  
+I am a MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**.
 My research is broadly motivated by the question of how to make reliable and robust decisions under uncertainty. I work on problems at the intersection of applied probability, optimization, and reinforcement learning. My recent interests focus on **LLM Alignment** and **Diffusion Models**.
 
 # Research

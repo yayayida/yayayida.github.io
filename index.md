@@ -6,27 +6,32 @@ title: "Zhuoyue Zhang"
 <div style="display:flex; align-items:center; gap:30px;">
 
   <!-- 左边头像 -->
-  <img src="/assets/img/IMG_8109.JPG" alt="Ruijia Zhang" width="180" style="border-radius:8px;">
+  <img src="/assets/img/IMG_8109.JPG" alt="Zhuoyue Zhang" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.12);">
 
   <!-- 右边文字 -->
   <div>
-    <h1>Zhuoyue Zhang</h1>
-    <p>MSc Student, Geographic modeling and simulation & Urban informatics<br>
+    <h1 style="margin-bottom:6px;">Zhuoyue Zhang</h1>
+    <p style="margin:0;">MSc Student, Geographic modeling and simulation & Urban informatics<br>
     KTH Royal Institute of Technology, Stockholm, Sweden</p> 
-    <p>
-  <a href="mailto:zhuoyuez@kth.se" style="text-decoration:none; color:inherit;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg"
-         alt="Email" width="20" style="vertical-align: middle; filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);">
-    zhuoyuez@kth.se
-  </a>
-  &nbsp;|&nbsp;
-  <a href="https://www.linkedin.com/in/zhuoyue-z-a15059302/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-         alt="LinkedIn" width="20" style="vertical-align: middle; filter: invert(34%) sepia(98%) saturate(2313%) hue-rotate(186deg) brightness(92%) contrast(95%);">
-    LinkedIn
-  </a>
-</p>
-</div>
+
+    <!-- 联系方式 -->
+    <p style="margin-top:10px; margin-bottom:0;">
+      <a href="mailto:zhuoyuez@kth.se" style="margin-right:18px; text-decoration:none; color:#1a1a1a; font-weight:500;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg"
+             alt="Email" width="18" style="vertical-align: middle; margin-right:6px; filter: invert(0%);">
+        zhuoyuez@kth.se
+      </a>
+      <a href="https://www.linkedin.com/in/zhuoyue-z-a15059302/" target="_blank" style="text-decoration:none; color:#0077b5; font-weight:500;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+             alt="LinkedIn" width="18" style="vertical-align: middle; margin-right:6px; filter: invert(34%) sepia(98%) saturate(2313%) hue-rotate(186deg) brightness(92%) contrast(95%);">
+        LinkedIn
+      </a>
+    </p>
+
+    <!-- 分割线 -->
+    <div style="border-bottom:1px solid #fcd34d; margin:12px 0;"></div>
+  </div>
+
 </div>
 
 <!-- Nav -->

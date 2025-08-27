@@ -13,7 +13,7 @@ title: "Zhuoyue Zhang"
     <h1>Zhuoyue Zhang</h1>
     <p>MSc Student, Geographic modeling and simulation & Urban informatics<br>
     KTH Royal Institute of Technology, Stockholm, Sweden</p> 
-    <p>📧 zhuoyuez@kth.se  🌐 <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4xKcj1WPYEBl4BOKBJSNUDnuIYeSvYlkX7-dQ4kBPxmvPHlivRQCNgLqubQLr0uDDR6fpXjlDxT8F1wyw&user=gBhh93cAAAAJ">Google Scholar</a></p>
+    <p>📧 zhuoyuez@kth.se  
   </div>
 
 </div>

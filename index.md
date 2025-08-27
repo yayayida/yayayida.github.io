@@ -140,7 +140,8 @@ I am passionate about understanding and predicting human mobility behavior in th
 - MAT3007 Optimization (Fall 2023)
 
 # Awards
-- International Conference on Continuous Optimization (ICCOPT) 2025 Student Grant 
+- European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 Merit Scholarship
+- CUHKSZ 2021, 2022, 2023 Shaw College Accomplishment Scholarship
 
 # Education
 
@@ -185,20 +186,38 @@ I am passionate about understanding and predicting human mobility behavior in th
 <div class="edu-timeline">
 
   <div class="edu-item">
-    <div class="edu-degree">PhD, Applied Mathematics &amp; Statistics</div>
-    <div class="edu-school">Johns Hopkins University</div>
+    <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
+    <div class="edu-school">KTH Royal Insititue of Technology</div>
     <div class="edu-dates">Aug 2024 – Present</div>
+  </div>
+  
+  <div class="edu-item">
+    <div class="edu-degree">Baltica Summer School, Civil and Environmental Engineering</div>
+    <div class="edu-school">University of Tartu &amp Riga Tecnical University</div>
+    <div class="edu-dates">Aug 2025 – Sep 2025</div>
   </div>
 
   <div class="edu-item">
-    <div class="edu-degree">BSc (First Class Honors), Mathematics &amp; Applied Mathematics</div>
+    <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
+    <div class="edu-school">Northeastern University/div>
+    <div class="edu-dates">June 2025 – Aug 2025</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-degree">Duel Degree Program of EIT Urban Mobility Master School, MSc, Transportation Systems</div>
+    <div class="edu-school">Institute Superior Tecnico</div>
+    <div class="edu-dates">Aug 2024 – June 2025</div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>
     <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
     <div class="edu-dates">Sept 2020 – May 2024</div>
   </div>
 
   <div class="edu-item">
     <div class="edu-degree">Exchange Program, Mathematics</div>
-    <div class="edu-school">Technical University of Munich</div>
+    <div class="edu-school">Technical University of Darmstadt</div>
     <div class="edu-dates">Apr 2023 – Aug 2023</div>
   </div>
 
@@ -207,4 +226,4 @@ I am passionate about understanding and predicting human mobility behavior in th
 
 
 <hr>
-<div class="small">Last updated: August 22, 2025</div>
+<div class="small">Last updated: August 27, 2025</div>

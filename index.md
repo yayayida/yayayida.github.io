@@ -69,7 +69,6 @@ title: "Zhuoyue Zhang"
 
 <div class="navbar">
   <a href="#research">Research</a>
-  <a href="#teaching">Teaching</a>
   <a href="#awards">Awards</a>
   <a href="#education">Education</a>
 </div>
@@ -86,15 +85,6 @@ My recent interests focus on **Exploration and Preference Return Models**.
   **Zhuoyue Zhang**, Haitong Xu, Carlos Guedes Soares.
 - **A Cognition-Enhanced Urban-EPR Framework for Prediction and Interpretation under Age Heterogeneity**. 
   **Zhuoyue Zhang**, Qi Ryan Wang.
-
-# Teaching
-**Graduate Teaching Assistant, JHU**
-- EN.553.744 Data Science Methods for Large-Scale Graphs (Spring 2025)
-- EN.553.642 Investment Science (Fall 2024&2025)
-
-**Undergraduate Student Teaching Fellow, CUHK(SZ)**
-- MAT2002 Ordinary Differential Equations (Spring 2024)
-- MAT3007 Optimization (Fall 2023)
 
 # Awards
 - Institute Superior Tecnico (IST) 2025 Research Assistant Scholarship

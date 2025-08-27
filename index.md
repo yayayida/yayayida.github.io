@@ -143,9 +143,9 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
 # Awards
 <ul class="awards-list">
-  <li>Institute Superior Tecnico (IST) 2025 Research Assistant Scholarship</li>
-  <li>European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 Merit Scholarship</li>
-  <li>CUHK(SZ) 2021, 2022, 2023 Shaw College Accomplishment Scholarship</li>
+  <li>Institute Superior Tecnico (IST) 2025 *Research Assistant Scholarship*</li>
+  <li>European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 *Merit Scholarship*</li>
+  <li>CUHK(SZ) 2021, 2022, 2023 *Shaw College Accomplishment Scholarship*</li>
 </ul>
 
 # Education
@@ -209,7 +209,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
   <div class="edu-item">
     <div class="edu-logo-timeline">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/KTH_logo.svg" alt="KTH" title="KTH Royal Institute of Technology">
+      <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH" title="KTH Royal Institute of Technology">
       <span>2024–</span>
     </div>
     <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
@@ -219,7 +219,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
   <div class="edu-item">
     <div class="edu-logo-timeline">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Northeastern_University_seal.svg" alt="Northeastern University" title="Northeastern University">
+      <img src="https://brand.northeastern.edu/wp-content/uploads/2025/01/seal-black.svg" alt="Northeastern University" title="Northeastern University">
       <span>2025</span>
     </div>
     <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
@@ -229,7 +229,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
   <div class="edu-item">
     <div class="edu-logo-timeline">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instituto_Superior_T%C3%A9cnico_-_University_of_Lisbon.svg" alt="IST" title="Instituto Superior Técnico">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ULisboa_logo.svg/406px-ULisboa_logo.svg.png" alt="IST" title="Instituto Superior Técnico">
       <span>2024–25</span>
     </div>
     <div class="edu-degree">EIT MSc Dual Degree Program, Transportation Systems</div>
@@ -239,7 +239,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
   <div class="edu-item">
     <div class="edu-logo-timeline">
-      <img src="https://upload.wikimedia.org/wikipedia/en/1/18/CUHK_Logo.svg" alt="CUHK Shenzhen" title="The Chinese University of Hong Kong, Shenzhen">
+      <img src="https://images.seeklogo.com/logo-png/45/2/the-chinese-university-of-hong-kong-logo-png_seeklogo-456292.png" alt="CUHK Shenzhen" title="The Chinese University of Hong Kong, Shenzhen">
       <span>2020–24</span>
     </div>
     <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>

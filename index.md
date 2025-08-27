@@ -180,9 +180,9 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     padding: 4px;
   }
   .edu-logo-timeline img {
-    max-width: 28px;
-    max-height: 28px;
-    margin-bottom: 2px;
+    max-width: 36px;  /* 原来是 22-28px，这里改大 */
+    max-height: 36px;
+    object-fit: contain;
   }
   .edu-logo-timeline:hover {
     transform: scale(1.1);

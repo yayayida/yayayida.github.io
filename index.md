@@ -14,13 +14,18 @@ title: "Zhuoyue Zhang"
     <p>MSc Student, Geographic modeling and simulation & Urban informatics<br>
     KTH Royal Institute of Technology, Stockholm, Sweden</p> 
     <p>
-  📧 zhuoyuez@kth.se &nbsp; | &nbsp;
-  <a href="https://www.linkedin.com/in/Zhuoyue Zhang/" target="_blank">
-    <img src="[https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg](https://www.linkedin.com/in/zhuoyue-z-a15059302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)" 
-         alt="LinkedIn" width="20" style="vertical-align:middle;">
+  <a href="mailto:zhuoyuez@kth.se" style="text-decoration:none; color:inherit;">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/maildotru.svg"
+         alt="Email" width="20" style="vertical-align: middle; filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);">
+    zhuoyuez@kth.se
+  </a>
+  &nbsp;|&nbsp;
+  <a href="https://www.linkedin.com/in/zhuoyue-z-a15059302/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+         alt="LinkedIn" width="20" style="vertical-align: middle; filter: invert(34%) sepia(98%) saturate(2313%) hue-rotate(186deg) brightness(92%) contrast(95%);">
+    LinkedIn
   </a>
 </p>
-  </div>
 
 </div>
 

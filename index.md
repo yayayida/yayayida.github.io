@@ -26,7 +26,7 @@ title: "Zhuoyue Zhang"
     LinkedIn
   </a>
 </p>
-
+</div>
 </div>
 
 <!-- Nav -->

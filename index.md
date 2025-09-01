@@ -219,7 +219,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <div class="edu-item">
       <div class="edu-left">
         <div class="edu-date">2023</div>
-        <div class="edu-logo" style="--zoom:1.35;">
+        <div class="edu-logo" style="--zoom:1.18;">
           <img src="https://upload.wikimedia.org/wikipedia/de/thumb/d/d2/TU_Darmstadt_Athene.svg/648px-TU_Darmstadt_Athene.svg.png" alt="Technical University of Darmstadt">
         </div>
       </div>

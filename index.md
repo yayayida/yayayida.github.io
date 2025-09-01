@@ -233,33 +233,34 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 </section>
 
 <style>
-/* ===== Education (日期在左、圆形在右) ===== */
+/* ===== Education（日期在左，图标在竖线右侧） ===== */
 .edu-section{ margin: 0 0 24px; }
 .edu-section h2{ margin: 0 0 14px; }
 
-/* 布局变量 */
+/* 关键变量 */
 .edu-timeline{
   --line-w: 3px;            /* 竖线粗细 */
   --line-color: #fbbf24;    /* 竖线颜色 */
   --logo-size: 56px;        /* 圆形直径 */
-  --date-col: 64px;         /* 日期列宽（调这个即可更靠左/右） */
-  --gap: 12px;              /* 日期与圆形间距 */
-  --left-col: calc(var(--date-col) + var(--gap) + var(--logo-size)); /* 左栏总宽 */
+  --date-col: 64px;         /* 日期列宽 */
+  --gap: 12px;              /* 日期与圆形的间距 */
+  --line-clear: 6px;        /* 竖线距离圆形左边的空隙 */
+  --left-col: calc(var(--date-col) + var(--gap) + var(--logo-size));
   position: relative;
 }
 
-/* 竖线：位于“日期列 + 间距 + 圆形中心” */
+/* 竖线：放在“日期与圆形之间”，并与圆形保持 line-clear 的距离 */
 .edu-timeline::before{
   content:"";
   position:absolute;
-  left: calc(var(--date-col) + var(--gap) + var(--logo-size)/2 - var(--line-w)/2);
+  left: calc(var(--date-col) + var(--gap) - var(--line-clear) - var(--line-w));
   top:0; bottom:0;
   width: var(--line-w);
   background: var(--line-color);
   z-index: 0;
 }
 
-/* 每条记录：左栏(日期+圆形) | 右栏(文字) */
+/* 每条记录：左栏(日期+圆形) | 右栏文字 */
 .edu-item{
   display: grid;
   grid-template-columns: var(--left-col) 1fr;
@@ -267,17 +268,17 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
   padding: 18px 0;
 }
 
-/* 左栏拆为两列：日期 | 圆形 */
+/* 左栏拆两列：日期 | 圆形（圆形在竖线右侧） */
 .edu-left{
   display: grid;
   grid-template-columns: var(--date-col) var(--logo-size);
   column-gap: var(--gap);
   align-items: center;
   justify-items: center;
-  z-index: 1; /* 保证在竖线上方 */
+  z-index: 1; /* 圆形在竖线上层 */
 }
 
-/* 日期样式（靠右对齐） */
+/* 日期样式（右对齐） */
 .edu-date{
   margin: 0;
   text-align: right;
@@ -312,7 +313,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
 /* 移动端 */
 @media (max-width:640px){
-  .edu-timeline{ --logo-size:48px; --date-col:56px; }
+  .edu-timeline{ --logo-size:48px; --date-col:56px; --line-clear:5px; }
 }
 </style>
 

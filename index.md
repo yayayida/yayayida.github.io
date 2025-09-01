@@ -69,18 +69,6 @@ title: "Zhuoyue Zhang"
   <a href="#awards">Awards</a>
   <a href="#education">Education</a>
 </div>
-<div class="edu-left">
-  <div class="edu-logo" style="--zoom:1.05;">
-    <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH">
-  </div>
-  <div class="edu-date">2024–</div>
-</div>
-<div class="edu-left">
-  <div class="edu-logo" style="--zoom:1.35;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="TU Darmstadt">
-  </div>
-  <div class="edu-date">2023</div>
-</div>
 
 <style>
 /* Research 卡片 */
@@ -133,7 +121,61 @@ title: "Zhuoyue Zhang"
   content: "🏆 ";
 }
 </style>
+/* Education timeline */
+  .edu-timeline{
+    --gutter: 100px;                 /* 左列宽度（Logo+日期） */
+    --line-x: calc(var(--gutter)/2); /* 竖线位于左列中线 */
+    position: relative;
+    margin: 20px 0;
+  }
+  .edu-timeline::before{
+    content:"";
+    position:absolute;
+    left: calc(var(--line-x) - 1.5px);
+    top:0; bottom:0;
+    width:3px; background:#fbbf24;
+    z-index:0;                        /* 竖线在最底层 */
+  }
 
+  .edu-item{
+    display:grid;
+    grid-template-columns: var(--gutter) 1fr;
+    column-gap:18px;
+    padding:18px 0;
+    position:relative;
+  }
+
+  .edu-left{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    z-index:1;                        /* 圆标在竖线上层 */
+  }
+  .edu-logo{
+    width:56px;height:56px;border-radius:50%;overflow:hidden;background:#fff;
+    box-shadow:0 2px 6px rgba(0,0,0,.08);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .edu-logo img{
+    width:100%;height:100%;object-fit:contain;
+    transform: scale(var(--zoom,1)); transition: transform .2s ease;
+  }
+  .edu-logo:hover img{ transform: scale(calc(var(--zoom,1) * 1.06)); }
+
+  .edu-date{
+    margin-top:6px;font-size:.82rem;color:#6b7280;font-style:italic;line-height:1;text-align:center;
+    padding:2px 4px;
+  }
+
+  .edu-degree{font-weight:700;font-size:1.05rem;margin-bottom:4px}
+  .edu-school{color:#333;margin-bottom:2px}
+  .edu-location{color:#555;font-size:.9rem;font-style:italic}
+
+  @media (max-width:640px){
+    .edu-timeline{ --gutter: 88px; }
+    .edu-logo{ width:48px; height:48px; }
+  }
+</style>
 # About me
 I am an MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**, enrolled in a dual-degree program that included my first year at **Instituto Superior Técnico** in Lisbon. I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making.  
 
@@ -162,77 +204,82 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 </ul>
 
 # Education
+<div class="edu-timeline">
+  <!-- KTH -->
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo" style="--zoom:1.05;">
+        <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH">
+      </div>
+      <div class="edu-date">2024–</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
+      <div class="edu-school">KTH Royal Institute of Technology</div>
+      <div class="edu-location">Stockholm, Sweden</div>
+    </div>
+  </div>
 
-<style>
-  /* === 更稳的时间轴布局 === */
-  .edu-timeline{
-    --gutter: 100px;                /* 左栏宽度（Logo+日期） */
-    --line-x: calc(var(--gutter)/2);/* 竖线居中到左栏 */
-    position: relative;
-    margin: 20px 0;
-  }
-  .edu-timeline::before{
-    content:"";
-    position:absolute;
-    left: calc(var(--line-x) - 1.5px);
-    top:0; bottom:0;
-    width:3px; background:#fbbf24;
-    z-index: 0;                     /* 竖线在最底层 */
-  }
+  <!-- Northeastern -->
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo" style="--zoom:1.15;">
+        <img src="https://brand.northeastern.edu/wp-content/uploads/2025/01/seal-black.svg" alt="Northeastern University">
+      </div>
+      <div class="edu-date">2025</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
+      <div class="edu-school">Northeastern University</div>
+      <div class="edu-location">Boston, USA</div>
+    </div>
+  </div>
 
-  .edu-item{
-    display:grid;
-    grid-template-columns: var(--gutter) 1fr;
-    column-gap: 18px;
-    padding: 18px 0;
-    position: relative;
-  }
+  <!-- IST (EIT) -->
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo" style="--zoom:1.10;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ULisboa_logo.svg/406px-ULisboa_logo.svg.png" alt="IST">
+      </div>
+      <div class="edu-date">2024–25</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">EIT MSc Dual Degree Program, Transportation Systems</div>
+      <div class="edu-school">Instituto Superior Técnico</div>
+      <div class="edu-location">Lisbon, Portugal</div>
+    </div>
+  </div>
 
-  /* 左列：圆形 Logo + 日期 */
-  .edu-left{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    z-index: 1;                     /* 保证在竖线上层 */
-  }
-  .edu-logo{
-    width:56px; height:56px;
-    border-radius:50%;
-    overflow:hidden;                /* 强制圆形裁切 */
-    background:#fff;
-    box-shadow:0 2px 6px rgba(0,0,0,.08);
-    display:flex; align-items:center; justify-content:center;
-  }
-  .edu-logo img{
-    width:100%; height:100%;
-    object-fit:contain;             /* 各校 Logo 比例不同也不变形 */
-    transform: scale(var(--zoom, 1));/* 可选：单项放大 */
-    transition: transform .2s ease;
-  }
-  .edu-logo:hover img{ transform: scale(calc(var(--zoom,1) * 1.06)); }
+  <!-- CUHK(SZ) -->
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo" style="--zoom:1.18;">
+        <img src="https://images.seeklogo.com/logo-png/45/2/the-chinese-university-of-hong-kong-logo-png_seeklogo-456292.png" alt="CUHK Shenzhen">
+      </div>
+      <div class="edu-date">2020–24</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>
+      <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
+      <div class="edu-location">Shenzhen, China</div>
+    </div>
+  </div>
 
-  .edu-date{
-    margin-top:6px;
-    font-size:.82rem;
-    color:#6b7280;
-    font-style:italic;
-    line-height:1;
-    text-align:center;
-    padding: 2px 4px;               /* 给日期一点“呼吸感”，避免看起来紧贴竖线 */
-  }
-
-  /* 右列文字 */
-  .edu-degree{font-weight:700;font-size:1.05rem;margin-bottom:4px}
-  .edu-school{color:#333;margin-bottom:2px}
-  .edu-location{color:#555;font-size:.9rem;font-style:italic}
-
-  /* 移动端微调 */
-  @media (max-width:640px){
-    .edu-timeline{ --gutter: 88px; }
-    .edu-logo{ width:48px; height:48px; }
-  }
-</style>
-
+  <!-- TU Darmstadt -->
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo" style="--zoom:1.35;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="TU Darmstadt">
+      </div>
+      <div class="edu-date">2023</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">Exchange Program, Mathematics</div>
+      <div class="edu-school">Technical University of Darmstadt</div>
+      <div class="edu-location">Darmstadt, Germany</div>
+    </div>
+  </div>
+</div>
 
 
 <hr>

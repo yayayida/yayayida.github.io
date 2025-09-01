@@ -143,121 +143,135 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 
 # Awards
 <ul class="awards-list">
-  <li>Institute Superior Tecnico (IST) 2025 *Research Assistant Scholarship*</li>
-  <li>European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 *Merit Scholarship*</li>
-  <li>CUHK(SZ) 2021, 2022, 2023 *Shaw College Accomplishment Scholarship*</li>
+  <li>Institute Superior Tecnico (IST) 2025 <em>Research Assistant Scholarship</em></li>
+  <li>European Institute of Innovation and Technology (EIT) Urban Mobility Master School 2024 <em>Merit Scholarship</em></li>
+  <li>CUHK(SZ) 2021, 2022, 2023 <em>Shaw College Accomplishment Scholarship</em></li>
 </ul>
 
 # Education
 
+<div class="edu-timeline">
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo">
+        <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH">
+      </div>
+      <div class="edu-date">2024–</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
+      <div class="edu-school">KTH Royal Institute of Technology</div>
+      <div class="edu-location">Stockholm, Sweden</div>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo">
+        <img src="https://brand.northeastern.edu/wp-content/uploads/2025/01/seal-black.svg" alt="Northeastern University">
+      </div>
+      <div class="edu-date">2025</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
+      <div class="edu-school">Northeastern University</div>
+      <div class="edu-location">Boston, USA</div>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ULisboa_logo.svg/406px-ULisboa_logo.svg.png" alt="IST">
+      </div>
+      <div class="edu-date">2024–25</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">EIT MSc Dual Degree Program, Transportation Systems</div>
+      <div class="edu-school">Instituto Superior Técnico</div>
+      <div class="edu-location">Lisbon, Portugal</div>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo">
+        <img src="https://images.seeklogo.com/logo-png/45/2/the-chinese-university-of-hong-kong-logo-png_seeklogo-456292.png" alt="CUHK Shenzhen">
+      </div>
+      <div class="edu-date">2020–24</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>
+      <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
+      <div class="edu-location">Shenzhen, China</div>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-left">
+      <div class="edu-logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="TU Darmstadt">
+      </div>
+      <div class="edu-date">2023</div>
+    </div>
+    <div class="edu-right">
+      <div class="edu-degree">Exchange Program, Mathematics</div>
+      <div class="edu-school">Technical University of Darmstadt</div>
+      <div class="edu-location">Darmstadt, Germany</div>
+    </div>
+  </div>
+</div>
+
 <style>
-  .edu-timeline {
-    margin: 20px 0;
-    padding-left: 90px; /* 預留給 Logo + 日期 */
-    border-left: 3px solid #fbbf24; /* 金黃色竪線 */
-    position: relative;
+  /* === Timeline 样式（无绝对定位魔法数） === */
+  .edu-timeline{
+    --gutter: 72px;           /* 左列宽度 */
+    --line-x: 32px;           /* 竖线的 x 位置（与左列居中对齐） */
+    margin:20px 0;
+    position:relative;
   }
-  .edu-item {
-    position: relative;
-    margin-bottom: 36px;
+  .edu-timeline::before{
+    content:"";
+    position:absolute;
+    left:var(--line-x);
+    top:0;bottom:0;
+    width:3px;background:#fbbf24;
   }
-  .edu-logo-timeline {
-    position: absolute;
-    left: -70px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease, filter 0.2s ease;
-    flex-direction: column;
-    font-size: 0.7rem;
-    text-align: center;
-    padding: 4px;
+
+  .edu-item{
+    display:grid;
+    grid-template-columns: var(--gutter) 1fr;
+    column-gap:16px;
+    padding-bottom:24px;
+    position:relative;
   }
-  .edu-logo-timeline img {
-    max-width: 36px;  /* 原来是 22-28px，这里改大 */
-    max-height: 36px;
-    object-fit: contain;
+  .edu-item:last-child{padding-bottom:0}
+
+  .edu-left{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:6px;
   }
-  .edu-logo-timeline:hover {
-    transform: scale(1.1);
-    filter: brightness(1.15);
+  .edu-logo{
+    width:50px;height:50px;border-radius:50%;
+    background:#fff;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 2px 6px rgba(0,0,0,.1);
   }
-  .edu-degree {
-    font-weight: 700;
-    font-size: 1.05rem;
-    margin-bottom: 2px;
-  }
-  .edu-school {
-    color: #333;
-    margin-bottom: 2px;
-  }
-  .edu-dates {
-    font-style: italic;
-    color: #555;
-    font-size: 0.85rem;
-    margin-top: 2px;
+  .edu-logo img{max-width:36px;max-height:36px;object-fit:contain}
+  .edu-date{font-size:.8rem;color:#6b7280;font-style:italic}
+
+  .edu-degree{font-weight:700;font-size:1.05rem;margin-bottom:4px}
+  .edu-school{color:#333;margin-bottom:2px}
+  .edu-location{color:#555;font-size:.9rem;font-style:italic}
+
+  /* 移动端优化 */
+  @media (max-width:640px){
+    .edu-timeline{--gutter:56px;--line-x:24px}
+    .edu-logo{width:44px;height:44px}
+    .edu-logo img{max-width:32px;max-height:32px}
   }
 </style>
-
-<div class="edu-timeline">
-
-  <div class="edu-item">
-    <div class="edu-logo-timeline">
-      <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH" title="KTH Royal Institute of Technology">
-      <span>2024–</span>
-    </div>
-    <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
-    <div class="edu-school">KTH Royal Institute of Technology</div>
-    <div class="edu-dates">Stockholm, Sweden</div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-logo-timeline">
-      <img src="https://brand.northeastern.edu/wp-content/uploads/2025/01/seal-black.svg" alt="Northeastern University" title="Northeastern University">
-      <span>2025</span>
-    </div>
-    <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
-    <div class="edu-school">Northeastern University</div>
-    <div class="edu-dates">Boston, USA</div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-logo-timeline">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ULisboa_logo.svg/406px-ULisboa_logo.svg.png" alt="IST" title="Instituto Superior Técnico">
-      <span>2024–25</span>
-    </div>
-    <div class="edu-degree">EIT MSc Dual Degree Program, Transportation Systems</div>
-    <div class="edu-school">Instituto Superior Técnico</div>
-    <div class="edu-dates">Lisbon, Portugal</div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-logo-timeline">
-      <img src="https://images.seeklogo.com/logo-png/45/2/the-chinese-university-of-hong-kong-logo-png_seeklogo-456292.png" alt="CUHK Shenzhen" title="The Chinese University of Hong Kong, Shenzhen">
-      <span>2020–24</span>
-    </div>
-    <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>
-    <div class="edu-school">The Chinese University of Hong Kong, Shenzhen</div>
-    <div class="edu-dates">Shenzhen, China</div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-logo-timeline">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="TU Darmstadt" title="Technical University of Darmstadt">
-      <span>2023</span>
-    </div>
-    <div class="edu-degree">Exchange Program, Mathematics</div>
-    <div class="edu-school">Technical University of Darmstadt</div>
-    <div class="edu-dates">Darmstadt, Germany</div>
-  </div>
-
-</div>
 
 
 

@@ -132,7 +132,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 ### Ongoing Works
 <div class="research-list">
   <div class="research-item">
-    <div class="research-title">Automation Transparency and Adaptive Design Paradigms for Maritime Autonomous Surface Ships</div>
+    <div class="research-title">Transparency in Maritime Autonomous Surface Ships (MASS): Explainable Decision Support and Adaptive Human–Machine Interfaces for Trustworthy Collaboration</div>
     <div class="research-authors"><strong>Zhuoyue Zhang</strong>, Haitong Xu, Carlos Guedes Soares.</div>
   </div>
 

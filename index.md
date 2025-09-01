@@ -152,13 +152,12 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 # Education
 <!-- ============ Education ============ -->
 <section class="edu-section" id="education">
-  <h2>Education</h2>
 
   <div class="edu-timeline">
     <!-- 1) KTH -->
     <div class="edu-item">
       <div class="edu-left">
-        <div class="edu-date">2024–</div>
+        <div class="edu-date">2024–26</div>
         <div class="edu-logo" style="--zoom:1.08;">
           <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH Royal Institute of Technology">
         </div>

@@ -121,61 +121,7 @@ title: "Zhuoyue Zhang"
   content: "🏆 ";
 }
 </style>
-/* Education timeline */
-  .edu-timeline{
-    --gutter: 100px;                 /* 左列宽度（Logo+日期） */
-    --line-x: calc(var(--gutter)/2); /* 竖线位于左列中线 */
-    position: relative;
-    margin: 20px 0;
-  }
-  .edu-timeline::before{
-    content:"";
-    position:absolute;
-    left: calc(var(--line-x) - 1.5px);
-    top:0; bottom:0;
-    width:3px; background:#fbbf24;
-    z-index:0;                        /* 竖线在最底层 */
-  }
 
-  .edu-item{
-    display:grid;
-    grid-template-columns: var(--gutter) 1fr;
-    column-gap:18px;
-    padding:18px 0;
-    position:relative;
-  }
-
-  .edu-left{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    z-index:1;                        /* 圆标在竖线上层 */
-  }
-  .edu-logo{
-    width:56px;height:56px;border-radius:50%;overflow:hidden;background:#fff;
-    box-shadow:0 2px 6px rgba(0,0,0,.08);
-    display:flex;align-items:center;justify-content:center;
-  }
-  .edu-logo img{
-    width:100%;height:100%;object-fit:contain;
-    transform: scale(var(--zoom,1)); transition: transform .2s ease;
-  }
-  .edu-logo:hover img{ transform: scale(calc(var(--zoom,1) * 1.06)); }
-
-  .edu-date{
-    margin-top:6px;font-size:.82rem;color:#6b7280;font-style:italic;line-height:1;text-align:center;
-    padding:2px 4px;
-  }
-
-  .edu-degree{font-weight:700;font-size:1.05rem;margin-bottom:4px}
-  .edu-school{color:#333;margin-bottom:2px}
-  .edu-location{color:#555;font-size:.9rem;font-style:italic}
-
-  @media (max-width:640px){
-    .edu-timeline{ --gutter: 88px; }
-    .edu-logo{ width:48px; height:48px; }
-  }
-</style>
 # About me
 I am an MSc student in the **Department of Civil and Architecture Engineering** at **KTH Royal Institute of Technology**, enrolled in a dual-degree program that included my first year at **Instituto Superior Técnico** in Lisbon. I am passionate about understanding and predicting human mobility behavior in the context of transportation systems and the geographic social environment. My research integrates reinforcement learning, urban informatics, and geographic modeling and simulation to uncover patterns of movement and decision-making.  
 
@@ -280,7 +226,61 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     </div>
   </div>
 </div>
+/* Education timeline */
+  .edu-timeline{
+    --gutter: 100px;                 /* 左列宽度（Logo+日期） */
+    --line-x: calc(var(--gutter)/2); /* 竖线位于左列中线 */
+    position: relative;
+    margin: 20px 0;
+  }
+  .edu-timeline::before{
+    content:"";
+    position:absolute;
+    left: calc(var(--line-x) - 1.5px);
+    top:0; bottom:0;
+    width:3px; background:#fbbf24;
+    z-index:0;                        /* 竖线在最底层 */
+  }
 
+  .edu-item{
+    display:grid;
+    grid-template-columns: var(--gutter) 1fr;
+    column-gap:18px;
+    padding:18px 0;
+    position:relative;
+  }
+
+  .edu-left{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    z-index:1;                        /* 圆标在竖线上层 */
+  }
+  .edu-logo{
+    width:56px;height:56px;border-radius:50%;overflow:hidden;background:#fff;
+    box-shadow:0 2px 6px rgba(0,0,0,.08);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .edu-logo img{
+    width:100%;height:100%;object-fit:contain;
+    transform: scale(var(--zoom,1)); transition: transform .2s ease;
+  }
+  .edu-logo:hover img{ transform: scale(calc(var(--zoom,1) * 1.06)); }
+
+  .edu-date{
+    margin-top:6px;font-size:.82rem;color:#6b7280;font-style:italic;line-height:1;text-align:center;
+    padding:2px 4px;
+  }
+
+  .edu-degree{font-weight:700;font-size:1.05rem;margin-bottom:4px}
+  .edu-school{color:#333;margin-bottom:2px}
+  .edu-location{color:#555;font-size:.9rem;font-style:italic}
+
+  @media (max-width:640px){
+    .edu-timeline{ --gutter: 88px; }
+    .edu-logo{ width:48px; height:48px; }
+  }
+</style>
 
 <hr>
 <div class="small">Last updated: August 27, 2025</div>

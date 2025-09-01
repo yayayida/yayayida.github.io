@@ -155,14 +155,13 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
   <h2>Education</h2>
 
   <div class="edu-timeline">
-
     <!-- 1) KTH -->
     <div class="edu-item">
       <div class="edu-left">
-        <div class="edu-logo" style="--zoom:1.05;">
-          <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH Royal Institute of Technology logo">
-        </div>
         <div class="edu-date">2024–</div>
+        <div class="edu-logo" style="--zoom:1.05;">
+          <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH Royal Institute of Technology">
+        </div>
       </div>
       <div class="edu-right">
         <div class="edu-degree">MSc, Transportation &amp; Mobility Management</div>
@@ -174,10 +173,10 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <!-- 2) Northeastern -->
     <div class="edu-item">
       <div class="edu-left">
-        <div class="edu-logo" style="--zoom:1.15;">
-          <img src="https://brand.northeastern.edu/wp-content/uploads/2025/01/seal-black.svg" alt="Northeastern University seal">
-        </div>
         <div class="edu-date">2025</div>
+        <div class="edu-logo" style="--zoom:1.15;">
+          <img src="https://brand.northeastern.edu/wp-content/uploads/2025/01/seal-black.svg" alt="Northeastern University">
+        </div>
       </div>
       <div class="edu-right">
         <div class="edu-degree">Visiting Student, Civil and Environmental Engineering</div>
@@ -189,10 +188,10 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <!-- 3) IST (EIT) -->
     <div class="edu-item">
       <div class="edu-left">
-        <div class="edu-logo" style="--zoom:1.10;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ULisboa_logo.svg/406px-ULisboa_logo.svg.png" alt="Instituto Superior Técnico logo">
-        </div>
         <div class="edu-date">2024–25</div>
+        <div class="edu-logo" style="--zoom:1.10;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ULisboa_logo.svg/406px-ULisboa_logo.svg.png" alt="Instituto Superior Técnico">
+        </div>
       </div>
       <div class="edu-right">
         <div class="edu-degree">EIT MSc Dual Degree Program, Transportation Systems</div>
@@ -204,10 +203,10 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <!-- 4) CUHK(SZ) -->
     <div class="edu-item">
       <div class="edu-left">
-        <div class="edu-logo" style="--zoom:1.18;">
-          <img src="https://images.seeklogo.com/logo-png/45/2/the-chinese-university-of-hong-kong-logo-png_seeklogo-456292.png" alt="CUHK Shenzhen logo">
-        </div>
         <div class="edu-date">2020–24</div>
+        <div class="edu-logo" style="--zoom:1.18;">
+          <img src="https://images.seeklogo.com/logo-png/45/2/the-chinese-university-of-hong-kong-logo-png_seeklogo-456292.png" alt="CUHK Shenzhen">
+        </div>
       </div>
       <div class="edu-right">
         <div class="edu-degree">BSc, Mathematics &amp; Applied Mathematics</div>
@@ -219,10 +218,10 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <!-- 5) TU Darmstadt -->
     <div class="edu-item">
       <div class="edu-left">
-        <div class="edu-logo" style="--zoom:1.35;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="Technical University of Darmstadt logo">
-        </div>
         <div class="edu-date">2023</div>
+        <div class="edu-logo" style="--zoom:1.35;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="Technical University of Darmstadt">
+        </div>
       </div>
       <div class="edu-right">
         <div class="edu-degree">Exchange Program, Mathematics</div>
@@ -230,50 +229,68 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
         <div class="edu-location">Darmstadt, Germany</div>
       </div>
     </div>
-
   </div>
 </section>
 
 <style>
-/* ===== Scoped styles for Education ===== */
+/* ===== Education (日期在左、圆形在右) ===== */
 .edu-section{ margin: 0 0 24px; }
 .edu-section h2{ margin: 0 0 14px; }
 
-/* Timeline container & vertical line */
+/* 布局变量 */
 .edu-timeline{
-  --left-col: 88px;        /* 左列（Logo+日期）宽度 */
-  --line-w: 3px;
-  --line-color: #fbbf24;
+  --line-w: 3px;            /* 竖线粗细 */
+  --line-color: #fbbf24;    /* 竖线颜色 */
+  --logo-size: 56px;        /* 圆形直径 */
+  --date-col: 64px;         /* 日期列宽（调这个即可更靠左/右） */
+  --gap: 12px;              /* 日期与圆形间距 */
+  --left-col: calc(var(--date-col) + var(--gap) + var(--logo-size)); /* 左栏总宽 */
   position: relative;
 }
+
+/* 竖线：位于“日期列 + 间距 + 圆形中心” */
 .edu-timeline::before{
   content:"";
   position:absolute;
-  left: calc(var(--left-col)/2 - var(--line-w)/2);
+  left: calc(var(--date-col) + var(--gap) + var(--logo-size)/2 - var(--line-w)/2);
   top:0; bottom:0;
   width: var(--line-w);
   background: var(--line-color);
-  z-index: 0;              /* 竖线在底层 */
+  z-index: 0;
 }
 
-/* 每条 item */
+/* 每条记录：左栏(日期+圆形) | 右栏(文字) */
 .edu-item{
   display: grid;
   grid-template-columns: var(--left-col) 1fr;
   column-gap: 18px;
   padding: 18px 0;
-  position: relative;
 }
 
-/* 左列：圆形 Logo + 日期 */
+/* 左栏拆为两列：日期 | 圆形 */
 .edu-left{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: var(--date-col) var(--logo-size);
+  column-gap: var(--gap);
   align-items: center;
-  z-index: 1;              /* 保证在竖线之上 */
+  justify-items: center;
+  z-index: 1; /* 保证在竖线上方 */
 }
+
+/* 日期样式（靠右对齐） */
+.edu-date{
+  margin: 0;
+  text-align: right;
+  font-size: .82rem;
+  color: #6b7280;
+  font-style: italic;
+  line-height: 1;
+}
+
+/* 圆形 Logo */
 .edu-logo{
-  width: 56px; height: 56px;
+  width: var(--logo-size);
+  height: var(--logo-size);
   border-radius: 50%;
   overflow: hidden;
   background: #fff;
@@ -288,25 +305,16 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 }
 .edu-logo:hover img{ transform: scale(calc(var(--zoom,1) * 1.06)); }
 
-.edu-date{
-  margin-top: 6px;
-  font-size: .82rem;
-  color: #6b7280;
-  font-style: italic;
-  line-height: 1;
-  text-align: center;
-}
-
-/* 右列文字 */
+/* 右栏文字 */
 .edu-degree{ font-weight: 700; font-size: 1.05rem; margin-bottom: 4px; }
 .edu-school{ color: #333; margin-bottom: 2px; }
 .edu-location{ color: #555; font-size: .9rem; font-style: italic; }
 
 /* 移动端 */
 @media (max-width:640px){
-  .edu-timeline{ --left-col: 72px; }
-  .edu-logo{ width: 48px; height: 48px; }
+  .edu-timeline{ --logo-size:48px; --date-col:56px; }
 }
 </style>
+
 <hr>
 <div class="small">Last updated: August 27, 2025</div>

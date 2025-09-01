@@ -69,6 +69,19 @@ title: "Zhuoyue Zhang"
   <a href="#awards">Awards</a>
   <a href="#education">Education</a>
 </div>
+<div class="edu-left">
+  <div class="edu-logo" style="--zoom:1.05;">
+    <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH">
+  </div>
+  <div class="edu-date">2024–</div>
+</div>
+<div class="edu-left">
+  <div class="edu-logo" style="--zoom:1.35;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TU_Darmstadt_Logo.svg/1599px-TU_Darmstadt_Logo.svg.png" alt="TU Darmstadt">
+  </div>
+  <div class="edu-date">2023</div>
+</div>
+
 <style>
 /* Research 卡片 */
 .research-list {

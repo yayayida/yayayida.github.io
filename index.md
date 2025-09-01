@@ -159,7 +159,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <div class="edu-item">
       <div class="edu-left">
         <div class="edu-date">2024–</div>
-        <div class="edu-logo" style="--zoom:1.05;">
+        <div class="edu-logo" style="--zoom:1.08;">
           <img src="https://cdn.brandfetch.io/idCCf1QEQj/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="KTH Royal Institute of Technology">
         </div>
       </div>
@@ -189,7 +189,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <div class="edu-item">
       <div class="edu-left">
         <div class="edu-date">2024–25</div>
-        <div class="edu-logo" style="--zoom:1.10;">
+        <div class="edu-logo" style="--zoom:1.08;">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ULisboa_logo.svg/406px-ULisboa_logo.svg.png" alt="Instituto Superior Técnico">
         </div>
       </div>
@@ -219,7 +219,7 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <div class="edu-item">
       <div class="edu-left">
         <div class="edu-date">2023</div>
-        <div class="edu-logo" style="--zoom:1.18;">
+        <div class="edu-logo" style="--zoom:1.08;">
           <img src="https://upload.wikimedia.org/wikipedia/de/thumb/d/d2/TU_Darmstadt_Athene.svg/648px-TU_Darmstadt_Athene.svg.png" alt="Technical University of Darmstadt">
         </div>
       </div>

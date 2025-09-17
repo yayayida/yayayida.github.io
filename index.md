@@ -6,7 +6,7 @@ title: "Zhuoyue Zhang"
 <div style="display:flex; align-items:center; gap:30px; background:#fefcf7; padding:20px; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,0.05);">
 
   <!-- 左边头像 -->
-  <img src="/assets/img/IMG_8109.jpeg" alt="Zhuoyue Zhang" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.12);">
+  <img src="/assets/img/IMG_8109.JPG" alt="Zhuoyue Zhang" width="180" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.12);">
 
   <!-- 右边文字 -->
   <div>

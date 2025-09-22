@@ -132,9 +132,14 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
 ### Ongoing Works
 <div class="research-list">
   <div class="research-item">
-    <div class="research-title">Transparency in Maritime Autonomous Surface Ships (MASS): Explainable Decision Support and Adaptive Human–Machine Interfaces for Trustworthy Collaboration</div>
-    <div class="research-authors"><strong>Zhuoyue Zhang</strong>, Haitong Xu, Carlos Guedes Soares.</div>
+    <div class="research-title">
+      Explainable AI for Maritime Autonomous Surface Ships (MASS): Adaptive Interfaces and Trustworthy Human-AI Collaboration
+      <a href="https://doi.org/10.48550/arXiv.2509.15959"
+         target="_blank" rel="noopener noreferrer">[paper]</a>
+    </div>
+    <div class="research-authors"><strong>Zhuoyue Zhang</strong>, Haitong Xu.</div>
   </div>
+</div>
 
   <div class="research-item">
     <div class="research-title">A Cognition-Enhanced Urban-EPR Framework for Prediction and Interpretation under Age Heterogeneity</div>

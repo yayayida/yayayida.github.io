@@ -145,7 +145,6 @@ I worked as a research assistant at <a href="http://www.centec.tecnico.ulisboa.p
     <div class="research-title">A Cognition-Enhanced Urban-EPR Framework for Prediction and Interpretation under Age Heterogeneity</div>
     <div class="research-authors"><strong>Zhuoyue Zhang</strong>, Qi Ryan Wang.</div>
   </div>
-</div>
 
 # Awards
 <ul class="awards-list">

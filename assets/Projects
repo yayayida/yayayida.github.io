@@ -1,0 +1,36 @@
+## Research Projects
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;align-items:start;">
+  <!-- Project 1 -->
+  <figure style="margin:0;">
+    <a href="assets/projects/elderly-hub.jpg">
+      <img src="assets/projects/elderly-hub.jpg" alt="Elderly Care Mobility Hub" style="width:100%;height:180px;object-fit:cover;border-radius:12px;">
+    </a>
+    <figcaption style="margin-top:8px;font-size:0.95rem;color:#555;">
+      <strong>Elderly Care Mobility Hub</strong> — Söderhamn (2024)<br>
+      Demand-driven community transport model reducing isolation and pooling rides.
+      <!-- 如果有项目链接就放下面这一行 -->
+      <!-- <a href="projects/elderly-hub.html">Read more →</a> -->
+    </figcaption>
+  </figure>
+
+  <!-- Project 2 -->
+  <figure style="margin:0;">
+    <a href="assets/projects/nemi-integration.png">
+      <img src="assets/projects/nemi-integration.png" alt="NEMI Integration with Community Rides" style="width:100%;height:180px;object-fit:cover;border-radius:12px;">
+    </a>
+    <figcaption style="margin-top:8px;font-size:0.95rem;color:#555;">
+      <strong>NEMI × Community Rides</strong> — Service design for flexible public mobility.
+    </figcaption>
+  </figure>
+
+  <!-- Project 3 -->
+  <figure style="margin:0;">
+    <a href="assets/projects/interaction-mobility-hub.jpg">
+      <img src="assets/projects/interaction-mobility-hub.jpg" alt="Interaction Mobility Hub" style="width:100%;height:180px;object-fit:cover;border-radius:12px;">
+    </a>
+    <figcaption style="margin-top:8px;font-size:0.95rem;color:#555;">
+      <strong>Interaction Mobility Hub</strong> — Social-connected hub to reduce loneliness via shared trips.
+    </figcaption>
+  </figure>
+</div>

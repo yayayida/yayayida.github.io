@@ -27,35 +27,26 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
     </div>
   </div>
 
-  <div class="hero__visual" aria-label="Academic cities and portrait">
+  <div class="hero__visual" aria-label="Portrait and profile notes">
     <figure class="portrait-card">
       <img src="{{ '/assets/img/IMG_8109.JPG' | relative_url }}" alt="Zhuoyue Zhang portrait in a bookshop" loading="eager">
       <figcaption>
-        <strong>Urban mobility researcher</strong>
-        <span>Stockholm · Lisbon · Boston · Shenzhen</span>
+        <strong>MSc student exploring cities, movement, and AI</strong>
+        <span>Currently based in Stockholm</span>
       </figcaption>
     </figure>
 
-    <div class="hero-map" aria-label="Academic cities map">
-      <svg viewBox="0 0 520 520" role="img" aria-label="Abstract map connecting Shenzhen, Darmstadt, Lisbon, Boston, and Stockholm">
-        <path class="map-route" d="M108 382 C178 300, 185 254, 247 278 S341 324, 398 218 S428 142, 370 86" />
-        <path class="map-route map-route--soft" d="M92 405 C180 395, 260 414, 314 356 S382 236, 454 198" />
-        <path class="map-route map-route--soft" d="M140 126 C220 178, 238 234, 300 236 S410 250, 456 310" />
-        <circle class="map-point" tabindex="0" data-city="Shenzhen" data-note="BSc, Mathematics & Applied Mathematics, CUHK(SZ)" data-x="20" data-y="74" cx="108" cy="382" r="7" />
-        <circle class="map-point" tabindex="0" data-city="Darmstadt" data-note="Exchange Program in Mathematics, 2023" data-x="47" data-y="55" cx="247" cy="278" r="7" />
-        <circle class="map-point" tabindex="0" data-city="Lisbon" data-note="EIT MSc dual-degree year and CENTEC research assistantship" data-x="77" data-y="42" cx="398" cy="218" r="7" />
-        <circle class="map-point" tabindex="0" data-city="Boston" data-note="Visiting student, Ryan Wang Lab, Northeastern University" data-x="89" data-y="38" cx="454" cy="198" r="7" />
-        <circle class="map-point" tabindex="0" data-city="Stockholm" data-note="MSc student at KTH Royal Institute of Technology" data-x="71" data-y="17" cx="370" cy="86" r="7" />
-      </svg>
-      <div class="map-label" data-map-label></div>
-    </div>
-
-    <div class="city-path" aria-label="Academic path">
-      <span>Shenzhen</span>
-      <span>Darmstadt</span>
-      <span>Lisbon</span>
-      <span>Boston</span>
-      <span>Stockholm</span>
+    <div class="profile-notes" aria-label="Profile notes">
+      <div>
+        <span class="note-kicker">Current</span>
+        <strong>KTH Royal Institute of Technology</strong>
+        <p>Transportation and mobility management, with a focus on interpretable urban models.</p>
+      </div>
+      <div>
+        <span class="note-kicker">Places</span>
+        <strong>Stockholm · Lisbon · Boston · Shenzhen</strong>
+        <p>A path shaped by cities, movement data, and questions about how people navigate urban life.</p>
+      </div>
     </div>
   </div>
 </section>

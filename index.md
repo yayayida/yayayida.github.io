@@ -29,7 +29,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
 
   <div class="hero__visual" aria-label="Academic cities and portrait">
     <figure class="portrait-card">
-      <img src="{{ '/assets/img/profile_church_crop_wide.jpg' | relative_url }}" alt="Zhuoyue Zhang portrait" loading="eager">
+      <img src="{{ '/assets/img/IMG_8109.JPG' | relative_url }}" alt="Zhuoyue Zhang portrait in a bookshop" loading="eager">
       <figcaption>
         <strong>Urban mobility researcher</strong>
         <span>Stockholm · Lisbon · Boston · Shenzhen</span>

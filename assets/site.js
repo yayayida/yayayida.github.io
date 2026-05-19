@@ -25,7 +25,30 @@ if (mapPoints.length && mapLabel) {
   activateCity(mapPoints[0]);
 }
 
-const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city");
+const journeyPins = document.querySelectorAll("[data-place]");
+const journeyCards = document.querySelectorAll("[data-place-card]");
+
+if (journeyPins.length && journeyCards.length) {
+  const setActivePlace = (place) => {
+    journeyPins.forEach((pin) => pin.classList.toggle("is-active", pin.dataset.place === place));
+    journeyCards.forEach((card) => card.classList.toggle("is-active", card.dataset.placeCard === place));
+  };
+
+  journeyPins.forEach((pin) => {
+    pin.addEventListener("mouseenter", () => setActivePlace(pin.dataset.place));
+    pin.addEventListener("focus", () => setActivePlace(pin.dataset.place));
+    pin.addEventListener("click", () => setActivePlace(pin.dataset.place));
+  });
+
+  journeyCards.forEach((card) => {
+    card.addEventListener("mouseenter", () => setActivePlace(card.dataset.placeCard));
+    card.addEventListener("focusin", () => setActivePlace(card.dataset.placeCard));
+  });
+
+  setActivePlace(journeyPins[0].dataset.place);
+}
+
+const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city, .journey-card");
 
 if ("IntersectionObserver" in window) {
   revealItems.forEach((item) => item.classList.add("reveal"));

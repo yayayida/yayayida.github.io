@@ -4,11 +4,11 @@ title: "Zhuoyue Zhang"
 description: "MSc student at KTH working on urban mobility, geographic modeling, and human-AI systems."
 ---
 
-<section class="hero">
+<section class="hero hero--home">
   <div class="hero__copy">
     <p class="eyebrow">MSc Student · KTH Royal Institute of Technology</p>
     <h1>Zhuoyue Zhang</h1>
-    <p class="hero__subtitle">Geographic modeling, urban mobility, and human-AI systems.</p>
+    <p class="hero__subtitle">I study how people move through cities, and how geographic models and human-AI systems can make urban decisions more interpretable.</p>
     <div class="hero__meta">
       <span>Department of Civil and Architectural Engineering, KTH</span>
       <span>Stockholm, Sweden</span>
@@ -27,18 +27,36 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
     </div>
   </div>
 
-  <div class="hero-map" aria-label="Academic cities map">
-    <svg viewBox="0 0 520 520" role="img" aria-label="Abstract map connecting Shenzhen, Darmstadt, Lisbon, Boston, and Stockholm">
-      <path class="map-route" d="M108 382 C178 300, 185 254, 247 278 S341 324, 398 218 S428 142, 370 86" />
-      <path class="map-route map-route--soft" d="M92 405 C180 395, 260 414, 314 356 S382 236, 454 198" />
-      <path class="map-route map-route--soft" d="M140 126 C220 178, 238 234, 300 236 S410 250, 456 310" />
-      <circle class="map-point" tabindex="0" data-city="Shenzhen" data-note="BSc, Mathematics & Applied Mathematics, CUHK(SZ)" data-x="20" data-y="74" cx="108" cy="382" r="7" />
-      <circle class="map-point" tabindex="0" data-city="Darmstadt" data-note="Exchange Program in Mathematics, 2023" data-x="47" data-y="55" cx="247" cy="278" r="7" />
-      <circle class="map-point" tabindex="0" data-city="Lisbon" data-note="EIT MSc dual-degree year and CENTEC research assistantship" data-x="77" data-y="42" cx="398" cy="218" r="7" />
-      <circle class="map-point" tabindex="0" data-city="Boston" data-note="Visiting student, Ryan Wang Lab, Northeastern University" data-x="89" data-y="38" cx="454" cy="198" r="7" />
-      <circle class="map-point" tabindex="0" data-city="Stockholm" data-note="MSc student at KTH Royal Institute of Technology" data-x="71" data-y="17" cx="370" cy="86" r="7" />
-    </svg>
-    <div class="map-label" data-map-label></div>
+  <div class="hero__visual" aria-label="Academic cities and portrait">
+    <figure class="portrait-card">
+      <img src="{{ '/assets/img/profile_church_crop_wide.jpg' | relative_url }}" alt="Zhuoyue Zhang portrait" loading="eager">
+      <figcaption>
+        <strong>Urban mobility researcher</strong>
+        <span>Stockholm · Lisbon · Boston · Shenzhen</span>
+      </figcaption>
+    </figure>
+
+    <div class="hero-map" aria-label="Academic cities map">
+      <svg viewBox="0 0 520 520" role="img" aria-label="Abstract map connecting Shenzhen, Darmstadt, Lisbon, Boston, and Stockholm">
+        <path class="map-route" d="M108 382 C178 300, 185 254, 247 278 S341 324, 398 218 S428 142, 370 86" />
+        <path class="map-route map-route--soft" d="M92 405 C180 395, 260 414, 314 356 S382 236, 454 198" />
+        <path class="map-route map-route--soft" d="M140 126 C220 178, 238 234, 300 236 S410 250, 456 310" />
+        <circle class="map-point" tabindex="0" data-city="Shenzhen" data-note="BSc, Mathematics & Applied Mathematics, CUHK(SZ)" data-x="20" data-y="74" cx="108" cy="382" r="7" />
+        <circle class="map-point" tabindex="0" data-city="Darmstadt" data-note="Exchange Program in Mathematics, 2023" data-x="47" data-y="55" cx="247" cy="278" r="7" />
+        <circle class="map-point" tabindex="0" data-city="Lisbon" data-note="EIT MSc dual-degree year and CENTEC research assistantship" data-x="77" data-y="42" cx="398" cy="218" r="7" />
+        <circle class="map-point" tabindex="0" data-city="Boston" data-note="Visiting student, Ryan Wang Lab, Northeastern University" data-x="89" data-y="38" cx="454" cy="198" r="7" />
+        <circle class="map-point" tabindex="0" data-city="Stockholm" data-note="MSc student at KTH Royal Institute of Technology" data-x="71" data-y="17" cx="370" cy="86" r="7" />
+      </svg>
+      <div class="map-label" data-map-label></div>
+    </div>
+
+    <div class="city-path" aria-label="Academic path">
+      <span>Shenzhen</span>
+      <span>Darmstadt</span>
+      <span>Lisbon</span>
+      <span>Boston</span>
+      <span>Stockholm</span>
+    </div>
   </div>
 </section>
 
@@ -66,67 +84,48 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
   </div>
 </section>
 
-<section class="section">
+<section class="section section--featured">
   <div class="section-head">
     <div>
-      <p class="eyebrow">Selected Research</p>
-      <h2>Current Work</h2>
+      <p class="eyebrow">Featured Work</p>
+      <h2>Research in Motion</h2>
     </div>
-    <p>A concise view of papers and ongoing research. The full research page keeps additional context and updates.</p>
+    <p>Selected work across urban mobility, human-AI collaboration, and spatial planning. Each project sits at the intersection of models, places, and decisions.</p>
   </div>
-  <div class="grid-2">
-    <article class="research-card">
-      <span class="research-card__type">Preprint</span>
-      <h3>Explainable AI for Maritime Autonomous Surface Ships (MASS): Adaptive Interfaces and Trustworthy Human-AI Collaboration</h3>
-      <div class="research-card__authors">Zhuoyue Zhang, Haitong Xu, Carlos Guedes Soares.</div>
-      <a href="https://doi.org/10.48550/arXiv.2509.15959" target="_blank" rel="noopener">Read preprint</a>
-    </article>
-    <article class="research-card">
-      <span class="research-card__type">Ongoing</span>
-      <h3>Recency-Weighted Memory for Urban EPR: Predictive and Interpretable Modeling Across Age Groups</h3>
-      <div class="research-card__authors">Zhuoyue Zhang, Qi Ryan Wang, Zhenliang Ma.</div>
-      <a href="{{ '/rwm-epr/' | relative_url }}">View project notes</a>
-    </article>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head">
-    <div>
-      <p class="eyebrow">Selected Projects</p>
-      <h2>Urban Systems Portfolio</h2>
-    </div>
-    <p>Professional and academic projects are grouped on the projects page; this front page keeps a quiet preview.</p>
-  </div>
-  <div class="project-grid">
-    <a class="project-card" href="{{ '/rwm-epr/' | relative_url }}">
-      <img class="project-card__image" src="{{ '/assets/rwm-epr-waiting-time.png' | relative_url }}" alt="RWM-EPR waiting-time distribution">
-      <div class="project-card__body">
-        <span class="project-card__type">Research</span>
+  <div class="feature-grid">
+    <a class="feature-card feature-card--large" href="{{ '/rwm-epr/' | relative_url }}">
+      <img class="feature-card__image" src="{{ '/assets/rwm-epr-waiting-time.png' | relative_url }}" alt="RWM-EPR waiting-time distribution">
+      <div class="feature-card__body">
+        <span class="project-card__type">Ongoing Research</span>
         <h3>Recency-Weighted Memory EPR Model</h3>
-        <p>Individual-level mobility modeling for intra-urban return behavior.</p>
+        <p>Modeling intra-urban return behavior with interpretable memory mechanisms and age-group heterogeneity.</p>
+        <div class="mini-tags">
+          <span>Human mobility</span>
+          <span>Interpretability</span>
+          <span>Urban EPR</span>
+        </div>
       </div>
     </a>
-    <a class="project-card" href="{{ '/project-4/' | relative_url }}">
-      <img class="project-card__image" src="{{ '/assets/img/Project4.png' | relative_url }}" alt="Lisbon micromobility map">
-      <div class="project-card__body">
-        <span class="project-card__type">Mobility</span>
-        <h3>Mobility Patterns Analysis in Lisboa</h3>
-        <p>Micromobility, accessibility, and first- and last-mile travel choices.</p>
+    <a class="feature-card" href="{{ '/mass-collab/' | relative_url }}">
+      <img class="feature-card__image" src="{{ '/assets/MASS-operation.png' | relative_url }}" alt="MASS operation diagram">
+      <div class="feature-card__body">
+        <span class="project-card__type">Preprint</span>
+        <h3>Human-AI Collaboration in MASS</h3>
+        <p>Adaptive interfaces and trustworthy automation for maritime autonomous surface ships.</p>
       </div>
     </a>
-    <a class="project-card" href="{{ '/urban-expansion-moita/' | relative_url }}">
-      <img class="project-card__image" src="{{ '/assets/Scenario2.png' | relative_url }}" alt="Urban expansion scenario in Moita">
-      <div class="project-card__body">
+    <a class="feature-card" href="{{ '/urban-expansion-moita/' | relative_url }}">
+      <img class="feature-card__image" src="{{ '/assets/Scenario2.png' | relative_url }}" alt="Urban expansion scenario in Moita">
+      <div class="feature-card__body">
         <span class="project-card__type">Urban Planning</span>
         <h3>Urban Expansion Scenario in Moita</h3>
-        <p>Scenario analysis for housing, land use, and urban development.</p>
+        <p>Scenario analysis for housing, land use, and planning decisions.</p>
       </div>
     </a>
   </div>
   <div class="link-row">
     <a class="text-link" href="{{ '/projects/' | relative_url }}">All projects</a>
-    <a class="text-link" href="{{ '/interests/' | relative_url }}">Interests and sketches</a>
+    <a class="text-link" href="{{ '/research/' | relative_url }}">Research page</a>
   </div>
 </section>
 

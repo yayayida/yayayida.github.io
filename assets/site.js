@@ -1,6 +1,11 @@
 const mapPoints = document.querySelectorAll("[data-city]");
 const mapLabel = document.querySelector("[data-map-label]");
 
+document.querySelectorAll("img:not([loading])").forEach((image) => {
+  image.loading = "lazy";
+  image.decoding = "async";
+});
+
 if (mapPoints.length && mapLabel) {
   const activateCity = (point) => {
     mapPoints.forEach((item) => item.classList.remove("is-active"));
@@ -20,7 +25,7 @@ if (mapPoints.length && mapLabel) {
   activateCity(mapPoints[0]);
 }
 
-const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .timeline-item, .note-card, .city");
+const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city");
 
 if ("IntersectionObserver" in window) {
   revealItems.forEach((item) => item.classList.add("reveal"));

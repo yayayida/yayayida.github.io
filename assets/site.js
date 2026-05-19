@@ -30,7 +30,11 @@ const journeyCards = document.querySelectorAll("[data-place-card]");
 
 if (journeyPins.length && journeyCards.length) {
   const setActivePlace = (place) => {
-    journeyPins.forEach((pin) => pin.classList.toggle("is-active", pin.dataset.place === place));
+    journeyPins.forEach((pin) => {
+      const isActive = pin.dataset.place === place;
+      pin.classList.toggle("is-active", isActive);
+      pin.setAttribute("aria-pressed", String(isActive));
+    });
     journeyCards.forEach((card) => card.classList.toggle("is-active", card.dataset.placeCard === place));
   };
 
@@ -48,7 +52,7 @@ if (journeyPins.length && journeyCards.length) {
   setActivePlace("europe");
 }
 
-const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city, .journey-card");
+const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city");
 
 if ("IntersectionObserver" in window) {
   revealItems.forEach((item) => item.classList.add("reveal"));

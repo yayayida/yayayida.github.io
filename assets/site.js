@@ -49,7 +49,7 @@ if (journeyPins.length && journeyCards.length) {
     card.addEventListener("focusin", () => setActivePlace(card.dataset.placeCard));
   });
 
-  setActivePlace("europe");
+  setActivePlace("kth");
 }
 
 const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city");

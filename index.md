@@ -90,57 +90,49 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
     </div>
   </div>
   <div class="journey-map" aria-label="Academic path map">
-    <div class="map-stage" aria-label="Linework map with academic regions">
+    <div class="map-stage" aria-label="Linework map with academic places">
       <img class="academic-map-image" src="{{ '/assets/academic-regions-map.svg' | relative_url }}" alt="Americas, Europe, and Asia linework map">
-      <button class="journey-pin" data-place="america" style="--x: 29%; --y: 35%;" aria-label="North America"><span>1</span></button>
-      <button class="journey-pin" data-place="europe" style="--x: 53%; --y: 27%;" aria-label="Europe"><span>5</span></button>
-      <button class="journey-pin" data-place="asia" style="--x: 79%; --y: 23%;" aria-label="Asia"><span>2</span></button>
+      <button class="journey-pin" data-place="northeastern" style="--x: 30%; --y: 38%;" aria-label="Northeastern University"><span>NEU</span></button>
+      <button class="journey-pin" data-place="ist" style="--x: 49%; --y: 43%;" aria-label="Instituto Superior Tecnico"><span>IST</span></button>
+      <button class="journey-pin" data-place="kth" style="--x: 53%; --y: 28%;" aria-label="KTH Royal Institute of Technology"><span>KTH</span></button>
+      <button class="journey-pin" data-place="darmstadt" style="--x: 53%; --y: 36%;" aria-label="Technical University of Darmstadt"><span>TUD</span></button>
+      <button class="journey-pin" data-place="rtu" style="--x: 56%; --y: 30%;" aria-label="Riga Technical University"><span>RTU</span></button>
+      <button class="journey-pin" data-place="tartu" style="--x: 58%; --y: 27%;" aria-label="University of Tartu"><span>UT</span></button>
+      <button class="journey-pin" data-place="cuhk" style="--x: 75%; --y: 50%;" aria-label="The Chinese University of Hong Kong, Shenzhen"><span>CUHK</span></button>
+      <button class="journey-pin" data-place="pku" style="--x: 77%; --y: 47%;" aria-label="Peking University Shenzhen Graduate School"><span>PKU</span></button>
 
-      <div class="journey-panel" aria-label="School timeline">
-        <div class="journey-region" data-place-card="europe">
-          <span class="journey-region__label">Europe · 5</span>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/kth.svg' | relative_url }}" alt="KTH Royal Institute of Technology logo">
-            <div><strong>KTH Royal Institute of Technology</strong><span>2024-26</span></div>
-          </article>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/ist.svg' | relative_url }}" alt="Instituto Superior Tecnico logo">
-            <div><strong>Instituto Superior Tecnico</strong><span>2024-25</span></div>
-          </article>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/rtu.svg' | relative_url }}" alt="Riga Technical University logo">
-            <div><strong>Riga Technical University</strong><span>Summer School · 2025.8</span></div>
-          </article>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/tartu.svg' | relative_url }}" alt="University of Tartu logo">
-            <div><strong>University of Tartu</strong><span>Summer School · 2025.8</span></div>
-          </article>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/tu-darmstadt.svg' | relative_url }}" alt="Technical University of Darmstadt logo">
-            <div><strong>Technical University of Darmstadt</strong><span>2023</span></div>
-          </article>
-        </div>
-
-        <div class="journey-region" data-place-card="america">
-          <span class="journey-region__label">North America · 1</span>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/northeastern.svg' | relative_url }}" alt="Northeastern University logo">
-            <div><strong>Northeastern University</strong><span>2025</span></div>
-          </article>
-        </div>
-
-        <div class="journey-region" data-place-card="asia">
-          <span class="journey-region__label">Asia · 2</span>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/cuhk.svg' | relative_url }}" alt="The Chinese University of Hong Kong, Shenzhen logo">
-            <div><strong>The Chinese University of Hong Kong, Shenzhen</strong><span>2020-24</span></div>
-          </article>
-          <article class="journey-card">
-            <img src="{{ '/assets/logos/pku.svg' | relative_url }}" alt="Peking University logo">
-            <div><strong>Peking University Shenzhen Graduate School</strong><span>Visiting Student and RA · 2024.7</span></div>
-          </article>
-        </div>
-      </div>
+      <article class="journey-card" data-place-card="kth" style="--card-x: 59%; --card-y: 12%;">
+        <img src="{{ '/assets/logos/kth.svg' | relative_url }}" alt="KTH Royal Institute of Technology logo">
+        <div><strong>KTH Royal Institute of Technology</strong><span>2024-26</span></div>
+      </article>
+      <article class="journey-card" data-place-card="ist" style="--card-x: 39%; --card-y: 47%;">
+        <img src="{{ '/assets/logos/ist.svg' | relative_url }}" alt="Instituto Superior Tecnico logo">
+        <div><strong>Instituto Superior Tecnico</strong><span>2024-25</span></div>
+      </article>
+      <article class="journey-card" data-place-card="rtu" style="--card-x: 60%; --card-y: 34%;">
+        <img src="{{ '/assets/logos/rtu.svg' | relative_url }}" alt="Riga Technical University logo">
+        <div><strong>Riga Technical University</strong><span>Summer School · 2025.8</span></div>
+      </article>
+      <article class="journey-card" data-place-card="tartu" style="--card-x: 61%; --card-y: 18%;">
+        <img src="{{ '/assets/logos/tartu.svg' | relative_url }}" alt="University of Tartu logo">
+        <div><strong>University of Tartu</strong><span>Summer School · 2025.8</span></div>
+      </article>
+      <article class="journey-card" data-place-card="darmstadt" style="--card-x: 56%; --card-y: 42%;">
+        <img src="{{ '/assets/logos/tu-darmstadt.svg' | relative_url }}" alt="Technical University of Darmstadt logo">
+        <div><strong>Technical University of Darmstadt</strong><span>2023</span></div>
+      </article>
+      <article class="journey-card" data-place-card="northeastern" style="--card-x: 17%; --card-y: 41%;">
+        <img src="{{ '/assets/logos/northeastern.svg' | relative_url }}" alt="Northeastern University logo">
+        <div><strong>Northeastern University</strong><span>2025</span></div>
+      </article>
+      <article class="journey-card" data-place-card="cuhk" style="--card-x: 54%; --card-y: 56%;">
+        <img src="{{ '/assets/logos/cuhk.svg' | relative_url }}" alt="The Chinese University of Hong Kong, Shenzhen logo">
+        <div><strong>The Chinese University of Hong Kong, Shenzhen</strong><span>2020-24</span></div>
+      </article>
+      <article class="journey-card" data-place-card="pku" style="--card-x: 54%; --card-y: 40%;">
+        <img src="{{ '/assets/logos/pku.svg' | relative_url }}" alt="Peking University logo">
+        <div><strong>Peking University Shenzhen Graduate School</strong><span>Visiting Student and RA · 2024.7</span></div>
+      </article>
     </div>
   </div>
 </section>

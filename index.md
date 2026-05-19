@@ -6,7 +6,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
 
 <section class="hero hero--home">
   <div class="hero__copy">
-    <p class="eyebrow">KTH · Stockholm</p>
+    <p class="eyebrow">KTH</p>
     <h1>Zhuoyue Zhang</h1>
     <p class="hero__subtitle">Urban mobility · geographic modeling · human-AI systems</p>
     <div class="link-row" aria-label="Profile links">
@@ -20,6 +20,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
   <div class="hero__visual" aria-label="Portrait">
     <figure class="portrait-card">
       <img src="{{ '/assets/img/IMG_8109.JPG' | relative_url }}" alt="Zhuoyue Zhang portrait in a bookshop" loading="eager">
+      <figcaption class="portrait-cities">Stockholm · Lisbon · Boston · Shenzhen · Darmstadt</figcaption>
     </figure>
   </div>
 </section>
@@ -30,7 +31,6 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <p class="eyebrow">Selected Work</p>
       <h2>Projects</h2>
     </div>
-    <p>A quiet selection of research and spatial analysis work.</p>
   </div>
   <div class="feature-grid">
     <a class="feature-card feature-card--large" href="{{ '/rwm-epr/' | relative_url }}">
@@ -75,13 +75,12 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <p class="eyebrow">Path</p>
       <h2>Places</h2>
     </div>
-    <p>Stockholm, Lisbon, Boston, Shenzhen, and Darmstadt.</p>
   </div>
   <div class="city-strip">
-    <div class="city"><strong>Stockholm</strong><span>KTH Royal Institute of Technology · 2024-26</span></div>
-    <div class="city"><strong>Lisbon</strong><span>Instituto Superior Tecnico and CENTEC · 2024-25</span></div>
-    <div class="city"><strong>Boston</strong><span>Northeastern University · 2025</span></div>
-    <div class="city"><strong>Shenzhen</strong><span>CUHK(SZ) · 2020-24</span></div>
-    <div class="city"><strong>Darmstadt</strong><span>Technical University of Darmstadt · 2023</span></div>
+    <div class="city"><span class="school-mark">KTH</span><strong>KTH Royal Institute of Technology</strong><span>2024-26</span></div>
+    <div class="city"><span class="school-mark">IST</span><strong>Instituto Superior Tecnico</strong><span>2024-25</span></div>
+    <div class="city"><span class="school-mark">NU</span><strong>Northeastern University</strong><span>2025</span></div>
+    <div class="city"><span class="school-mark">CUHK</span><strong>The Chinese University of Hong Kong, Shenzhen</strong><span>2020-24</span></div>
+    <div class="city"><span class="school-mark">TUD</span><strong>Technical University of Darmstadt</strong><span>2023</span></div>
   </div>
 </section>

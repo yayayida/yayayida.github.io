@@ -45,7 +45,7 @@ if (journeyPins.length && journeyCards.length) {
     card.addEventListener("focusin", () => setActivePlace(card.dataset.placeCard));
   });
 
-  setActivePlace(journeyPins[0].dataset.place);
+  setActivePlace("europe");
 }
 
 const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city, .journey-card");

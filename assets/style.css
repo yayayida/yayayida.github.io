@@ -803,14 +803,37 @@ h3 {
   background-size: 64px 64px;
 }
 
-.world-map-image {
+.world-map-image,
+.continent-map {
   position: absolute;
   inset: 4% 3%;
   width: 94%;
   height: 92%;
+}
+
+.world-map-image {
   object-fit: contain;
-  opacity: .46;
+  opacity: .32;
   mix-blend-mode: multiply;
+}
+
+.continent-map {
+  overflow: visible;
+}
+
+.continent {
+  fill: rgba(155, 168, 157, .17);
+  stroke: rgba(115, 128, 125, .28);
+  stroke-width: 1.4;
+  vector-effect: non-scaling-stroke;
+}
+
+.continent--europe {
+  fill: rgba(169, 134, 125, .14);
+}
+
+.continent--asia {
+  fill: rgba(142, 151, 146, .16);
 }
 
 .journey-pin {
@@ -818,8 +841,8 @@ h3 {
   left: var(--x);
   top: var(--y);
   display: grid;
-  width: 2rem;
-  height: 2rem;
+  width: 2.15rem;
+  height: 2.15rem;
   place-items: center;
   padding: 0;
   border: 1px solid rgba(169, 134, 125, .58);
@@ -841,7 +864,7 @@ h3 {
 }
 
 .journey-pin span {
-  font-size: .56rem;
+  font-size: .68rem;
   font-weight: 800;
   letter-spacing: .03em;
   line-height: 1;

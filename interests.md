@@ -9,7 +9,6 @@ description: "Personal interests, drawing, and independent explorations by Zhuoy
   <div class="article-hero">
     <p class="eyebrow">Interests</p>
     <h1>Interests</h1>
-    <p class="lead">A quiet space for drawing, visual notes, city observations, and independent questions outside formal research. The structure is ready for image uploads later.</p>
   </div>
 
   <div class="grid-3">
@@ -33,7 +32,6 @@ description: "Personal interests, drawing, and independent explorations by Zhuoy
         <p class="eyebrow">Gallery</p>
         <h2>Coming Soon</h2>
       </div>
-      <p>This placeholder keeps the page designed now, while leaving room for future drawings or visual notes without disrupting the academic homepage.</p>
     </div>
     <div class="interest-placeholder">
       <div>

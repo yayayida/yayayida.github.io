@@ -9,7 +9,6 @@ description: "Academic, professional, and personal projects by Zhuoyue Zhang."
   <div class="article-hero">
     <p class="eyebrow">Projects</p>
     <h1>Projects</h1>
-    <p class="lead">A categorized portfolio of research projects, mobility analysis, urban planning work, and a placeholder for future personal and visual explorations.</p>
   </div>
 
   <div class="section">
@@ -18,7 +17,6 @@ description: "Academic, professional, and personal projects by Zhuoyue Zhang."
         <p class="eyebrow">Research</p>
         <h2>Research Projects</h2>
       </div>
-      <p>Projects tied directly to ongoing research, lab work, or research-oriented writing.</p>
     </div>
     <div class="project-grid">
       <a class="project-card" href="{{ '/rwm-epr/' | relative_url }}">
@@ -54,7 +52,6 @@ description: "Academic, professional, and personal projects by Zhuoyue Zhang."
         <p class="eyebrow">Professional & Course Work</p>
         <h2>Mobility and Transport Analysis</h2>
       </div>
-      <p>Applied analysis projects across Lisbon and surrounding municipalities.</p>
     </div>
     <div class="project-grid">
       <a class="project-card" href="{{ '/project-4/' | relative_url }}">
@@ -90,7 +87,6 @@ description: "Academic, professional, and personal projects by Zhuoyue Zhang."
         <p class="eyebrow">Personal</p>
         <h2>Personal Explorations</h2>
       </div>
-      <p>A future home for non-professional research, drawing, visual notes, and small independent experiments.</p>
     </div>
     <div class="grid-2">
       <article class="note-card">

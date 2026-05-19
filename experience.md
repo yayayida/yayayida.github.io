@@ -9,7 +9,6 @@ description: "Education, research experience, and awards for Zhuoyue Zhang."
   <div class="article-hero">
     <p class="eyebrow">Experience</p>
     <h1>Experience</h1>
-    <p class="lead">Education, research visits, assistantships, and awards across Stockholm, Lisbon, Boston, Shenzhen, and Darmstadt.</p>
   </div>
 
   <div class="section">
@@ -18,9 +17,15 @@ description: "Education, research experience, and awards for Zhuoyue Zhang."
         <p class="eyebrow">Research</p>
         <h2>Research Experience</h2>
       </div>
-      <p>Research roles and collaborations connected to mobility, urban informatics, and trustworthy human-AI systems.</p>
     </div>
     <div class="timeline">
+      <article class="timeline-item">
+        <div class="date">2024.7</div>
+        <div>
+          <h3>Visiting Student and Research Assistant</h3>
+          <p>Peking University Shenzhen Graduate School.</p>
+        </div>
+      </article>
       <article class="timeline-item">
         <div class="date">2025</div>
         <div>
@@ -51,9 +56,15 @@ description: "Education, research experience, and awards for Zhuoyue Zhang."
         <p class="eyebrow">Education</p>
         <h2>Education</h2>
       </div>
-      <p>Formal training across transportation, mobility systems, mathematics, and geographic modeling.</p>
     </div>
     <div class="timeline">
+      <article class="timeline-item">
+        <div class="date">2025.8</div>
+        <div>
+          <h3>Summer School</h3>
+          <p>Riga Technical University and University of Tartu.</p>
+        </div>
+      </article>
       <article class="timeline-item">
         <div class="date">2024-26</div>
         <div>
@@ -91,7 +102,6 @@ description: "Education, research experience, and awards for Zhuoyue Zhang."
         <p class="eyebrow">Awards</p>
         <h2>Awards</h2>
       </div>
-      <p>Selected scholarships and academic recognition.</p>
     </div>
     <div class="grid-3">
       <article class="card">

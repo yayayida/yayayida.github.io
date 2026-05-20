@@ -789,7 +789,7 @@ h3 {
 
 .map-stage {
   position: relative;
-  min-height: 610px;
+  height: clamp(520px, 48vw, 620px);
   overflow: visible;
   border: 0;
   border-radius: 0;
@@ -800,12 +800,12 @@ h3 {
 
 .academic-map-image {
   position: absolute;
-  inset: 5% 2.5%;
-  width: 95%;
-  height: 88%;
-  object-fit: contain;
-  opacity: .92;
-  filter: saturate(.88) contrast(1.04);
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  opacity: .96;
+  filter: saturate(.92) contrast(1.06);
   mix-blend-mode: multiply;
 }
 
@@ -814,13 +814,13 @@ h3 {
   left: var(--x);
   top: var(--y);
   display: grid;
-  width: 1.14rem;
-  height: 1.14rem;
+  width: .86rem;
+  height: .86rem;
   place-items: center;
   padding: 0;
-  border: 1px solid rgba(169, 134, 125, .58);
+  border: 1px solid rgba(92, 82, 76, .54);
   border-radius: 50%;
-  background: rgba(247, 244, 238, .82);
+  background: rgba(247, 244, 238, .86);
   color: var(--ink);
   box-shadow: 0 12px 30px rgba(73, 66, 56, .1);
   cursor: pointer;
@@ -832,8 +832,8 @@ h3 {
 .journey-pin::after {
   content: "";
   position: absolute;
-  inset: -.26rem;
-  border: 1px solid rgba(169, 134, 125, .18);
+  inset: -.2rem;
+  border: 1px solid rgba(169, 134, 125, .2);
   border-radius: inherit;
 }
 
@@ -849,7 +849,7 @@ h3 {
 .journey-pin:focus,
 .journey-pin.is-active {
   border-color: rgba(169, 134, 125, .9);
-  background: var(--warm);
+  background: rgba(169, 134, 125, .92);
   color: #fff;
   outline: 0;
   transform: translate(-50%, -50%) scale(1.08);
@@ -863,13 +863,13 @@ h3 {
   grid-template-columns: 3.45rem minmax(0, 1fr);
   gap: .6rem;
   align-items: center;
-  width: min(292px, 34vw);
+  width: min(300px, 35vw);
   min-height: 3.9rem;
   padding: .58rem .62rem;
   border: 1px solid rgba(221, 217, 208, .74);
   border-radius: 7px;
-  background: rgba(248, 246, 240, .78);
-  box-shadow: 0 16px 42px rgba(73, 66, 56, .12);
+  background: rgba(248, 246, 240, .82);
+  box-shadow: 0 18px 46px rgba(73, 66, 56, .13);
   opacity: 0;
   pointer-events: none;
   transform: translateY(.45rem);
@@ -909,7 +909,7 @@ h3 {
 .journey-card:hover {
   display: grid;
   border-color: rgba(169, 134, 125, .52);
-  background: rgba(248, 246, 240, .9);
+  background: rgba(248, 246, 240, .92);
   opacity: 1;
   pointer-events: none;
   transform: translateY(0);
@@ -1058,13 +1058,13 @@ h3 {
   }
 
   .map-stage {
-    min-height: 620px;
+    height: clamp(480px, 70vw, 620px);
   }
 
   .academic-map-image {
-    inset: 3% 2%;
-    width: 96%;
-    height: 70%;
+    inset: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .journey-card {
@@ -1145,18 +1145,18 @@ h3 {
   }
 
   .map-stage {
-    min-height: 650px;
+    height: 620px;
   }
 
   .academic-map-image {
-    inset: 1.2rem .7rem auto;
-    width: calc(100% - 1.4rem);
-    height: 360px;
+    inset: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .journey-pin {
-    width: 1.1rem;
-    height: 1.1rem;
+    width: .86rem;
+    height: .86rem;
   }
 
   .journey-card {

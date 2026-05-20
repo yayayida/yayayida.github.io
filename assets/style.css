@@ -339,46 +339,6 @@ h3 {
   filter: saturate(.78) contrast(.98);
 }
 
-.hero-glance {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: .8rem;
-  margin-top: -.6rem;
-}
-
-.hero-glance a {
-  padding: .92rem 1rem;
-  border: 1px solid rgba(221, 217, 208, .92);
-  border-radius: 6px;
-  background: rgba(255, 255, 255, .54);
-  color: var(--ink);
-}
-
-.hero-glance a:hover {
-  border-color: var(--line-strong);
-  text-decoration: none;
-  transform: translateY(-1px);
-}
-
-.hero-glance span {
-  display: block;
-  margin-bottom: .28rem;
-  color: var(--warm);
-  font-size: .72rem;
-  font-weight: 800;
-  letter-spacing: .14em;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-.hero-glance strong {
-  display: block;
-  color: var(--ink-soft);
-  font-size: .98rem;
-  line-height: 1.18;
-}
-
 .portrait-cities {
   padding: .82rem 1rem .9rem;
   border-top: 1px solid var(--line);
@@ -784,7 +744,31 @@ h3 {
 }
 
 .journey-map {
+  position: relative;
   display: block;
+}
+
+.section--places {
+  position: relative;
+  isolation: isolate;
+}
+
+.section--places::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  width: min(1120px, 96vw);
+  height: min(520px, 48vw);
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 68% 22%, rgba(203, 215, 218, .28), transparent 34%),
+    radial-gradient(circle at 42% 42%, rgba(216, 190, 194, .22), transparent 36%),
+    radial-gradient(circle at 55% 72%, rgba(205, 213, 200, .2), transparent 40%);
+  filter: blur(12px);
+  opacity: .72;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
 .map-stage {
@@ -804,8 +788,12 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: fill;
-  opacity: .96;
-  filter: saturate(.92) contrast(1.06);
+  opacity: .88;
+  filter:
+    drop-shadow(0 20px 16px rgba(73, 66, 56, .075))
+    drop-shadow(0 2px 1px rgba(255, 255, 255, .72))
+    saturate(.9)
+    contrast(1.03);
   mix-blend-mode: multiply;
 }
 
@@ -822,9 +810,9 @@ h3 {
   border-radius: 50%;
   background: rgba(247, 244, 238, .86);
   color: var(--ink);
-  box-shadow: 0 12px 30px rgba(73, 66, 56, .1);
+  box-shadow: 0 9px 24px rgba(73, 66, 56, .11);
   cursor: pointer;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) translate(var(--pin-dx, 0), var(--pin-dy, 0));
   transition: transform .18s ease, background .18s ease, border-color .18s ease;
   z-index: 3;
 }
@@ -852,7 +840,7 @@ h3 {
   background: rgba(169, 134, 125, .92);
   color: #fff;
   outline: 0;
-  transform: translate(-50%, -50%) scale(1.08);
+  transform: translate(-50%, -50%) translate(var(--pin-dx, 0), var(--pin-dy, 0)) scale(1.08);
 }
 
 .journey-card {
@@ -868,8 +856,9 @@ h3 {
   padding: .58rem .62rem;
   border: 1px solid rgba(221, 217, 208, .74);
   border-radius: 7px;
-  background: rgba(248, 246, 240, .82);
-  box-shadow: 0 18px 46px rgba(73, 66, 56, .13);
+  background: rgba(248, 246, 240, .78);
+  box-shadow: 0 16px 42px rgba(73, 66, 56, .11);
+  backdrop-filter: blur(8px);
   opacity: 0;
   pointer-events: none;
   transform: translateY(.45rem);
@@ -909,7 +898,7 @@ h3 {
 .journey-card:hover {
   display: grid;
   border-color: rgba(169, 134, 125, .52);
-  background: rgba(248, 246, 240, .92);
+  background: rgba(248, 246, 240, .88);
   opacity: 1;
   pointer-events: none;
   transform: translateY(0);
@@ -1031,11 +1020,6 @@ h3 {
     margin-inline: auto;
   }
 
-  .hero-glance {
-    grid-template-columns: 1fr;
-    margin-top: 0;
-  }
-
   .hero-map {
     min-height: 360px;
   }
@@ -1140,12 +1124,8 @@ h3 {
     object-position: 50% 42%;
   }
 
-  .hero-glance a {
-    padding: .82rem .88rem;
-  }
-
   .map-stage {
-    height: 620px;
+    height: 430px;
   }
 
   .academic-map-image {

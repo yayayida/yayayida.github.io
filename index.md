@@ -12,7 +12,6 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <a class="text-link" href="mailto:zhuoyuezhang@link.cuhk.edu.cn">Email</a>
       <a class="text-link" href="https://scholar.google.com/citations?user=KLOZubsAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
       <a class="text-link" href="https://www.linkedin.com/in/zhuoyue-z-a15059302/" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="text-link" href="{{ '/cv/' | relative_url }}">CV</a>
     </div>
   </div>
 
@@ -81,8 +80,6 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <button class="journey-pin" data-place="ist" data-lat="38.736745" data-lon="-9.138391" style="--x: 49.22%; --y: 28.33%;" aria-label="Instituto Superior Tecnico"><span>IST</span></button>
       <button class="journey-pin" data-place="kth" data-lat="59.347888" data-lon="18.072383" style="--x: 56.56%; --y: 12.78%;" aria-label="KTH Royal Institute of Technology"><span>KTH</span></button>
       <button class="journey-pin" data-place="darmstadt" data-lat="49.861152" data-lon="8.681944" style="--x: 54.28%; --y: 19.76%;" aria-label="Technical University of Darmstadt"><span>TUD</span></button>
-      <button class="journey-pin" data-place="rtu" data-lat="56.952642" data-lon="24.080680" style="--x: 58.23%; --y: 14.51%; --pin-dx: -4px; --pin-dy: 5px;" aria-label="Riga Technical University"><span>RTU</span></button>
-      <button class="journey-pin" data-place="tartu" data-lat="58.381014" data-lon="26.719560" style="--x: 58.85%; --y: 13.48%; --pin-dx: 5px; --pin-dy: -5px;" aria-label="University of Tartu"><span>UT</span></button>
       <button class="journey-pin" data-place="cuhk" data-lat="22.691069" data-lon="114.207366" style="--x: 86.93%; --y: 40.91%; --pin-dx: -7px; --pin-dy: 7px;" aria-label="The Chinese University of Hong Kong, Shenzhen"><span>CUHK</span></button>
       <button class="journey-pin" data-place="pku" data-lat="22.595321" data-lon="113.972066" style="--x: 86.87%; --y: 40.98%; --pin-dx: 7px; --pin-dy: -7px;" aria-label="Peking University Shenzhen Graduate School"><span>PKU</span></button>
 
@@ -93,14 +90,6 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <article class="journey-card" data-place-card="ist" style="--card-x: 36%; --card-y: 34%;">
         <img src="{{ '/assets/logos/ist.svg' | relative_url }}" alt="Instituto Superior Tecnico logo">
         <div><strong>Instituto Superior Tecnico</strong><span>2024-25</span></div>
-      </article>
-      <article class="journey-card" data-place-card="rtu" style="--card-x: 60%; --card-y: 22%;">
-        <img src="{{ '/assets/logos/rtu.svg' | relative_url }}" alt="Riga Technical University logo">
-        <div><strong>Riga Technical University</strong><span>Summer School · 2025.8</span></div>
-      </article>
-      <article class="journey-card" data-place-card="tartu" style="--card-x: 61%; --card-y: 8%;">
-        <img src="{{ '/assets/logos/tartu.svg' | relative_url }}" alt="University of Tartu logo">
-        <div><strong>University of Tartu</strong><span>Summer School · 2025.8</span></div>
       </article>
       <article class="journey-card" data-place-card="darmstadt" style="--card-x: 56%; --card-y: 30%;">
         <img src="{{ '/assets/logos/tu-darmstadt.svg' | relative_url }}" alt="Technical University of Darmstadt logo">
@@ -116,7 +105,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       </article>
       <article class="journey-card" data-place-card="pku" style="--card-x: 57%; --card-y: 36%;">
         <img src="{{ '/assets/logos/pku.svg' | relative_url }}" alt="Peking University logo">
-        <div><strong>Peking University Shenzhen Graduate School</strong><span>Visiting Student and RA · 2024.7</span></div>
+        <div><strong>Peking University Shenzhen Graduate School</strong><span>Visiting Student · 2024.7</span></div>
       </article>
     </div>
   </div>

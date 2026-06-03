@@ -2,7 +2,7 @@
 layout: default
 title: "Experience | Zhuoyue Zhang"
 permalink: /experience/
-description: "Education, research experience, and awards for Zhuoyue Zhang."
+description: "Education, research experience, teaching experience, and awards for Zhuoyue Zhang."
 ---
 
 <section class="article-page">
@@ -22,7 +22,7 @@ description: "Education, research experience, and awards for Zhuoyue Zhang."
       <article class="timeline-item">
         <div class="date">2024.7</div>
         <div>
-          <h3>Visiting Student and Research Assistant</h3>
+          <h3>Visiting Student</h3>
           <p>Peking University Shenzhen Graduate School.</p>
         </div>
       </article>
@@ -53,18 +53,36 @@ description: "Education, research experience, and awards for Zhuoyue Zhang."
   <div class="section">
     <div class="section-head">
       <div>
+        <p class="eyebrow">Teaching</p>
+        <h2>Teaching Experience</h2>
+      </div>
+    </div>
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="date">Fall 2026</div>
+        <div>
+          <h3>Teaching Assistant</h3>
+          <p>AH2170 Transport Data Collection and Analysis, KTH Royal Institute of Technology, Stockholm, Sweden.</p>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="date">Spring 2026</div>
+        <div>
+          <h3>Teaching Assistant</h3>
+          <p>AH2303/AG2804 Transport and Sustainable Development, KTH Royal Institute of Technology, Stockholm, Sweden.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <div>
         <p class="eyebrow">Education</p>
         <h2>Education</h2>
       </div>
     </div>
     <div class="timeline">
-      <article class="timeline-item">
-        <div class="date">2025.8</div>
-        <div>
-          <h3>Summer School</h3>
-          <p>Riga Technical University and University of Tartu.</p>
-        </div>
-      </article>
       <article class="timeline-item">
         <div class="date">2024-26</div>
         <div>

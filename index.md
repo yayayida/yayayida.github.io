@@ -21,8 +21,6 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <img src="{{ '/assets/img/IMG_8109.JPG' | relative_url }}" alt="Zhuoyue Zhang portrait in a bookshop" loading="eager">
     </figure>
   </div>
-
-  <p class="quzhou-credit">Quzhou City, Zhejiang, China @OSM</p>
 </section>
 
 <section class="section section--featured">

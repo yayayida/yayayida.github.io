@@ -110,47 +110,15 @@ img {
   text-decoration: none;
 }
 
-.site-mark__cat {
-  position: relative;
-  display: inline-grid;
+.site-mark__avatar {
+  display: block;
   width: 2.35rem;
   height: 2.35rem;
-  place-items: center;
   border: 1px solid var(--line-strong);
   border-radius: 50%;
-  background: linear-gradient(145deg, #fff, var(--sand));
-}
-
-.site-mark__cat::before,
-.site-mark__cat::after {
-  content: "";
-  position: absolute;
-  top: .28rem;
-  width: .76rem;
-  height: .76rem;
-  border: 1px solid var(--line-strong);
-  border-bottom: 0;
-  border-right: 0;
-  background: #fff;
-  transform: rotate(45deg);
-}
-
-.site-mark__cat::before {
-  left: .34rem;
-}
-
-.site-mark__cat::after {
-  right: .34rem;
-}
-
-.site-mark__cat {
-  background-image:
-    radial-gradient(circle at 38% 54%, var(--ink) 0 .075rem, transparent .085rem),
-    radial-gradient(circle at 62% 54%, var(--ink) 0 .075rem, transparent .085rem),
-    linear-gradient(var(--warm), var(--warm));
-  background-position: center, center, 50% 69%;
-  background-repeat: no-repeat;
-  background-size: auto, auto, .18rem .18rem;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 6px 18px rgba(73, 66, 56, .08);
 }
 
 .site-nav {

@@ -319,6 +319,65 @@ h3 {
   justify-self: end;
   width: min(100%, 360px);
 }
+.hero--quzhou {
+  position: relative;
+  width: 100%;
+  max-width: none;
+  min-height: calc(100svh - 72px);
+  grid-template-columns: minmax(0, var(--max));
+  justify-content: center;
+  align-items: end;
+  padding: clamp(6.5rem, 12vh, 9rem) max(1.2rem, calc((100vw - var(--max)) / 2)) clamp(4.5rem, 9vh, 7rem);
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    linear-gradient(90deg, rgba(247, 244, 238, .94) 0%, rgba(247, 244, 238, .68) 31%, rgba(247, 244, 238, .2) 68%, rgba(247, 244, 238, .38) 100%),
+    linear-gradient(180deg, rgba(247, 244, 238, .68) 0%, rgba(247, 244, 238, .1) 44%, rgba(247, 244, 238, .72) 100%),
+    url("/assets/quzhou-city-osm.png") center / cover no-repeat;
+}
+
+.hero--quzhou::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 44%, transparent 0 42%, rgba(247, 244, 238, .28) 78%);
+  z-index: -1;
+}
+
+.hero--quzhou .hero__copy {
+  max-width: 47rem;
+  align-self: end;
+  justify-self: start;
+}
+
+.hero--quzhou h1 {
+  max-width: 12ch;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+}
+
+.hero--quzhou .hero__subtitle {
+  color: rgba(29, 36, 39, .78);
+}
+
+.hero--quzhou .text-link {
+  background: rgba(255, 255, 255, .68);
+  backdrop-filter: blur(10px);
+}
+
+.quzhou-credit {
+  position: absolute;
+  right: clamp(1.1rem, 3.5vw, 3.2rem);
+  bottom: clamp(1rem, 2.6vw, 2.2rem);
+  margin: 0;
+  color: rgba(101, 104, 83, .74);
+  font-size: clamp(.76rem, .95vw, .92rem);
+  font-weight: 700;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
 
 .portrait-card {
   position: relative;
@@ -1093,6 +1152,21 @@ h3 {
   .section,
   .article-page {
     width: min(var(--max), calc(100% - 2rem));
+  }
+
+  .hero--quzhou {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-position: center;
+  }
+
+  .quzhou-credit {
+    right: 1rem;
+    bottom: .95rem;
+    max-width: calc(100% - 2rem);
+    line-height: 1.25;
+    text-align: right;
   }
 
   .hero {

@@ -15,6 +15,13 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
     </div>
   </div>
 
+
+  <div class="hero__visual" aria-label="Portrait">
+    <figure class="portrait-card">
+      <img src="{{ '/assets/img/IMG_8109.JPG' | relative_url }}" alt="Zhuoyue Zhang portrait in a bookshop" loading="eager">
+    </figure>
+  </div>
+
   <p class="quzhou-credit">Quzhou City, Zhejiang, China @OSM</p>
 </section>
 

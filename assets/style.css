@@ -291,19 +291,20 @@ h3 {
   position: relative;
   width: 100%;
   max-width: none;
-  min-height: calc(100svh - 72px);
-  grid-template-columns: minmax(0, var(--max));
+  min-height: clamp(430px, 62svh, 620px);
+  grid-template-columns: minmax(0, .86fr) minmax(220px, .34fr);
   justify-content: center;
-  align-items: end;
-  padding: clamp(6.5rem, 12vh, 9rem) max(1.2rem, calc((100vw - var(--max)) / 2)) clamp(4.5rem, 9vh, 7rem);
+  align-items: center;
+  gap: clamp(1.4rem, 4vw, 3.2rem);
+  padding: clamp(3.2rem, 7vh, 5.2rem) max(1.2rem, calc((100vw - var(--max)) / 2)) clamp(2.2rem, 5vh, 3.4rem);
   overflow: hidden;
   isolation: isolate;
   background-image:
     linear-gradient(90deg, rgba(247, 244, 238, .94) 0%, rgba(247, 244, 238, .68) 31%, rgba(247, 244, 238, .2) 68%, rgba(247, 244, 238, .38) 100%),
     linear-gradient(180deg, rgba(247, 244, 238, .68) 0%, rgba(247, 244, 238, .1) 44%, rgba(247, 244, 238, .72) 100%),
     url("/assets/quzhou-city-osm.png");
-  background-position: center, center, center 46%;
-  background-size: auto, auto, 128% auto;
+  background-position: center, center, center 48%;
+  background-size: auto, auto, 118% auto;
   background-repeat: no-repeat;
 }
 
@@ -317,9 +318,10 @@ h3 {
 }
 
 .hero--quzhou .hero__copy {
-  max-width: 47rem;
-  align-self: end;
+  max-width: 43rem;
+  align-self: center;
   justify-self: start;
+  transform: translateY(-.6rem);
 }
 
 .hero--quzhou h1 {
@@ -334,6 +336,24 @@ h3 {
 .hero--quzhou .text-link {
   background: rgba(255, 255, 255, .68);
   backdrop-filter: blur(10px);
+}
+
+.hero--quzhou .hero__visual {
+  width: min(24vw, 300px);
+  min-width: 220px;
+  justify-self: end;
+  align-self: center;
+  transform: translateY(-.35rem);
+}
+
+.hero--quzhou .portrait-card {
+  background: rgba(255, 255, 255, .56);
+  box-shadow: 0 24px 68px rgba(73, 66, 56, .12);
+}
+
+.hero--quzhou .portrait-card img {
+  aspect-ratio: .86;
+  object-position: 50% 40%;
 }
 
 .quzhou-credit {
@@ -1127,10 +1147,22 @@ h3 {
 
   .hero--quzhou {
     width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    min-height: auto;
+    grid-template-columns: minmax(0, 1fr);
+    padding: 2.4rem 1rem 3.1rem;
     background-position: center, center, center 48%;
-    background-size: auto, auto, 190% auto;
+    background-size: auto, auto, 165% auto;
+  }
+
+  .hero--quzhou .hero__copy {
+    transform: none;
+  }
+
+  .hero--quzhou .hero__visual {
+    width: min(54vw, 190px);
+    min-width: 0;
+    justify-self: start;
+    transform: none;
   }
 
   .quzhou-credit {

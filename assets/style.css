@@ -33,13 +33,17 @@ body {
   font-family: var(--sans);
   font-size: 17px;
   line-height: 1.68;
-  background:
+  background-color: var(--paper);
+  background-image:
     linear-gradient(90deg, rgba(89, 102, 106, .018) 1px, transparent 1px),
     linear-gradient(180deg, rgba(89, 102, 106, .016) 1px, transparent 1px),
+    url("/assets/quzhou-city-osm.png"),
     radial-gradient(circle at 82% 12%, rgba(155, 168, 157, .18), transparent 26rem),
-    radial-gradient(circle at 8% 84%, rgba(169, 134, 125, .13), transparent 24rem),
-    var(--paper);
-  background-size: 72px 72px, 72px 72px, auto, auto, auto;
+    radial-gradient(circle at 8% 84%, rgba(169, 134, 125, .13), transparent 24rem);
+  background-position: center, center, center 48%, center, center;
+  background-size: 72px 72px, 72px 72px, 118% auto, auto, auto;
+  background-repeat: repeat, repeat, no-repeat, no-repeat, no-repeat;
+  background-attachment: fixed, fixed, fixed, fixed, fixed;
 }
 
 body::before {
@@ -300,11 +304,10 @@ h3 {
   overflow: hidden;
   isolation: isolate;
   background-image:
-    linear-gradient(90deg, rgba(247, 244, 238, .94) 0%, rgba(247, 244, 238, .68) 31%, rgba(247, 244, 238, .2) 68%, rgba(247, 244, 238, .38) 100%),
-    linear-gradient(180deg, rgba(247, 244, 238, .68) 0%, rgba(247, 244, 238, .1) 44%, rgba(247, 244, 238, .72) 100%),
-    url("/assets/quzhou-city-osm.png");
-  background-position: center, center, center 48%;
-  background-size: auto, auto, 118% auto;
+    linear-gradient(90deg, rgba(247, 244, 238, .88) 0%, rgba(247, 244, 238, .58) 34%, rgba(247, 244, 238, .16) 72%, rgba(247, 244, 238, .28) 100%),
+    linear-gradient(180deg, rgba(247, 244, 238, .52) 0%, rgba(247, 244, 238, .08) 46%, rgba(247, 244, 238, .5) 100%);
+  background-position: center, center;
+  background-size: auto, auto;
   background-repeat: no-repeat;
 }
 
@@ -1150,8 +1153,8 @@ h3 {
     min-height: auto;
     grid-template-columns: minmax(0, 1fr);
     padding: 2.4rem 1rem 3.1rem;
-    background-position: center, center, center 48%;
-    background-size: auto, auto, 165% auto;
+    background-position: center, center;
+    background-size: auto, auto;
   }
 
   .hero--quzhou .hero__copy {

@@ -32,15 +32,15 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
   </div>
   <div class="feature-grid">
     <a class="feature-card feature-card--large" href="{{ '/rwm-epr/' | relative_url }}">
-      <img class="feature-card__image" src="{{ '/assets/rwm-epr-waiting-time.png' | relative_url }}" alt="RWM-EPR waiting-time distribution">
+      <img class="feature-card__image" src="{{ '/assets/urban-memory-signature-boston.png' | relative_url }}" alt="Boston urban memory signature map">
       <div class="feature-card__body">
         <span class="project-card__type">Ongoing Research</span>
-        <h3>Recency-Weighted Memory EPR Model</h3>
-        <p>Interpretable memory mechanisms for urban return behavior.</p>
+        <h3>Urban Memory Geography</h3>
+        <p>Mapping how prior visit timing informs return choice across Boston and YJMob.</p>
         <div class="mini-tags">
           <span>Human mobility</span>
-          <span>Interpretability</span>
-          <span>Urban EPR</span>
+          <span>Return choice</span>
+          <span>Spatial signatures</span>
         </div>
       </div>
     </a>

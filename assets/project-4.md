@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Recency-Weighted Memory EPR Model"
+title: "Mobility Patterns Analysis in Lisboa"
 permalink: /project-4/
 ---
 

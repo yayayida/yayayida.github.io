@@ -1,27 +1,39 @@
 ---
 layout: default
-title: "Recency-Weighted Memory EPR Model"
+title: "Urban Memory Geography"
 permalink: /rwm-epr/
+description: "Mapping how the temporal structure of prior visits informs return choice across Boston and YJMob."
 ---
 
 <p><a class="back-link" href="{{ '/projects/' | relative_url }}">Back to projects</a></p>
 
-# Recency-Weighted Memory EPR Model
+# Urban Memory Geography: Mapping the Temporal Structure of Human Return
 **June 2025 – Present · Ryan Wang Lab · Boston, USA**
 
-Previous studies have introduced several improved EPR models, such as **Recency-EPR, Memory-EPR, Density-EPR, and Weighted-EPR** to simulate **individual-level human mobility**. These studies mostly focus on large spatial scales (e.g., the national level). However, the spatiotemporal characteristics of intra-urban mobility differ from those of large-scale mobility. In 2025, an intra-urban mobility model, the **Urban-EPR model** was proposed. It makes two key claims: (i) Temporal patterns: waiting times within cities follow a log-normal distribution with universal parameters, rather than the gamma, exponential, power-law, or truncated power-law distributions often observed at larger spatial scales; (ii) Spatial characteristics: location choice within cities can be simulated by the Universal Opportunity (UO) model with universal parameters, rather than by traditional gravity-based models.
+How do people choose which familiar place to revisit? I study return choice using the complete sequence of prior visits to every available destination. A regularized **power-law temporal score** allows older and recent visits to contribute at different strengths, placing observed return on a continuum from frequency-driven to recency-weighted choice.
 
-However, for return behavior, especially **non-routine returns**, current EPR formulations typically consider only recency-based or frequency-based mechanisms and do not account for individual heterogeneity. My study focuses on mechanistic, individual-level models. I develop a cognitive return mechanism for the return phase, a **Recency-based Memory EPR model**, as an enhancement to the Urban-EPR framework. This recency-based memory-decay model combines the advantages of recency and frequency effects while incorporating age heterogeneity, which improved interpretability and explanatory power for individual mobility in the non-routine return phase.
+Using the **Boston Walking Study** and **YJMob100K**, I test whether visit timing adds information beyond prior visit frequency and current-to-candidate distance. After matching candidate destinations on visit count, timing improves held-out return choice in both datasets. With distance controlled, YJMob retains an additional temporal signal, while Boston lies at the frequency boundary.
+
+I pool this choice evidence by destination to estimate a **recurrence signature** and map the resulting **urban memory geography**. Boston signatures concentrate at or near the frequency boundary. Across YJMob, the signatures show spatial clustering that remains after adjustment for event count and POI density and exceeds a shared-candidate reference.
 
 ## Highlights
-- Applied **UO** model in the Boston Metropolitan Area (BMA); simulated waiting times; **log-normal** best fit.  
-- Simulated universal parameters via **MC sampling** and **CPC similarity**.  
-- Added **recency-based memory decay** to capture **age heterogeneity**.
-- Compared and justified the better **prediction and explainability** of new model in the testing dataset.
+- Represents return choice with the complete temporal history of prior visits to familiar destinations.
+- Evaluates temporal information with held-out choice tests in Boston and YJMob.
+- Evaluates whether visit timing adds information beyond visit frequency and current-to-candidate distance.
+- Maps destination-level recurrence signatures to reveal their spatial organization across the two study settings.
 
-## Figures
-<img src="{{ '/assets/rwm-epr-waiting-time.png' | relative_url }}" alt="Waiting-time distribution fits" style="width:70%;max-width:980px;display:block;margin:12px auto;">
-<img src="{{ '/assets/uo-parameter-heatmap.png' | relative_url }}" alt="UO model CPC heatmap" style="width:70%;max-width:980px;display:block;margin:12px auto;">
+## Urban Memory Signature Maps
 
-## Notes
-The paper is ongoing. I have completed the UO-model simulation for the exploration phase and will continue to update the results as the analysis progresses. We also plan to incorporate additional datasets from other cities to test the relationship between age heterogeneity and the memory mechanism in the explanatory analysis. In addition, we will integrate POI, public-health, and related datasets to strengthen the model’s interpretability and explanatory power.
+<div class="signature-figures">
+  <figure class="signature-figure">
+    <img src="{{ '/assets/urban-memory-signature-boston.png' | relative_url }}" alt="Boston destination recurrence signatures summarized across census tracts" loading="lazy">
+    <figcaption><strong>Boston Metropolitan Study Area.</strong> Census-tract means summarize destination recurrence signatures estimated at 500 m cells; darker teal values are more frequency-like and warmer values are more recency-sensitive.</figcaption>
+  </figure>
+  <figure class="signature-figure">
+    <img src="{{ '/assets/urban-memory-signature-yjmob.png' | relative_url }}" alt="YJMob destination recurrence signatures mapped on an anonymized metropolitan grid" loading="lazy">
+    <figcaption><strong>YJMob Anonymous City.</strong> Destination recurrence signatures on the 500 m metropolitan grid, using the same frequency-like to recency-sensitive scale.</figcaption>
+  </figure>
+</div>
+
+## Status
+This working paper is ongoing. The current analysis focuses on the temporal structure of return choice and the spatial organization of destination recurrence signatures across the two datasets.

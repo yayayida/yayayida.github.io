@@ -25,34 +25,7 @@ if (mapPoints.length && mapLabel) {
   activateCity(mapPoints[0]);
 }
 
-const journeyPins = document.querySelectorAll("[data-place]");
-const journeyCards = document.querySelectorAll("[data-place-card]");
-
-if (journeyPins.length && journeyCards.length) {
-  const setActivePlace = (place) => {
-    journeyPins.forEach((pin) => {
-      const isActive = pin.dataset.place === place;
-      pin.classList.toggle("is-active", isActive);
-      pin.setAttribute("aria-pressed", String(isActive));
-    });
-    journeyCards.forEach((card) => card.classList.toggle("is-active", card.dataset.placeCard === place));
-  };
-
-  journeyPins.forEach((pin) => {
-    pin.addEventListener("mouseenter", () => setActivePlace(pin.dataset.place));
-    pin.addEventListener("focus", () => setActivePlace(pin.dataset.place));
-    pin.addEventListener("click", () => setActivePlace(pin.dataset.place));
-  });
-
-  journeyCards.forEach((card) => {
-    card.addEventListener("mouseenter", () => setActivePlace(card.dataset.placeCard));
-    card.addEventListener("focusin", () => setActivePlace(card.dataset.placeCard));
-  });
-
-  setActivePlace("kth");
-}
-
-const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .note-card, .city");
+const revealItems = document.querySelectorAll(".card, .research-card, .project-card, .feature-card, .timeline-item, .research-experience-row, .education-row, .note-card, .city");
 
 if ("IntersectionObserver" in window) {
   revealItems.forEach((item) => item.classList.add("reveal"));

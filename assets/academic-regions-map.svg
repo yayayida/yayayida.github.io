@@ -42,13 +42,13 @@
       .paper-depth--americas { fill: #9fb3a9; }
       .paper-depth--europe { fill: #b9959b; }
       .paper-depth--asia { fill: #c3b7a4; }
-      .land { stroke: rgba(95, 88, 82, .32); stroke-width: .58; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .land { stroke: rgba(78, 73, 68, .48); stroke-width: .74; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
       .land--americas { fill: url(#americasWash); }
       .land--europe { fill: url(#europeWash); }
       .land--asia { fill: url(#asiaWash); }
       .paper-grain { clip-path: url(#landClip); opacity: .18; mix-blend-mode: multiply; filter: url(#paperGrain); }
-      .coastline { fill: none; stroke: rgba(74, 69, 64, .38); stroke-width: .72; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
-      .borders { fill: none; stroke: rgba(78, 73, 68, .27); stroke-width: .48; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .coastline { fill: none; stroke: rgba(64, 60, 56, .6); stroke-width: 1; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .borders { fill: none; stroke: rgba(68, 64, 60, .4); stroke-width: .64; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
       .texture-layer { clip-path: url(#landClip); opacity: .72; }
       .texture { fill: none; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
       .texture--fine { stroke: rgba(54, 52, 49, .18); stroke-width: .42; }
@@ -56,8 +56,8 @@
       .texture--arterial { stroke: rgba(54, 51, 47, .26); stroke-width: .78; }
       .texture--europe { stroke-opacity: .78; }
       .gridline { fill: none; stroke: rgba(112, 106, 98, .13); stroke-width: .34; vector-effect: non-scaling-stroke; }
-      .rim { fill: none; stroke: rgba(255, 255, 255, .52); stroke-width: 1.2; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
-      .rim--lower { stroke: rgba(95, 88, 82, .16); stroke-width: 1.05; }
+      .rim { fill: none; stroke: rgba(255, 255, 255, .7); stroke-width: 1.35; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+      .rim--lower { stroke: rgba(82, 76, 70, .28); stroke-width: 1.2; }
     </style>
   </defs>
 

@@ -4,7 +4,7 @@ title: "Urban Expansion Scenario in Moita"
 permalink: /urban-expansion-moita/
 ---
 
-<p><a class="back-link" href="{{ '/projects/' | relative_url }}">Back to projects</a></p>
+<p><a class="back-link" href="{{ '/#projects' | relative_url }}">Back to projects</a></p>
 
 # Urban Expansion Scenario in Moita
 **Nov 2024 – Feb 2025 · Lisbon, Portugal**

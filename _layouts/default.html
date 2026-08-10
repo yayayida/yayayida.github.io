@@ -24,9 +24,7 @@
     </a>
     <nav class="site-nav" aria-label="Primary navigation">
       <a {% if page.url == "/" %}aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Home</a>
-      <a {% if page.url contains "/research/" %}aria-current="page"{% endif %} href="{{ '/research/' | relative_url }}">Research</a>
-      <a {% if page.url contains "/projects/" %}aria-current="page"{% endif %} href="{{ '/projects/' | relative_url }}">Projects</a>
-      <a {% if page.url contains "/experience/" %}aria-current="page"{% endif %} href="{{ '/experience/' | relative_url }}">Experience</a>
+      <a href="{{ '/#publications' | relative_url }}">Research</a>
       <a {% if page.url contains "/interests/" %}aria-current="page"{% endif %} href="{{ '/interests/' | relative_url }}">Interests</a>
     </nav>
   </header>

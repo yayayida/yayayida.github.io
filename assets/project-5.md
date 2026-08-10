@@ -4,7 +4,7 @@ title: "Mobility Patterns in Loures and Vila Franca"
 permalink: /project-5/
 ---
 
-<p><a class="back-link" href="{{ '/projects/' | relative_url }}">Back to projects</a></p>
+<p><a class="back-link" href="{{ '/#projects' | relative_url }}">Back to projects</a></p>
 
 # Mobility Patterns in Loures and Vila Franca
 **Sep 2024 – Nov 2024 · Lisbon, Portugal**

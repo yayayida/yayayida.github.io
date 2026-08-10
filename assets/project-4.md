@@ -4,7 +4,7 @@ title: "Mobility Patterns Analysis in Lisboa"
 permalink: /project-4/
 ---
 
-<p><a class="back-link" href="{{ '/projects/' | relative_url }}">Back to projects</a></p>
+<p><a class="back-link" href="{{ '/#projects' | relative_url }}">Back to projects</a></p>
 
 # Mobility Patterns Analysis in Lisboa
 **Sep 2024 – Nov 2024 · Lisbon, Portugal**

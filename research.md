@@ -15,7 +15,7 @@ description: "Research by Zhuoyue Zhang on urban mobility, geographic modeling, 
   <div class="grid-3">
     <article class="card">
       <h3>Human Mobility</h3>
-      <p>Individual-level mobility patterns, return behavior, non-routine travel, and heterogeneity across urban populations.</p>
+      <p>Visit histories, return choice, destination-level recurrence patterns, and their spatial organization across cities.</p>
     </article>
     <article class="card">
       <h3>Urban Informatics</h3>
@@ -45,9 +45,9 @@ description: "Research by Zhuoyue Zhang on urban mobility, geographic modeling, 
     <p class="eyebrow">Ongoing Work</p>
     <article class="research-card">
       <span class="research-card__type">Ongoing</span>
-      <h3>Recency-Weighted Memory for Urban EPR: Predictive and Interpretable Modeling Across Age Groups</h3>
-      <div class="research-card__authors">Zhuoyue Zhang, Qi Ryan Wang, Zhenliang Ma.</div>
-      <p>This project develops a recency-based memory mechanism for intra-urban mobility modeling, with attention to non-routine returns and age heterogeneity.</p>
+      <h3>Urban Memory Geography: Mapping the Temporal Structure of Human Return</h3>
+      <div class="research-card__authors">Zhuoyue Zhang.</div>
+      <p>This project tests how prior visit timing informs return choice and maps destination recurrence signatures across Boston and YJMob.</p>
       <div class="link-row">
         <a class="text-link" href="{{ '/rwm-epr/' | relative_url }}">Project page</a>
       </div>

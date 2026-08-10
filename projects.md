@@ -20,11 +20,11 @@ description: "Academic, professional, and personal projects by Zhuoyue Zhang."
     </div>
     <div class="project-grid">
       <a class="project-card" href="{{ '/rwm-epr/' | relative_url }}">
-        <img class="project-card__image" src="{{ '/assets/uo-parameter-heatmap.png' | relative_url }}" alt="UO model CPC heatmap">
+        <img class="project-card__image" src="{{ '/assets/urban-memory-signature-boston.png' | relative_url }}" alt="Boston urban memory signature map">
         <div class="project-card__body">
           <span class="project-card__type">Urban Mobility</span>
-          <h3>Recency-Weighted Memory EPR Model</h3>
-          <p>Mechanistic, individual-level mobility modeling for urban return behavior.</p>
+          <h3>Urban Memory Geography</h3>
+          <p>Temporal return choice and destination recurrence signatures across Boston and YJMob.</p>
         </div>
       </a>
       <a class="project-card" href="{{ '/mass-collab/' | relative_url }}">

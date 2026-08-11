@@ -2060,6 +2060,10 @@ h3 {
   white-space: normal;
 }
 
+.education-row p > .education-row__institution--single-line {
+  white-space: nowrap;
+}
+
 .experience-columns {
   display: grid;
   grid-template-columns: minmax(320px, .76fr) minmax(0, 1.24fr);

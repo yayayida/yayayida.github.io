@@ -25,6 +25,11 @@ description: "Personal interests, drawing, and independent explorations by Zhuoy
           <img src="{{ '/assets/interest-art-wiesbaden-two.jpg' | relative_url }}" width="1080" height="1080" alt="A watercolor-style travel sketch of Wiesbaden architecture and flowers" loading="lazy">
         </button>
       </figure>
+      <figure class="art-piece art-piece--kraft postcard--shenzhen-april" data-rope="0">
+        <button class="art-piece__button" type="button" data-artwork data-time="2022.4" data-place="Shenzhen" aria-label="View artwork: A Chinese ink painting of two birds beneath leafy branches">
+          <img src="{{ '/assets/interest-art-shenzhen-april.jpg' | relative_url }}" width="1080" height="1440" alt="A Chinese ink painting of two birds beneath leafy branches" loading="lazy">
+        </button>
+      </figure>
 
       <figure class="art-piece art-piece--kraft postcard--arch" data-rope="1">
         <button class="art-piece__button" type="button" data-artwork data-time="2023.4" data-place="Munich" aria-label="View artwork: An architectural drawing of a memorial arch">
@@ -34,6 +39,11 @@ description: "Personal interests, drawing, and independent explorations by Zhuoy
       <figure class="art-piece postcard--bridge" data-rope="1">
         <button class="art-piece__button" type="button" data-artwork data-time="2023.4" data-place="Munich" aria-label="View artwork: An illustrated railway bridge and surrounding landscape">
           <img src="{{ '/assets/interest-art-bridge.jpg' | relative_url }}" width="1080" height="1080" alt="An illustrated railway bridge and surrounding landscape" loading="lazy">
+        </button>
+      </figure>
+      <figure class="art-piece art-piece--kraft postcard--shenzhen-may" data-rope="1">
+        <button class="art-piece__button" type="button" data-artwork data-time="2022.5" data-place="Shenzhen" aria-label="View artwork: Two Chinese ink studies of birds, reeds, and flowering branches">
+          <img src="{{ '/assets/interest-art-shenzhen-may.jpg' | relative_url }}" width="1080" height="1299" alt="Two Chinese ink studies of birds, reeds, and flowering branches" loading="lazy">
         </button>
       </figure>
 
@@ -67,6 +77,11 @@ description: "Personal interests, drawing, and independent explorations by Zhuoy
       <figure class="art-piece postcard--munich" data-rope="2">
         <button class="art-piece__button" type="button" data-artwork data-time="2023.4" data-place="Munich" aria-label="View artwork: A muted travel illustration of a figure in the Munich landscape">
           <img src="{{ '/assets/interest-art-munich.jpg' | relative_url }}" width="1080" height="1080" alt="A muted travel illustration of a figure in the Munich landscape" loading="lazy">
+        </button>
+      </figure>
+      <figure class="art-piece art-piece--hero art-piece--kraft postcard--hangzhou" data-rope="2">
+        <button class="art-piece__button" type="button" data-artwork data-time="2020.8" data-place="Hangzhou" aria-label="View artwork: A monochrome portrait painting of a woman with flowing hair">
+          <img src="{{ '/assets/interest-art-hangzhou.png' | relative_url }}" width="1086" height="1449" alt="A monochrome portrait painting of a woman with flowing hair" loading="lazy">
         </button>
       </figure>
     </div>

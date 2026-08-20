@@ -1912,6 +1912,19 @@ h3 {
   --settle-turn: -2.4deg;
 }
 
+.postcard--shenzhen-april {
+  top: 14.2%;
+  left: 61%;
+  --art-size: clamp(70px, 8.5vw, 90px);
+  --tilt: -2deg;
+  --clip-turn: 3deg;
+  --duration: 8.1s;
+  --delay: -3.8s;
+  --drift-x: 2px;
+  --drift-turn: .6deg;
+  --settle-turn: 1.4deg;
+}
+
 .postcard--arch {
   top: 39%;
   left: 5.5%;
@@ -1949,6 +1962,19 @@ h3 {
   --drift-x: 2px;
   --drift-turn: .65deg;
   --settle-turn: 2.4deg;
+}
+
+.postcard--shenzhen-may {
+  top: 41.5%;
+  left: 45%;
+  --art-size: clamp(66px, 8vw, 84px);
+  --tilt: 2.7deg;
+  --clip-turn: -3deg;
+  --duration: 7.7s;
+  --delay: -4.4s;
+  --drift-x: -2px;
+  --drift-turn: -.65deg;
+  --settle-turn: -1.9deg;
 }
 
 .postcard--wall {
@@ -2001,6 +2027,19 @@ h3 {
   --drift-x: 2px;
   --drift-turn: .7deg;
   --settle-turn: 2.1deg;
+}
+
+.postcard--hangzhou {
+  top: 72.5%;
+  left: 30%;
+  --art-size: clamp(82px, 9.8vw, 104px);
+  --tilt: 1.8deg;
+  --clip-turn: -2deg;
+  --duration: 8.8s;
+  --delay: -5.5s;
+  --drift-x: -2px;
+  --drift-turn: -.7deg;
+  --settle-turn: -1.3deg;
 }
 
 .interests-coming {
@@ -2863,14 +2902,17 @@ body.has-art-lightbox {
 
   .postcard--wiesbaden-one { top: 9.5%; left: 4%; --art-size: 46px; }
   .postcard--cities { top: 14.5%; left: 35%; --art-size: 78px; }
+  .postcard--shenzhen-april { top: 13%; left: 61%; --art-size: 56px; }
   .postcard--wiesbaden-two { top: 10.5%; left: 78%; --art-size: 46px; }
 
   .postcard--arch { top: 39%; left: 2%; --art-size: 50px; }
   .postcard--shadow { top: 44%; left: 21%; --art-size: 76px; }
+  .postcard--shenzhen-may { top: 42%; left: 45%; --art-size: 38px; }
   .postcard--bridge { top: 40%; left: 57%; --art-size: 50px; }
   .postcard--wall { top: 43%; left: 75%; --art-size: 76px; }
 
   .postcard--guitar { top: 73%; left: 3%; --art-size: 82px; }
+  .postcard--hangzhou { top: 74%; left: 30%; --art-size: 42px; }
   .postcard--wiesbaden-three { top: 76%; left: 44%; --art-size: 50px; }
   .postcard--munich { top: 71%; left: 76%; --art-size: 52px; }
 

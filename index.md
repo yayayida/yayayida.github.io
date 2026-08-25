@@ -9,7 +9,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
     <h1><span>Zhuoyue</span> <span>Zhang</span></h1>
     <div class="link-row" aria-label="Profile links">
       <a class="text-link" href="mailto:zhuoyuezhang@link.cuhk.edu.cn">Email</a>
-      <a class="text-link" href="https://scholar.google.com/citations?user=KLOZubsAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="text-link" href="https://scholar.google.com/citations?user=KLOZubsAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener">Google Scholar</a>
     </div>
     <div class="hero__places" id="places" aria-label="Academic places">
       <div class="journey-map" aria-label="Academic path map">
@@ -33,7 +33,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
           </div>
           <div class="map-place map-place--shenzhen" style="--x: 84.45%; --y: 40.6%; --label-x: -12.4rem; --label-y: .9rem;">
             <span class="map-place__dot" aria-hidden="true"></span>
-            <span class="map-place__label"><strong>Shenzhen</strong><span>The Chinese University of Hong Kong, Shenzhen · 2020–24</span><span>PKU Shenzhen · Visiting · 2024.7</span></span>
+            <span class="map-place__label"><strong>Shenzhen</strong><span>CUHK-Shenzhen · 2020–24</span><span>PKU Shenzhen · Visiting · 2024.7</span></span>
           </div>
         </div>
       </div>
@@ -57,8 +57,8 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
     <div class="research-work-row__content">
       <span class="research-card__type">Human factors · Human-machine interaction · Explainable AI</span>
       <h3>Explainable AI for Maritime Autonomous Surface Ships (MASS): Adaptive Interfaces and Trustworthy Human-AI Collaboration</h3>
-      <div class="research-card__authors"><strong>Zhuoyue Zhang</strong>, Haitong Xu, Carlos Guedes Soares.</div>
-      <p><em>IEEE Transactions on Intelligent Transportation Systems</em>, accepted, 2026.</p>
+      <div class="research-card__authors">Zhuoyue Zhang, Haitong Xu, Carlos Guedes Soares.</div>
+      <p><strong>Accepted, IEEE Transactions on Intelligent Transportation Systems, August 2026.</strong></p>
       <div class="link-row">
         <a class="text-link" href="https://doi.org/10.48550/arXiv.2509.15959" target="_blank" rel="noopener">arXiv</a>
       </div>
@@ -78,8 +78,11 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <div class="research-work-row__content">
         <span class="research-card__type">Human mobility · Geotemporal modeling</span>
         <h3>Urban memory geography: mapping the temporal structure of human return</h3>
-        <div class="research-card__authors"><strong>Zhuoyue Zhang</strong> et al.</div>
-        <p><em>Manuscript in preparation</em> · KTH Royal Institute of Technology · Ryan Wang Lab, Northeastern University</p>
+        <div class="research-card__authors">Ryan Wang Lab · Boston, USA · KTH Royal Institute of Technology · Stockholm, Sweden</div>
+        <p><strong>Manuscript in preparation · <em>Journal of Transport Geography</em>.</strong></p>
+        <div class="link-row">
+          <a class="text-link" href="{{ '/assets/urban-memory-geography-thesis-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Presentation slides (PDF)</a>
+        </div>
       </div>
     </article>
     <article class="research-card manuscript-card research-work-row">
@@ -89,8 +92,8 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <div class="research-work-row__content">
         <span class="research-card__type">Human-centered GeoAI</span>
         <h3>Brain–Space Alignment</h3>
-        <div class="research-card__authors"><strong>Zhuoyue Zhang</strong>, Yuhao Kang</div>
-        <p><em>Manuscript in preparation</em> · The University of Texas at Austin</p>
+        <div class="research-card__authors">The University of Texas at Austin</div>
+        <p><strong>Manuscript in preparation.</strong></p>
       </div>
     </article>
   </div>
@@ -146,10 +149,6 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
         <img src="{{ '/assets/logos/pku.svg' | relative_url }}" alt="" aria-hidden="true">
         <p><span class="research-experience-row__date">Jul 2024</span><strong>Visiting Student</strong><span>Peking University Shenzhen Graduate School · Prof. Wenjia Zhang</span></p>
       </article>
-      <article class="research-experience-row">
-        <img src="{{ '/assets/logos/cuhk.svg' | relative_url }}" alt="" aria-hidden="true">
-        <p><span class="research-experience-row__date">2023–24</span><strong>Research Assistant</strong><span>The Chinese University of Hong Kong, Shenzhen · Prof. Sandra Chen</span></p>
-      </article>
     </div>
   </div>
 
@@ -174,7 +173,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
         </article>
         <article class="education-row">
           <img src="{{ '/assets/logos/cuhk.svg' | relative_url }}" alt="" aria-hidden="true">
-          <p><span class="education-row__date">2020–24</span><strong>BSc, Applied Mathematics</strong><span class="education-row__institution--single-line">The Chinese University of Hong Kong, Shenzhen, China</span></p>
+          <p><span class="education-row__date">2020–24</span><strong>BSc, Mathematics &amp; Applied Mathematics</strong><span>The Chinese University of Hong Kong, Shenzhen, China</span></p>
         </article>
         <article class="education-row">
           <img src="{{ '/assets/logos/tu-darmstadt.svg' | relative_url }}" alt="" aria-hidden="true">
@@ -189,7 +188,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
     <div class="grid-3">
       <article class="card"><h4>IST Research Assistant Scholarship</h4><p>Instituto Superior Tecnico, 2025.</p></article>
       <article class="card"><h4>EIT Urban Mobility Merit Scholarship</h4><p>European Institute of Innovation and Technology, 2024.</p></article>
-      <article class="card"><h4>Shaw College Accomplishment Scholarship</h4><p>The Chinese University of Hong Kong, Shenzhen, 2021, 2022, and 2023.</p></article>
+      <article class="card"><h4>Shaw College Accomplishment Scholarship</h4><p>CUHK(SZ), 2021, 2022, and 2023.</p></article>
     </div>
   </div>
 </section>

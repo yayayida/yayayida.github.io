@@ -78,7 +78,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <div class="research-work-row__content">
         <span class="research-card__type">Human mobility · Geotemporal modeling</span>
         <h3>Urban memory geography: mapping the temporal structure of human return</h3>
-        <div class="research-card__authors"><strong>Zhuoyue Zhang</strong>, Qi Ryan Wang, Zhenliang Ma.</div>
+        <div class="research-card__authors"><strong>Zhuoyue Zhang</strong>, Qi Ryan Wang, Zhenliang Ma, Zhenlin Qin.</div>
         <p><strong>Manuscript in preparation · <em>Journal of Transport Geography</em>.</strong></p>
         <div class="link-row">
           <a class="text-link" href="{{ '/assets/urban-memory-geography-thesis-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Slides</a>

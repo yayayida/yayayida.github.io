@@ -81,7 +81,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
         <div class="research-card__authors">Ryan Wang Lab · Boston, USA · KTH Royal Institute of Technology · Stockholm, Sweden</div>
         <p><strong>Manuscript in preparation · <em>Journal of Transport Geography</em>.</strong></p>
         <div class="link-row">
-          <a class="text-link" href="{{ '/assets/urban-memory-geography-thesis-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Presentation slides (PDF)</a>
+          <a class="text-link" href="{{ '/assets/urban-memory-geography-thesis-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Slides</a>
         </div>
       </div>
     </article>

@@ -84,6 +84,11 @@ description: "Personal interests, drawing, and independent explorations by Zhuoy
           <img src="{{ '/assets/interest-art-hangzhou.png' | relative_url }}" width="1086" height="1449" alt="A monochrome portrait painting of a woman with flowing hair" loading="lazy">
         </button>
       </figure>
+      <figure class="art-piece art-piece--hero art-piece--kraft postcard--quzhou-august" data-rope="2">
+        <button class="art-piece__button" type="button" data-artwork data-time="2026.8" data-place="Quzhou" aria-label="View artwork: A colorful portrait painting framed by lilies">
+          <img src="{{ '/assets/interest-art-quzhou-august.jpg' | relative_url }}" width="1176" height="1612" alt="A colorful portrait painting framed by lilies" loading="lazy">
+        </button>
+      </figure>
     </div>
 
     <p class="interests-coming">Coming soon.</p>

@@ -3076,6 +3076,39 @@ body.has-art-lightbox {
   padding: clamp(2.4rem, 6vw, 5.2rem) 0 clamp(3rem, 7vw, 6rem);
 }
 
+body.page-vanished-voices {
+  background-color: #d2cec6;
+  background-image:
+    linear-gradient(rgba(247, 244, 238, .34), rgba(247, 244, 238, .34)),
+    url("/assets/vanished-voices-newspaper-bg.jpg");
+  background-position: center, center top;
+  background-size: auto, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+}
+
+body.page-vanished-voices::before {
+  background: rgba(247, 244, 238, .2);
+  opacity: 1;
+}
+
+.page-vanished-voices main {
+  padding: clamp(.8rem, 2vw, 1.6rem) 0 clamp(2rem, 5vw, 4rem);
+  background: transparent;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.page-vanished-voices .bilingual-paper {
+  padding: clamp(2.2rem, 5vw, 4.6rem) clamp(1.4rem, 4.5vw, 3.8rem) clamp(3rem, 7vw, 6rem);
+  border: 1px solid rgba(219, 211, 199, .62);
+  border-radius: 14px;
+  background: rgba(247, 244, 238, .6);
+  box-shadow: 0 28px 80px rgba(35, 31, 28, .16);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+
 .paper-back {
   display: inline-flex;
   margin-bottom: 2rem;
@@ -3100,9 +3133,11 @@ body.has-art-lightbox {
   max-width: 44rem;
   margin: .85rem 0 0;
   color: var(--ink-soft);
-  font-family: var(--serif);
-  font-size: clamp(.92rem, 1.35vw, 1.12rem);
-  line-height: 1.42;
+  font-family: "Cormorant Garamond", var(--serif);
+  font-size: clamp(1rem, 1.55vw, 1.24rem);
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.38;
 }
 
 .paper-hero__date {
@@ -3127,6 +3162,79 @@ body.has-art-lightbox {
   gap: .75rem 1.25rem;
   margin: 0;
   padding-left: 1.35rem;
+}
+
+.page-vanished-voices .paper-toc {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.page-vanished-voices .paper-toc ol {
+  counter-reset: paper-section;
+  padding-left: 0;
+  list-style: none;
+}
+
+.page-vanished-voices .paper-toc li {
+  position: relative;
+  min-height: 1.8rem;
+  padding-left: 3.25rem;
+  counter-increment: paper-section;
+}
+
+.page-vanished-voices .paper-toc li::before {
+  content: "🪶 " counter(paper-section) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--warm);
+  font-size: .92rem;
+  line-height: 1.68;
+  white-space: nowrap;
+}
+
+.page-vanished-voices .paper-toc a {
+  color: var(--ink-soft);
+  font-family: "Cormorant Garamond", var(--serif);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: .018em;
+  line-height: 1.42;
+}
+
+.page-vanished-voices .paper-keywords {
+  padding-top: 0;
+  border-top: 0;
+  font-family: "Cormorant Garamond", var(--serif);
+  font-size: .98rem;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: .012em;
+}
+
+.page-vanished-voices .paper-table {
+  width: 100%;
+}
+
+.page-vanished-voices .bilingual-pair--abstract {
+  border-color: rgba(200, 192, 180, .56);
+  background: rgba(255, 255, 255, .15);
+}
+
+.page-vanished-voices .paper-body blockquote {
+  background: rgba(238, 231, 220, .2);
+}
+
+.page-vanished-voices .paper-table__scroll {
+  background: rgba(255, 255, 255, .22);
+  box-shadow: 0 10px 28px rgba(63, 54, 47, .045);
+}
+
+.page-vanished-voices .paper-table th {
+  background: rgba(238, 231, 220, .36);
 }
 
 .paper-toc a span,
@@ -3376,6 +3484,22 @@ body.has-art-lightbox {
 
   .bilingual-paper {
     width: min(100% - 1.25rem, 980px);
+  }
+
+  .page-vanished-voices main {
+    padding: .4rem 0 1.5rem;
+  }
+
+  .page-vanished-voices .bilingual-paper {
+    width: min(100% - .7rem, 980px);
+    padding: 1.4rem .9rem 3rem;
+    border-radius: 8px;
+    background: rgba(247, 244, 238, .62);
+    box-shadow: 0 14px 38px rgba(35, 31, 28, .13);
+  }
+
+  .page-vanished-voices .paper-toc li {
+    padding-left: 3rem;
   }
 
   .bilingual-pair__en {

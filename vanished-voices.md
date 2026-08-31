@@ -3,6 +3,7 @@ layout: default
 title: '“消失的声音” | Vanished Voices'
 permalink: /interests/vanished-voices/
 description: "A bilingual reading edition of a study of female representation and narrative in Shen Bao's coverage of prostitutes, 1928–1937."
+body_class: page-vanished-voices
 ---
 
 <article class="bilingual-paper" lang="zh-CN">

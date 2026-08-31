@@ -91,8 +91,21 @@ description: "Personal interests, drawing, and independent explorations by Zhuoy
       </figure>
     </div>
 
-    <p class="interests-coming">Coming soon.</p>
   </div>
+
+  <section class="interests-writing" aria-labelledby="interests-writing-title">
+    <p class="eyebrow">Chinese Research</p>
+    <a class="paper-entry" href="{{ '/interests/vanished-voices/' | relative_url }}">
+      <span class="paper-entry__image-wrap">
+        <img class="paper-entry__image" src="{{ '/assets/interest-paper-vanished-voices.jpg' | relative_url }}" width="526" height="699" alt="花草之间低头沉思的女性剪影插画" loading="lazy">
+      </span>
+      <span class="paper-entry__body">
+        <span class="paper-entry__title" id="interests-writing-title" lang="zh-CN">“消失的声音”：1928–1937年《申报》妓女新闻的女性形象、叙事特征以及历史价值</span>
+        <span class="paper-entry__title-en" lang="en">“Vanished Voices”: Female Images, Narrative Features, and Historical Value in <i>Shen Bao</i>’s News Coverage of Prostitutes, 1928–1937</span>
+        <span class="paper-entry__cta">Read More <span aria-hidden="true">→</span></span>
+      </span>
+    </a>
+  </section>
 
   <dialog class="art-lightbox" data-art-lightbox aria-label="Artwork viewer">
     <button class="art-lightbox__close" type="button" data-lightbox-close aria-label="Close artwork viewer">&times;</button>

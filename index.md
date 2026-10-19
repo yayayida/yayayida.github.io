@@ -58,8 +58,10 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       <span class="research-card__type">Human factors · Human-machine interaction · Explainable AI</span>
       <h3>Explainable AI for Maritime Autonomous Surface Ships (MASS): Adaptive Interfaces and Trustworthy Human-AI Collaboration</h3>
       <div class="research-card__authors"><strong>Zhuoyue Zhang</strong>, Haitong Xu, Carlos Guedes Soares.</div>
-      <p><em>IEEE Transactions on Intelligent Transportation Systems</em>, accepted, 2026.</p>
+      <p><em>IEEE Transactions on Intelligent Transportation Systems</em>, 2026.</p>
       <div class="link-row">
+        <a class="text-link" href="https://ieeexplore.ieee.org/document/11724644" target="_blank" rel="noopener">IEEE Xplore</a>
+        <a class="text-link" href="https://doi.org/10.1109/TITS.2026.3724365" target="_blank" rel="noopener">DOI</a>
         <a class="text-link" href="https://doi.org/10.48550/arXiv.2509.15959" target="_blank" rel="noopener">arXiv</a>
       </div>
     </div>
@@ -77,9 +79,12 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
       </figure>
       <div class="research-work-row__content">
         <span class="research-card__type">Human mobility · Geotemporal modeling</span>
-        <h3>Urban memory geography: mapping the temporal structure of human return</h3>
-        <div class="research-card__authors"><strong>Zhuoyue Zhang</strong>, Qi Ryan Wang, Zhenliang Ma, Zhenlin Qin.</div>
-        <p><em>Manuscript in preparation</em> · KTH Royal Institute of Technology · Ryan Wang Lab, Northeastern University</p>
+        <h3>Diagnosing and mapping temporal structure in recurrent mobility: evidence from destination-level recurrence signatures</h3>
+        <div class="research-card__authors"><strong>Zhuoyue Zhang</strong><sup>a</sup>, Zhenlin Qin<sup>a</sup>, Weiyu Li<sup>b,c</sup>, Nail F. Bashan<sup>c</sup>, Qi Ryan Wang<sup>c</sup>, Zhenliang Ma<sup>a</sup>.</div>
+        <p><em>Manuscript in preparation for submission to IJGIS</em></p>
+        <p class="research-card__affiliations"><sup>a</sup> KTH Royal Institute of Technology, Sweden<br>
+          <sup>b</sup> School of Mathematical Sciences, Nanjing Normal University, China<br>
+          <sup>c</sup> Department of Civil and Environmental Engineering, Northeastern University, USA</p>
         <div class="link-row">
           <a class="text-link" href="{{ '/assets/urban-memory-geography-thesis-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Slides</a>
         </div>

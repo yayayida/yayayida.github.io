@@ -82,7 +82,7 @@ description: "MSc student at KTH working on urban mobility, geographic modeling,
         <h3>Diagnosing and mapping temporal structure in recurrent mobility: evidence from destination-level recurrence signatures</h3>
         <div class="research-card__authors"><strong>Zhuoyue Zhang</strong>, Zhenlin Qin, Weiyu Li, Nail F. Bashan, Qi Ryan Wang, Zhenliang Ma.</div>
         <p><em>Manuscript in preparation for submission to IJGIS</em></p>
-        <p class="research-card__affiliations">KTH, Sweden · Northeastern, USA</p>
+        <p class="research-card__affiliations">KTH Royal Institute of Technology, Sweden · Northeastern University, USA</p>
         <div class="link-row">
           <a class="text-link" href="{{ '/assets/urban-memory-geography-thesis-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Slides</a>
         </div>
